@@ -1,0 +1,100 @@
+body.front {}
+
+body.front div.meta {display:none;}
+
+body.front #identity {position:absolute;left:-9999px;}
+
+body.front #main {padding:0; width:100%;}
+
+body.front #header p {margin:0;}
+
+/****************************************************
+Title Header (front page)
+*****************************************************/
+body.front #header {height:370px;overflow:hidden;}
+body.front #bannerimg {display:block;}
+
+/****************************************************************************
+ * Olin/Uris Header - front page only (see style.css for defaults)
+ ****************************************************************************/
+body.front #olinurisbanner {width:890px; height:100px; background: url('../images/layout/black_80.png');display:block; position:absolute; border-bottom:2px solid black;}
+body.front #olinurisbanner h1 {position:absolute; left:-9999em;}
+body.front #olinurisbanner img {position:relative; top:10px;left:10px;}
+body.front #olinurisbanner a {border:none;text-decoration:none;}
+
+/****************************************************
+Quick Links Box (front page)
+*****************************************************/
+#quicklinks {width:300px; background:url('../images/layout/black_70.png'); padding:10px 20px; position:absolute; right:30px; top:150px; color:white; text-align:center;font-weight:bold; -moz-border-radius:15px; -webkit-border-radius:15px; border-radius:15px; border:3px solid black;}
+#quicklinks h2 {font-weight:bold;}
+#quicklinks ul {float:left; display:inline-block; text-align:left;margin:0;} 
+#quicklinks ul.menu {margin:0 50px 0 0;} 
+#quicklinks li {list-style-image:none; list-style:none; text-decoration:none;margin:0 0 8px; text-align:left;}
+#quicklinks a {text-decoration:none;color:white; font-size:12px;border-bottom:none;}
+#quicklinks a:hover {text-decoration:underline;}
+#quicklinks a.requestslink {background:#777; color:#d9cdb5; padding:3px; clear:both; display:block; margin:0 auto; width:100px;}
+
+/* Laptop availability view */
+div.view-id-Laptops {position:absolute;top:100px; left:200px; color:#d9cdb5;font-size:14px;}
+div.view-id-Laptops .view-content,
+div.view-id-Laptops .view-header {display:inline;}
+div.view-id-Laptops .views-row {display:inline;padding:0 3px;}
+div.view-id-Laptops .views-row-first {}
+div.view-id-Laptops p {position:relative; display:inline; font-size:14px;}
+div.view-id-Laptops h5 {position:relative; display:inline; margin: 0 5px 0 0; color:white;}
+div.view-id-Laptops li {list-style:none;margin:0;display:inline;}
+
+
+/****************************************************
+bottom section on front page - feeds, updates, etc. 
+*****************************************************/
+#frontpgfeeds {background:#5D5139; border-top:10px solid black; clear:both; text-align:center; height:266px;overflow:hidden;}
+
+#frontpgfeeds .block {margin: 0; float:left; width:220px; border-left: 2px solid #38332D; background: url(../images/layout/shadow.png) repeat-x left -10px; height:266px;}
+#frontpgfeeds .block .content {padding:10px;}
+
+#frontpgfeeds .block ul {margin:0;padding:0;text-align:left;}
+#frontpgfeeds .block ul li {list-style:none; list-style-image:none; background:none; margin:0 0 15px;font-weight:italic;font-size:13px;}
+
+#frontpgfeeds .block a {color:white; border-bottom:none;}
+#frontpgfeeds .block a:hover {text-decoration:underline;}
+
+#frontpgfeeds h2 {color:white; position:relative; margin:10px 0 5px;}
+
+/*Catalog block*/
+#block-block-2 {}
+#frontpgfeeds #block-block-2 .content {padding:0;}
+#frontpgfeeds #block-block-2 .view-content {margin:0;}
+#frontpgfeeds #block-block-2 li {list-style:none; margin:12px 0 0; text-align:center;font-weight:bold;}
+#frontpgfeeds #block-block-2 li a {display:block; }
+#frontpgfeeds #block-block-2 li a img {padding:3px; border:1px solid white;}
+
+/*fire safety block*/
+#block-views-fire_safety-block_1 {overflow:hidden;}
+#frontpgfeeds #block-views-fire_safety-block_1 .content {background: #fff4e0; padding:0; height:267px;}
+#block-views-fire_safety-block_1 .views-field-title {font-weight:bold; font-size:12px;}
+#block-views-fire_safety-block_1 .view-content {margin:10px;}
+#block-views-fire_safety-block_1 .view-content p {margin:0 0 5px;}
+#block-views-fire_safety-block_1 .view-header li {margin:5px 10px;}
+#block-views-fire_safety-block_1 li {list-style:none;background:none;margin:0;}
+
+#frontpgfeeds #block-views-fire_safety-block_1 a {color:#b31b1b;}
+
+/*news block*/
+#block-views-library_events-block_1 li { list-style:none; background:none;}
+#block-views-library_events-block_1 li a {margin:0 0 10px; list-style:none; background:none;font-weight:normal;}
+#block-views-library_events-block_1 .view-content {margin:10px;}
+#block-views-library_events-block_1 .views-field-field-event-category-value {color:#ccc; font-weight:italic;}
+
+/*blog feed block*/
+#block-views-OlinurisBlogPosts-block_1 .view-content {margin:10px;}
+
+/*digital sign block*/
+#frontpgfeeds #block-views-digital_signs-block_1 {text-align:center;}
+#frontpgfeeds #block-views-digital_signs-block_1 .content {padding:0;}
+#frontpgfeeds #block-views-digital_signs-block_1 .content img {box-shadow: 0 0 7px 5px #38332D;}
+#frontpgfeeds #block-views-digital_signs-block_1 .content a img {}
+
+
+
+

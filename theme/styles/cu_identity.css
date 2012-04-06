@@ -1,0 +1,140 @@
+/****************************************
+ * Cornell Identity
+ ****************************************/
+
+/*
+	-------------------------
+	75px Banner
+	-------------------------
+*/
+
+#cu-identity.seventy-five-px {height: 75px; background: #b31b1b; /*
+	Comment out the following line to remove the Ezra Cornell background image from the header.
+	Change 1.jpg to any number up to 8.jpg to use other header background images.
+	*/
+	background: #b31b1b url(../images/layout/header_bg/1.jpg) no-repeat top center; }
+
+.seventy-five-px #cu-logo {position: absolute; top: 0; left: 50%; margin-left: -445px; width: 890px; height: 75px; background: url(../images/layout/Library_2line_red.gif) no-repeat -8px -1px; }
+	
+.seventy-five-px #cu-logo a {position: absolute; display: block; border: none; /* hide text link */
+	text-indent: -1000em; }
+	
+.seventy-five-px #insignia-link {width: 68px; height: 75px; }
+
+.seventy-five-px #unit-signature-links a {left: 68px; width: 195px; }
+
+.seventy-five-px #cornell-link {height: 38px; }
+	
+.seventy-five-px #unit-link {top: 38px; height: 37px; }
+	
+.seventy-five-px #cu-logo img {display: none; }
+ 
+/*	
+	Search Form
+	-------------------------
+	The following rules control the appearance of the search form interface. 
+	The form is displayed in the Cornell banner, and it is aligned with the 
+	right edge of the page. The search form should appear on every page 
+	of a site. 
+*/
+
+.seventy-five-px #cu-identity-search-form {position: absolute; top: 18px; right: 50%; margin-right: -445px; }
+	
+.seventy-five-px #cu-identity-search-form form {margin: 0; padding: 0; text-align: right; }
+	
+.seventy-five-px #cu-identity-search-form label {color: #fff; font-size:12px;}
+	
+.seventy-five-px #cu-identity-search-form-query {padding: 3px; width: 145px; border: none; font-family: verdana, arial, helvetica, sans-serif; font-size: 11px; font-weight: bold; color: #fff; background: #5e5a52 url(../images/layout/header_search.gif) no-repeat top left; vertical-align: middle; }
+	
+.seventy-five-px #cu-identity-search-form-submit {padding: 0px 2px 3px 2px;; border-top: 1px solid #a6a295; border-left: 1px solid #a6a295; border-right: 1px solid #403000; border-bottom: 1px solid #403000; font-family: verdana, arial, helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #fff; background: #59544b; vertical-align: middle; }
+	
+.seventy-five-px #cu-identity-search-filters {margin: 5px 0 0 0; }
+
+.seventy-five-px #cu-identity-search-filters input {vertical-align: middle; margin: 0; }
+
+.seventy-five-px #cu-identity-search-filters label {vertical-align: middle; margin: 0 10px 0 0; }
+	
+.seventy-five-px #cu-identity-search-form a {color: #fff; border-bottom: 1px solid #999; font-size:12px; }
+	
+.seventy-five-px #cu-identity-search-form a:hover {border-bottom: 1px solid #fff; }
+ 
+/*	
+	Search Navigation 
+	-------------------------
+	The following rules control the appearance of the search navigation 
+	links. These links are displayed horizontally in the Cornell banner, 
+	and they are aligned with the right edge of the page. The baseline
+	of the links is aligned with the baseline of the unit name in the unit
+	signature. Search navigation links should appear on every page of a
+	site. 
+*/
+
+.seventy-five-px #cu-identity-search-navigation {position: absolute; top: 37px; right: 50%; margin-right: -445px; }
+	
+.seventy-five-px #cu-identity-search-navigation ul {margin: 0; padding: 0; font-size: 11px; }
+	
+.seventy-five-px #cu-identity-search-navigation li {float: left; margin: 0; padding: 0; background: none; list-style-image:none; }
+		
+.seventy-five-px #cu-identity-search-navigation a {float: left; padding: 5px 15px; color: #fff; text-decoration: none; border: none; }
+	
+.seventy-five-px #cu-identity-search-navigation a:hover {background: #444; }
+
+
+
+/*
+	-------------------------
+	45px Banner 
+	-------------------------
+*/
+
+#cu-identity.forty-five-px {height: 45px; background: #b31b1b; }
+
+.forty-five-px #cu-logo {margin: 0 auto; width: 890px; background: url(../images/layout/cu_logo.gif) no-repeat top left; }
+	
+.forty-five-px #cu-logo a {border: none; display: block; width: 180px; height: 45px; background: url(../images/layout/cu_logo.gif) no-repeat top left; }
+	
+.forty-five-px #cu-logo img {display: none; }
+	
+.forty-five-px #cu-search {position: absolute; top: 11px; 
+	right: 50%; width: 200px; margin-right: -445px; }
+	
+.forty-five-px #cu-search a {float: right; padding: 5px 15px; font-size: 11px; color: #fff; text-decoration: none; border: none; }
+	
+.forty-five-px #cu-search a:hover {background: #444; }
+
+
+/****************************************
+ * Forms
+ ****************************************/
+/*
+	The following rules control the appearance of forms.
+	
+	Related sections of form inputs should be organized in fieldsets. 
+	Each fieldset should contain a series of .form-pair divs. Each
+	.form-pair should contain a .form-item div and a .form-value div. The 
+	.form-item should contain a <label> for the <input> or <select> 
+	found in the .form-value.
+	
+	For a detailed example of how to mark up a form, see the 
+	one-column or two-column template.
+*/
+#cu-identity-search-form form {float: left; margin: 5px 0 15px 0; padding: 0; width: 510px; }
+
+	 
+/****************************************
+ * Header
+ ****************************************/
+ 
+/* 
+	Section Title 
+	-------------------------
+	The following rules control the formatting of the section title, including
+	padding, font family, size, weight, color.
+*/
+ 
+ #identity {float: left; width: 100%; padding: 15px 0; background: #fff; text-align:left;}
+ 
+#identity h1 {font-family: georgia, "times new roman", times, serif; font-size: 24px; font-weight: normal; color: #73736c; margin:0 15px;} 
+		
+/*
+
