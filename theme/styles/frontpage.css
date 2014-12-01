@@ -50,7 +50,7 @@ bottom section on front page - feeds, updates, etc.
 *****************************************************/
 #frontpgfeeds {background:#5D5139; border-top:10px solid black; clear:both; text-align:center; height:266px;overflow:hidden;}
 
-#frontpgfeeds .block {margin: 0; float:left; width:220px; border-left: 2px solid #38332D; background: url(../images/layout/shadow.png) repeat-x left -10px; height:266px;}
+#frontpgfeeds .block {margin: 0; float:left; width:294px; border-left: 2px solid #38332D; background: url(../images/layout/shadow.png) repeat-x left -10px; height:266px;}
 #frontpgfeeds .block .content {padding:10px;}
 
 #frontpgfeeds .block ul {margin:0;padding:0;text-align:left;}
