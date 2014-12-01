@@ -295,7 +295,7 @@ div.view-hours-2-by-service-by-day {}
 .attachment .view-id-hours_2_by_service_by_day {font-size:8px;}
 
 /*** for the hours by day page ***/
-div.view-id-school_days .view-content {width:50%; float:right; clear:right; border-left:1px dotted grey; padding-left:40px;}
+div.view-id-school_days .view-content {width:50%;}
 div.view-id-school_days .view-footer {float:right; clear:right; width:50%;}
 
 .view-id-hours_2_by_service_by_day {}
