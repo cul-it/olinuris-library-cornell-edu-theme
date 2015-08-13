@@ -7489,6 +7489,10 @@ h5 {
 .cornell-identity button i {
   color: white; }
 
+.cu-insignia {
+  float: left;
+  margin-right: 1.5em; }
+
 .library-brand {
   margin-top: 2em;
   margin-bottom: 2em;
@@ -7517,7 +7521,7 @@ h5 {
 
 .cul-brand {
   color: #e4e3e3;
-  font-size: 18px;
+  font-size: 24px;
   font-family: "Montserrat";
   display: block; }
 
