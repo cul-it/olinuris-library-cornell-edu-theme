@@ -75,13 +75,15 @@
 ?>
 
 <div class="hero">
-  <div class="cornell-identity">
-    <div class="container">
-      <div class="row">
-        
-      </div>  
-    </div>
-  </div>
+  <?php if (!empty($page['main_nav'])): ?>
+    <nav class="navbar hidden-xs">
+      <div class="container">
+        <div class="navbar-nav">
+          <?php print render($page['main_nav']); ?>
+        </div>
+      </div>
+    </nav>
+  <?php endif; ?>
   <header>
     <?php if (!empty($page['mobile_nav'])): ?>
       <div id="mobile-nav" class="collapse">
@@ -93,15 +95,6 @@
       <div id="mobile-search" class="collapse">
         <?php print render($page['mobile_search']); ?>
       </div>
-    <?php endif; ?>
-    <?php if (!empty($page['main_nav'])): ?>
-      <nav class="navbar hidden-xs">
-        <div class="container">
-          <div class="navbar-nav">
-            <?php print render($page['main_nav']); ?>
-          </div>
-        </div>
-      </nav>
     <?php endif; ?>
     <div class="container">
       <div class="row">
@@ -120,7 +113,6 @@
       </div>
     </div>
   </header>
-  
 </div>
 
 <div class="main-content">
