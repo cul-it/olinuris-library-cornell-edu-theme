@@ -46,7 +46,7 @@ nav {
 	// background: rgba(34, 34, 34, 0.75);
 	.container {
 		background: $cornell-red;
-		background: rgba(179, 27, 27, 0.75);
+		// background: rgba(179, 27, 27, 0.75);
 		padding-left: 0;
 	}
 	.nav {
@@ -55,18 +55,18 @@ nav {
 			a {
 				color: white;
 				font-size: 16px;
-				padding: 15px 20px;
+				// padding: 15px 20px;
 			}
 			a:hover,
 			a:active,
 			a:focus {
-				background: rgba(179, 27, 27, 1);
+				// background: rgba(179, 27, 27, 1);
 				color: white;
 			}
 		}
 		.active {
 			a, a:hover, a:active, a:focus {
-				background: rgba(153, 15, 38, 1);
+				// background: rgba(153, 15, 38, 1);
 			}
 		}
 	}

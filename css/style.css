@@ -7532,6 +7532,9 @@ h5 {
   color: white;
   text-decoration: none; }
 
+header {
+  padding: 1em 0 2em 0; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .brand {
@@ -7644,21 +7647,16 @@ body.admin-menu {
 
 nav .container {
   background: #b31b1b;
-  background: rgba(179, 27, 27, 0.75);
   padding-left: 0; }
 nav .nav li {
   float: left; }
   nav .nav li a {
     color: white;
-    font-size: 16px;
-    padding: 15px 20px; }
+    font-size: 16px; }
   nav .nav li a:hover,
   nav .nav li a:active,
   nav .nav li a:focus {
-    background: #b31b1b;
     color: white; }
-nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
-  background: #990f26; }
 
 #mobile-nav {
   background: white; }
