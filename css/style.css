@@ -7511,7 +7511,8 @@ h5 {
   font-family: "Montserrat";
   display: block;
   color: white;
-  line-height: 1em; }
+  line-height: 1em;
+  text-shadow: 1px 1px 1px black; }
 
 .brand:hover,
 .brand:active,
@@ -7520,13 +7521,15 @@ h5 {
   text-decoration: none; }
 
 .cul-brand {
-  color: #e4e3e3;
+  color: white;
   font-size: 24px;
   font-family: "Montserrat";
-  display: block; }
+  display: block;
+  margin-top: .5em;
+  text-shadow: 1px 1px 1px black; }
 
 .cul-brand:hover {
-  color: #e4e3e3;
+  color: white;
   text-decoration: none; }
 
 /* Small devices (tablets, 768px and up) */
