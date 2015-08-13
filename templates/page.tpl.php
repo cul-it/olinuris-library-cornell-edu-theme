@@ -94,6 +94,15 @@
         <?php print render($page['mobile_search']); ?>
       </div>
     <?php endif; ?>
+    <?php if (!empty($page['main_nav'])): ?>
+      <nav class="navbar hidden-xs">
+        <div class="container">
+          <div class="navbar-nav">
+            <?php print render($page['main_nav']); ?>
+          </div>
+        </div>
+      </nav>
+    <?php endif; ?>
     <div class="container">
       <div class="row">
         <div class="library-brand">
@@ -111,15 +120,7 @@
       </div>
     </div>
   </header>
-  <?php if (!empty($page['main_nav'])): ?>
-    <nav class="navbar hidden-xs">
-      <div class="container">
-        <div class="navbar-nav">
-          <?php print render($page['main_nav']); ?>
-        </div>
-      </div>
-    </nav>
-  <?php endif; ?>
+  
 </div>
 
 <div class="main-content">
