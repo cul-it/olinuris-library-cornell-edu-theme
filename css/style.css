@@ -7522,7 +7522,7 @@ h5 {
 
 .cul-brand {
   color: white;
-  font-size: 24px;
+  font-size: 28px;
   font-family: "Montserrat";
   display: block;
   margin-top: .5em;
@@ -7642,22 +7642,22 @@ body.admin-menu {
 #menu .nav .active a, #menu .nav .active a:hover, #menu .nav .active a:active, #menu .nav .active a:focus {
   font-weight: 700; }
 
-nav {
+nav .container {
   background: #222;
   background: rgba(34, 34, 34, 0.75); }
-  nav .nav li {
-    float: left; }
-    nav .nav li a {
-      color: white;
-      font-size: 16px;
-      padding: 15px 20px; }
-    nav .nav li a:hover,
-    nav .nav li a:active,
-    nav .nav li a:focus {
-      background: black;
-      color: white; }
-  nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
-    background: black; }
+nav .nav li {
+  float: left; }
+  nav .nav li a {
+    color: white;
+    font-size: 16px;
+    padding: 15px 20px; }
+  nav .nav li a:hover,
+  nav .nav li a:active,
+  nav .nav li a:focus {
+    background: black;
+    color: white; }
+nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
+  background: black; }
 
 #mobile-nav {
   background: white; }
