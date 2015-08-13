@@ -7658,7 +7658,7 @@ nav .nav li {
     background: #b31b1b;
     color: white; }
 nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
-  background: black; }
+  background: #990f26; }
 
 #mobile-nav {
   background: white; }
