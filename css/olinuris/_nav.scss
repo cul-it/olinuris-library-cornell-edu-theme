@@ -71,6 +71,9 @@ nav {
 		}
 	}
 }
+.navbar {
+	border: 0;
+}
 
 // Mobile nav
 // ------------------- //
@@ -159,11 +162,11 @@ nav {
 			font-size: 14px;
 		}
 	}
-	.front {
-		nav {
-			margin-top: 8em;
-		}
-	}
+	// .front {
+	// 	nav {
+	// 		margin-top: 8em;
+	// 	}
+	// }
 	
 }
 
