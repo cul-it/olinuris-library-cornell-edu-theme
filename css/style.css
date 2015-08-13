@@ -7643,8 +7643,9 @@ body.admin-menu {
   font-weight: 700; }
 
 nav .container {
-  background: #222;
-  background: rgba(34, 34, 34, 0.75); }
+  background: #b31b1b;
+  background: rgba(179, 27, 27, 0.75);
+  padding-left: 0; }
 nav .nav li {
   float: left; }
   nav .nav li a {
