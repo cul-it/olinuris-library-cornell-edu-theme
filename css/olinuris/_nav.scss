@@ -42,29 +42,37 @@
 // Main nav
 // ------------------- //
 nav {
-	background: $dark-gray;
-	background: rgba(34, 34, 34, 0.75);
+	// background: $dark-gray;
+	// background: rgba(34, 34, 34, 0.75);
+	.container {
+		background: $cornell-red;
+		// background: rgba(179, 27, 27, 0.75);
+		padding-left: 0;
+	}
 	.nav {
 		li {
 			float: left;
 			a {
 				color: white;
 				font-size: 16px;
-				padding: 15px 20px;
+				// padding: 15px 20px;
 			}
 			a:hover,
 			a:active,
 			a:focus {
-				background: rgba(0, 0, 0, 1);
+				// background: rgba(179, 27, 27, 1);
 				color: white;
 			}
 		}
 		.active {
 			a, a:hover, a:active, a:focus {
-				background: rgba(0, 0, 0, 1);
+				// background: rgba(153, 15, 38, 1);
 			}
 		}
 	}
+}
+.navbar {
+	border: 0;
 }
 
 // Mobile nav
@@ -154,11 +162,11 @@ nav {
 			font-size: 14px;
 		}
 	}
-	.front {
-		nav {
-			margin-top: 8em;
-		}
-	}
+	// .front {
+	// 	nav {
+	// 		margin-top: 8em;
+	// 	}
+	// }
 	
 }
 
