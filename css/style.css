@@ -7489,6 +7489,10 @@ h5 {
 .cornell-identity button i {
   color: white; }
 
+.cu-insignia {
+  float: left;
+  margin-right: 1.5em; }
+
 .library-brand {
   margin-top: 2em;
   margin-bottom: 2em;
@@ -7507,7 +7511,8 @@ h5 {
   font-family: "Montserrat";
   display: block;
   color: white;
-  line-height: 1em; }
+  line-height: 1em;
+  text-shadow: 1px 1px 1px black; }
 
 .brand:hover,
 .brand:active,
@@ -7516,14 +7521,19 @@ h5 {
   text-decoration: none; }
 
 .cul-brand {
-  color: #e4e3e3;
-  font-size: 18px;
+  color: white;
+  font-size: 28px;
   font-family: "Montserrat";
-  display: block; }
+  display: block;
+  margin-top: .5em;
+  text-shadow: 1px 1px 1px black; }
 
 .cul-brand:hover {
-  color: #e4e3e3;
+  color: white;
   text-decoration: none; }
+
+header {
+  padding: 1em 0 2em 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -7635,22 +7645,21 @@ body.admin-menu {
 #menu .nav .active a, #menu .nav .active a:hover, #menu .nav .active a:active, #menu .nav .active a:focus {
   font-weight: 700; }
 
-nav {
-  background: #222;
-  background: rgba(34, 34, 34, 0.75); }
-  nav .nav li {
-    float: left; }
-    nav .nav li a {
-      color: white;
-      font-size: 16px;
-      padding: 15px 20px; }
-    nav .nav li a:hover,
-    nav .nav li a:active,
-    nav .nav li a:focus {
-      background: black;
-      color: white; }
-  nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
-    background: black; }
+nav .container {
+  background: #b31b1b;
+  padding-left: 0; }
+nav .nav li {
+  float: left; }
+  nav .nav li a {
+    color: white;
+    font-size: 16px; }
+  nav .nav li a:hover,
+  nav .nav li a:active,
+  nav .nav li a:focus {
+    color: white; }
+
+.navbar {
+  border: 0; }
 
 #mobile-nav {
   background: white; }
@@ -7697,10 +7706,7 @@ nav {
     float: right; }
 
   nav .navbar-nav > li > a {
-    font-size: 14px; }
-
-  .front nav {
-    margin-top: 8em; } }
+    font-size: 14px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   nav .navbar-nav > li > a {
