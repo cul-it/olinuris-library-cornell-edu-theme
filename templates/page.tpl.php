@@ -75,15 +75,6 @@
 ?>
 
 <div class="hero">
-  <?php if (!empty($page['main_nav'])): ?>
-    <nav class="navbar hidden-xs">
-      <div class="container">
-        <div class="navbar-nav">
-          <?php print render($page['main_nav']); ?>
-        </div>
-      </div>
-    </nav>
-  <?php endif; ?>
   <header>
     <?php if (!empty($page['mobile_nav'])): ?>
       <div id="mobile-nav" class="collapse">
@@ -113,6 +104,15 @@
       </div>
     </div>
   </header>
+  <?php if (!empty($page['main_nav'])): ?>
+    <nav class="navbar hidden-xs">
+      <div class="container">
+        <div class="navbar-nav">
+          <?php print render($page['main_nav']); ?>
+        </div>
+      </div>
+    </nav>
+  <?php endif; ?>
 </div>
 
 <div class="main-content">
