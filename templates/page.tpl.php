@@ -150,7 +150,13 @@
           </div>
         </div>
         <div class="col-sm-4">
-          hours and laptops
+          <div class="row">
+            <div glass="col-sm-6">
+              Laptops
+            </div>
+            <div glass="col-sm-6">
+              Hours
+            </div>
         </div>
       </div>
     </div>
