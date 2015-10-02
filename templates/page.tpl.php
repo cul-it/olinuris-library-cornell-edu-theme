@@ -129,7 +129,7 @@
       </div>
     <?php endif; ?>
     <div class="container">
-      <div class="global-menu hidden-xs">
+      <div class="global-menu">
         <!-- Desktop global menu -->
         <div class="hidden-xs">
           <?php print render($page['global_nav']); ?>
