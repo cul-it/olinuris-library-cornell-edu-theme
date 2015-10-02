@@ -55,8 +55,13 @@
 // -------------------------
 
 // Small devices (tablets, 768px and up)
-// @media (min-width: $screen-sm) { 
-// }
+@media (min-width: $screen-sm) { 
+	.hero {
+		header {
+			padding: 2em 0;
+		}
+	}
+}
 
 // Medium devices (desktops, 992px and up)
 // @media (min-width: $screen-md) {
