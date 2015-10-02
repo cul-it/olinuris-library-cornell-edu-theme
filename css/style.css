@@ -7492,6 +7492,10 @@ h5 {
 .cu-insignia {
   float: left; }
 
+.global-menu {
+  float: right;
+  margin-top: -2em; }
+
 .library-brand {
   margin-top: 1.5em;
   position: relative;
@@ -7596,14 +7600,6 @@ body.admin-menu {
 .navbar-toggle {
   margin: 0;
   font-size: 120%; }
-
-.global-menu {
-  position: relative;
-  float: left;
-  width: 66.66667%;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
 
 #menu .nav li {
   font-size: 14px;
@@ -7711,10 +7707,8 @@ nav .nav li {
     font-size: 24px; }
 
 .btn-desktop-search {
-  float: right;
   border-radius: 0;
-  background: #b31b1b;
-  margin-top: -2em; }
+  background: #b31b1b; }
   .btn-desktop-search i {
     color: white; }
 
