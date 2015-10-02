@@ -31,9 +31,8 @@
 	font-size: 48px;
 	font-family: $font-family-cul;
 	display: block;
-	color: white;
+	color: $gray-dark;
 	line-height: 1em;
-	text-shadow: 1px 1px 1px black;
 }
 .brand:hover,
 .brand:active,
@@ -42,15 +41,14 @@
 	text-decoration: none;
 }
 .cul-brand {
-	color: white;
+	color: $gray-dark;
 	font-size: 28px;
 	font-family: $font-family-cul;
 	display: block;
 	margin-top: .5em;
-	text-shadow: 1px 1px 1px black;
 }
 .cul-brand:hover {
-	color: white;
+	color: $gray-dark;
 	text-decoration: none;
 }
 
@@ -61,32 +59,19 @@ header {
 // MEDIA QUERIES
 // -------------------------
 
-  // /* Extra small devices (phones, up to 480px) */
-  // /* No media query since this is the default in Bootstrap */
-
-  // /* Small devices (tablets, 768px and up) */
-  // @media (min-width: @screen-sm) { ... }
-
-  // /* Medium devices (desktops, 992px and up) */
-  // @media (min-width: @screen-md) { ... }
-
-  // /* Large devices (large desktops, 1200px and up) */
-  // @media (min-width: @screen-lg) { ... }
-
-
-/* Small devices (tablets, 768px and up) */
+// Small devices (tablets, 768px and up)
 @media (min-width: $screen-sm) { 
 	.brand {
 		font-size: 36px;
 	}
 }
 
-/* Medium devices (desktops, 992px and up) */
+// Medium devices (desktops, 992px and up)
 @media (min-width: $screen-md) {
 	.brand {
 		font-size: 48px !important;
 	}
 }
-/* Large devices (desktops, 1200px and up) */
+//Large devices (desktops, 1200px and up)
 @media (min-width: $screen-lg) {
 }

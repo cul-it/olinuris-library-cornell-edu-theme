@@ -90,7 +90,7 @@
     <div class="container">
       <div class="row">
         <div class="library-brand">
-          <a href="http://www.cornell.edu"><img src="/sites/all/themes/olinuris/img/CU-Insignia-White-120.png" class="img-responsive cu-insignia"></a>
+          <a href="http://www.cornell.edu"><img src="/sites/all/themes/olinuris/img/CU-Insignia-Red-120.png" class="img-responsive cu-insignia"></a>
           <a class="cul-brand" href="http://www.library.cornell.edu">Cornell University Library</a>
           <?php if (!empty($site_name)): ?>
             <a class="brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>

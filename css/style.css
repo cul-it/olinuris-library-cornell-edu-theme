@@ -7510,9 +7510,8 @@ h5 {
   font-size: 48px;
   font-family: "Montserrat";
   display: block;
-  color: white;
-  line-height: 1em;
-  text-shadow: 1px 1px 1px black; }
+  color: #333333;
+  line-height: 1em; }
 
 .brand:hover,
 .brand:active,
@@ -7521,29 +7520,25 @@ h5 {
   text-decoration: none; }
 
 .cul-brand {
-  color: white;
+  color: #333333;
   font-size: 28px;
   font-family: "Montserrat";
   display: block;
-  margin-top: .5em;
-  text-shadow: 1px 1px 1px black; }
+  margin-top: .5em; }
 
 .cul-brand:hover {
-  color: white;
+  color: #333333;
   text-decoration: none; }
 
 header {
   padding: 1em 0 2em 0; }
 
-/* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .brand {
     font-size: 36px; } }
-/* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .brand {
     font-size: 48px !important; } }
-/* Large devices (desktops, 1200px and up) */
 .main-content {
   background: white;
   min-height: 500px;
