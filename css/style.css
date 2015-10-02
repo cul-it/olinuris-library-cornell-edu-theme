@@ -7604,19 +7604,22 @@ body.admin-menu {
 .region-global-nav {
   float: left; }
 
-.global-menu .nav li {
-  font-size: 14px;
-  float: left;
-  border-left: 1px solid #dddddd; }
-.global-menu .nav li:first-child {
-  border: 0; }
-.global-menu .nav a {
-  color: #333333; }
-.global-menu .nav a:hover, .global-menu .nav a:active, .global-menu .nav a:focus {
-  background: inherit;
-  text-decoration: underline; }
-.global-menu .nav .active a, .global-menu .nav .active a:hover, .global-menu .nav .active a:active, .global-menu .nav .active a:focus {
-  font-weight: 700; }
+.global-menu .nav {
+  margin-top: 2px; }
+  .global-menu .nav li {
+    font-size: 14px;
+    float: left;
+    border-left: 1px solid #dddddd;
+    padding: 5px 10px; }
+  .global-menu .nav li:first-child {
+    border: 0; }
+  .global-menu .nav a {
+    color: #333333; }
+  .global-menu .nav a:hover, .global-menu .nav a:active, .global-menu .nav a:focus {
+    background: inherit;
+    text-decoration: underline; }
+  .global-menu .nav .active a, .global-menu .nav .active a:hover, .global-menu .nav .active a:active, .global-menu .nav .active a:focus {
+    font-weight: 700; }
 
 nav .container {
   background: #b31b1b;

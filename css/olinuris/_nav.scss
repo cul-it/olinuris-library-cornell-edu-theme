@@ -21,10 +21,12 @@
 }
 .global-menu {
 	.nav {
+		margin-top: 2px;
 		li {
 			font-size: 14px;
 			float: left;
 			border-left: 1px solid $border-color;
+			padding: 5px 10px;
 		}
 		li:first-child {
 			border: 0;
