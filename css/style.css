@@ -7709,6 +7709,14 @@ nav .nav li {
     color: #b31b1b;
     font-size: 24px; }
 
+.btn-desktop-search {
+  float: right;
+  border-radius: 0;
+  background: #b31b1b;
+  margin-top: -2em; }
+  .btn-desktop-search i {
+    color: white; }
+
 #mobile-search form {
   padding: 5px; }
 #mobile-search .form-group {
