@@ -131,9 +131,7 @@
     <div class="container">
       <div class="global-menu">
         <!-- Desktop global menu -->
-        <div class="hidden-xs">
-          <?php print render($page['global_nav']); ?>
-        </div>
+        <?php print render($page['global_nav']); ?>
         <button type="button" class="collapsed btn btn-desktop-search hidden-xs" data-toggle="collapse" data-target="#desktop-search">
           <span class="sr-only">Search</span>
           <i class="fa fa-search"></i>
