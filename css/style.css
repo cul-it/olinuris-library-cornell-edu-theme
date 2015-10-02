@@ -7614,7 +7614,8 @@ body.admin-menu {
   .global-menu .nav li:first-child {
     border: 0; }
   .global-menu .nav a {
-    color: #333333; }
+    color: #333333;
+    padding: 0; }
   .global-menu .nav a:hover, .global-menu .nav a:active, .global-menu .nav a:focus {
     background: inherit;
     text-decoration: underline; }
