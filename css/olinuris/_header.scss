@@ -28,7 +28,7 @@
 }
 .brand {
 	text-transform: uppercase;
-	font-size: 48px;
+	font-size: 36px;
 	font-family: $font-family-cul;
 	display: block;
 	color: $gray-dark;
@@ -37,7 +37,7 @@
 .brand:hover,
 .brand:active,
 .brand-focus {
-	color: white;
+	color: $gray-dark;
 	text-decoration: none;
 }
 .cul-brand {
@@ -60,18 +60,12 @@ header {
 // -------------------------
 
 // Small devices (tablets, 768px and up)
-@media (min-width: $screen-sm) { 
-	.brand {
-		font-size: 36px;
-	}
-}
+// @media (min-width: $screen-sm) { 
+// }
 
 // Medium devices (desktops, 992px and up)
-@media (min-width: $screen-md) {
-	.brand {
-		font-size: 48px !important;
-	}
-}
+// @media (min-width: $screen-md) {
+// }
 //Large devices (desktops, 1200px and up)
-@media (min-width: $screen-lg) {
-}
+// @media (min-width: $screen-lg) {
+// }

@@ -7507,7 +7507,7 @@ h5 {
 
 .brand {
   text-transform: uppercase;
-  font-size: 48px;
+  font-size: 36px;
   font-family: "Montserrat";
   display: block;
   color: #333333;
@@ -7516,7 +7516,7 @@ h5 {
 .brand:hover,
 .brand:active,
 .brand-focus {
-  color: white;
+  color: #333333;
   text-decoration: none; }
 
 .cul-brand {
@@ -7533,12 +7533,6 @@ h5 {
 header {
   padding: 1em 0 2em 0; }
 
-@media (min-width: 768px) {
-  .brand {
-    font-size: 36px; } }
-@media (min-width: 992px) {
-  .brand {
-    font-size: 48px !important; } }
 .main-content {
   background: white;
   min-height: 500px;
