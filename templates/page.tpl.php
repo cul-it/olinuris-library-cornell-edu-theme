@@ -150,17 +150,12 @@
           </div>
         </div>
         <div class="col-sm-4">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="laptops">
-                <?php print render($page['header_laptops']); ?>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="hours">
-                <?php print render($page['header_hours']); ?>
-              </div>
-            </div>
+          <div class="laptops">
+            <?php print render($page['header_laptops']); ?>
+          </div>
+          <div class="hours">
+            <?php print render($page['header_hours']); ?>
+          </div>
         </div>
       </div>
     </div>
