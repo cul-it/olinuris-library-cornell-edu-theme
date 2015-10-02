@@ -129,22 +129,29 @@
       </div>
     <?php endif; ?>
     <div class="container">
+      <!-- Desktop global menu -->
       <div class="global-menu">
-        <!-- Desktop global menu -->
         <?php print render($page['global_nav']); ?>
         <button type="button" class="collapsed btn btn-desktop-search hidden-xs" data-toggle="collapse" data-target="#desktop-search">
           <span class="sr-only">Search</span>
           <i class="fa fa-search"></i>
         </button>
       </div>
-      <div class="cu-insignia">
-        <a href="http://www.cornell.edu"><img src="/sites/all/themes/olinuris/img/CU-Insignia-Red-120.png" alt="Cornell University" class="img-responsive hidden-xs"></a>
-      </div>
-      <div class="library-brand">
-        <a class="cul-brand" href="http://www.library.cornell.edu">Cornell University Library</a>
-        <?php if (!empty($site_name)): ?>
-          <a class="brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-        <?php endif; ?>
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="cu-insignia">
+            <a href="http://www.cornell.edu"><img src="/sites/all/themes/olinuris/img/CU-Insignia-Red-120.png" alt="Cornell University" class="img-responsive hidden-xs"></a>
+          </div>
+          <div class="library-brand">
+            <a class="cul-brand" href="http://www.library.cornell.edu">Cornell University Library</a>
+            <?php if (!empty($site_name)): ?>
+              <a class="brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+            <?php endif; ?>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          hours and laptops
+        </div>
       </div>
     </div>
   </header>
