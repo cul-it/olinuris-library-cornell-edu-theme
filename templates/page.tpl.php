@@ -129,8 +129,11 @@
       </div>
     <?php endif; ?>
     <div class="container">
-      <div class="global-menu">
-        <?php print render($page['global_nav']); ?>
+      <div class="global-menu hidden-xs">
+        <!-- Desktop global menu -->
+        <div class="hidden-xs">
+          <?php print render($page['global_nav']); ?>
+        </div>
         <button type="button" class="collapsed btn btn-desktop-search hidden-xs" data-toggle="collapse" data-target="#desktop-search">
           <span class="sr-only">Search</span>
           <i class="fa fa-search"></i>
