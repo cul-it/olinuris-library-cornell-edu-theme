@@ -16,6 +16,9 @@
 // .global-menu {
 // 	@include make-xs-column(8);
 // }
+.region-global-nav {
+	float: left;
+}
 .global-menu {
 	.nav {
 		li {
@@ -24,7 +27,6 @@
 			float: left;
 		}
 		a {
-			color: white;
 			padding: 10px 15px;
 		}
 		a:hover, a:active, a:focus {
