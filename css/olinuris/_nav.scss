@@ -80,9 +80,9 @@ nav {
 #mobile-nav {
 	background: white;
 	a {
-		color: $dark-gray;
+		color: $gray-dark;
 		font-size: 14px;
-		border-bottom: 1px solid $pale-gray;
+		border-bottom: 1px solid $gray-lighter;
 	}
 	.navbar-nav {
 		margin-top: 0;
@@ -98,9 +98,9 @@ nav {
 		padding: 0 0 .5em 0;
 		font-size: 14px;
 		text-transform: uppercase;
-		border-bottom: 2px solid $pale-gray;
+		border-bottom: 2px solid $gray-lighter;
 		a {
-			color: $medium-gray;
+			color: $gray;
 			border: none;
 		}
 	}
@@ -122,11 +122,11 @@ nav {
 		margin-top: 1em;
 		i {
 			margin-right: .4em;
-			color: $lighter-gray;
+			color: $gray-lighter;
 		}
 		.active {
 			a, a:hover, a:active, a:focus {
-				color: $dark-gray;
+				color: $gray-dark;
 				font-weight: 700;
 			}
 		}

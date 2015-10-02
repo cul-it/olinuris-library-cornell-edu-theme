@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 @import url(//fonts.googleapis.com/css?family=Montserrat);
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -7428,8 +7428,8 @@ button.close {
   content: ""; }
 
 body {
-  font-family: "Open Sans", Helvetica, Arials, sans-serif;
-  background: #e4e3e3; }
+  font-family: "Source Sans Pro", Helvetica, Arials, sans-serif;
+  background: white; }
 
 a {
   color: #0068ac; }
@@ -7440,14 +7440,14 @@ a:hover {
 
 .main-content a,
 footer a {
-  border-bottom: 1px dotted #999; }
+  border-bottom: 1px dotted #777777; }
 .main-content a:hover,
 .main-content a:active,
 .main-content a:focus,
 footer a:hover,
 footer a:active,
 footer a:focus {
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #777777;
   text-decoration: none; }
 
 p, li {
@@ -7651,9 +7651,9 @@ nav .nav li {
 #mobile-nav {
   background: white; }
   #mobile-nav a {
-    color: #222;
+    color: #333333;
     font-size: 14px;
-    border-bottom: 1px solid #e4e3e3; }
+    border-bottom: 1px solid #eeeeee; }
   #mobile-nav .navbar-nav {
     margin-top: 0;
     margin-bottom: 0; }
@@ -7663,9 +7663,9 @@ nav .nav li {
   padding: 0 0 .5em 0;
   font-size: 14px;
   text-transform: uppercase;
-  border-bottom: 2px solid #e4e3e3; }
+  border-bottom: 2px solid #eeeeee; }
   .sidebar .block-title a {
-    color: #666;
+    color: #555555;
     border: none; }
 .sidebar .nav > li {
   padding: 8px 0;
@@ -7682,9 +7682,9 @@ nav .nav li {
   margin-top: 1em; }
   .sidebar .nav i {
     margin-right: .4em;
-    color: #cbcbcb; }
+    color: #eeeeee; }
   .sidebar .nav .active a, .sidebar .nav .active a:hover, .sidebar .nav .active a:active, .sidebar .nav .active a:focus {
-    color: #222;
+    color: #333333;
     font-weight: 700; }
 
 /* Small devices (tablets, 768px and up) */
@@ -7752,7 +7752,7 @@ footer {
   footer .nav > li {
     float: left;
     padding: 0 15px;
-    border-left: 1px solid #999; }
+    border-left: 1px solid #777777; }
   footer .nav > li:first-child {
     padding-left: 0;
     border: none; }
