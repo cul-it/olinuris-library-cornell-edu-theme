@@ -13,9 +13,6 @@
 
 // Global nav
 // ------------------- //
-// .global-menu {
-// 	@include make-xs-column(8);
-// }
 .region-global-nav {
 	float: left;
 }
@@ -50,31 +47,23 @@
 // Main nav
 // ------------------- //
 nav {
-	// background: $dark-gray;
-	// background: rgba(34, 34, 34, 0.75);
-	.container {
-		background: $cornell-red;
-		// background: rgba(179, 27, 27, 0.75);
-		padding-left: 0;
-	}
+	background: $cornell-red;
 	.nav {
 		li {
 			float: left;
 			a {
 				color: white;
 				font-size: 16px;
-				// padding: 15px 20px;
 			}
 			a:hover,
 			a:active,
 			a:focus {
-				// background: rgba(179, 27, 27, 1);
 				color: white;
 			}
 		}
 		.active {
 			a, a:hover, a:active, a:focus {
-				// background: rgba(153, 15, 38, 1);
+				background: $cornell-dark-red;
 			}
 		}
 	}
@@ -145,20 +134,7 @@ nav {
 // MEDIA QUERIES
 // -------------------------
 
-  // /* Extra small devices (phones, up to 480px) */
-  // /* No media query since this is the default in Bootstrap */
-
-  // /* Small devices (tablets, 768px and up) */
-  // @media (min-width: @screen-sm) { ... }
-
-  // /* Medium devices (desktops, 992px and up) */
-  // @media (min-width: @screen-md) { ... }
-
-  // /* Large devices (large desktops, 1200px and up) */
-  // @media (min-width: @screen-lg) { ... }
-
-
-/* Small devices (tablets, 768px and up) */
+// Small devices (tablets, 768px and up)
 @media (min-width: $screen-sm) { 
 	#menu {
 		.nav {
@@ -170,15 +146,10 @@ nav {
 			font-size: 14px;
 		}
 	}
-	// .front {
-	// 	nav {
-	// 		margin-top: 8em;
-	// 	}
-	// }
 	
 }
 
-/* Medium devices (desktops, 992px and up) */
+// Medium devices (desktops, 992px and up)
 @media (min-width: $screen-md) {
 	nav {
 		.navbar-nav > li > a {
@@ -186,6 +157,6 @@ nav {
 		}
 	}
 }
-/* Large devices (desktops, 1200px and up) */
+// Large devices (desktops, 1200px and up) 
 @media (min-width: $screen-lg) {
 }
