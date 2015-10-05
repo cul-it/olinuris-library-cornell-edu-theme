@@ -7531,6 +7531,12 @@ h5 {
   color: #333333;
   text-decoration: none; }
 
+.laptops h2 {
+  margin: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700; }
+
 @media (min-width: 768px) {
   .hero header {
     padding: 2em 0; } }
