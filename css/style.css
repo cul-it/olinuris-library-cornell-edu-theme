@@ -7542,7 +7542,7 @@ h5 {
   color: #b31b1b;
   margin-right: .5em; }
 .laptops h3 {
-  float: left;
+  display: inline-block;
   font-size: 14px;
   font-weight: 700;
   margin: 0; }
