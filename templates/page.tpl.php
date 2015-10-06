@@ -171,8 +171,23 @@
 
 <!-- Hero and other home page content -->
 <?php if ($is_front): ?>
-  show hero on home page only
-
+  <div class="hero">
+    <div class="row">
+      <div class="quick-links col-sm-4 col-sm-offset-8">
+        <?php print render($page['quick_links']); ?>
+      </div>
+  </div>
+  <div class="home-content">
+    <div class="col-sm-4">
+      News
+    </div>
+    <div class="col-sm-4">
+      Events
+    </div>
+    <div class="col-sm-4">
+      Digital sign
+    </div>
+  </div>
 <?php endif; ?>
 
 <div class="main-content">
