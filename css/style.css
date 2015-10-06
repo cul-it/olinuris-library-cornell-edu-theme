@@ -7539,9 +7539,8 @@ h5 {
     padding: 0; }
   .laptops h2 {
     margin: 0;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
-    font-weight: 700;
     float: left;
     padding: 10px;
     background: #7f7675; }
@@ -7553,6 +7552,9 @@ h5 {
     font-size: 14px;
     font-weight: 700;
     margin: 0; }
+  .laptops .platforms {
+    padding: 10px;
+    background: #f3f1ef; }
 
 @media (min-width: 768px) {
   .hero header {
