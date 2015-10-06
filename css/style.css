@@ -7543,9 +7543,10 @@ h5 {
     text-transform: uppercase;
     float: left;
     padding: 10px;
-    background: #7f7675; }
+    background: #7f7675;
+    color: white;
+    height: 60px; }
   .laptops .fa-laptop {
-    color: #b31b1b;
     margin-right: .5em; }
   .laptops h3 {
     display: inline-block;
@@ -7554,7 +7555,10 @@ h5 {
     margin: 0; }
   .laptops .platforms {
     padding: 10px;
-    background: #f3f1ef; }
+    background: #f3f1ef;
+    height: 60px; }
+  .laptops .laptop-library {
+    margin-bottom: .25em; }
 
 @media (min-width: 768px) {
   .hero header {
