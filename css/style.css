@@ -7536,12 +7536,15 @@ h5 {
   .laptops .well {
     border: 0;
     background: #f3f1ef;
-    padding: 10px; }
+    padding: 0; }
   .laptops h2 {
     margin: 0;
     font-size: 14px;
     text-transform: uppercase;
-    font-weight: 700; }
+    font-weight: 700;
+    float: left;
+    padding: 10px;
+    background: #7f7675; }
   .laptops .fa-laptop {
     color: #b31b1b;
     margin-right: .5em; }

@@ -62,13 +62,16 @@
 	.well {
 		border: 0;
 		background: $gray-lighter;
-		padding: 10px;
+		padding: 0;
 	}
 	h2 {
 		margin: 0;
 		font-size: 14px;
 		text-transform: uppercase;
 		font-weight: 700;
+		float: left;
+		padding: 10px;
+		background: $charcoal-gray;
 	}
 	.fa-laptop {
 		color: $cornell-red;
