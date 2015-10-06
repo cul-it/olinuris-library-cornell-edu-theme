@@ -176,16 +176,19 @@
       <div class="quick-links col-sm-4 col-sm-offset-8">
         <?php print render($page['quick_links']); ?>
       </div>
+    </div>
   </div>
   <div class="home-content">
-    <div class="col-sm-4">
-      News
-    </div>
-    <div class="col-sm-4">
-      Events
-    </div>
-    <div class="col-sm-4">
-      Digital sign
+    <div class="row">
+      <div class="col-sm-4">
+        News
+      </div>
+      <div class="col-sm-4">
+        Events
+      </div>
+      <div class="col-sm-4">
+        Digital sign
+      </div>
     </div>
   </div>
 <?php endif; ?>
