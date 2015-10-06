@@ -7579,14 +7579,6 @@ h5 {
 @media (min-width: 768px) {
   header {
     padding: 2em 0 0 0; } }
-.hero {
-  background: url("../img/Olin1865.jpg") no-repeat 50% 50%;
-  -webkit-background-size: cover !important;
-  -moz-background-size: cover !important;
-  -o-background-size: cover !important;
-  background-size: cover !important;
-  min-height: 400px; }
-
 .main-content {
   background: white;
   min-height: 500px;
@@ -7635,9 +7627,6 @@ body.admin-menu {
 
 .block-simplesamlphp-auth {
   margin: 2em 0 3em 0; }
-
-.front .main-content h1 {
-  display: none; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -7817,5 +7806,43 @@ footer {
     text-decoration: none; }
   footer p, footer li {
     font-size: 13px; }
+
+.hero {
+  background: url("../img/Olin1865.jpg") no-repeat 50% 50%;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  min-height: 400px; }
+
+.front .main-content h1 {
+  display: none; }
+
+.quick-links {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .quick-links {
+      float: left;
+      width: 33.33333%; } }
+  @media (min-width: 768px) {
+    .quick-links {
+      margin-left: 66.66667%; } }
+  .quick-links .well {
+    background: #413f3c;
+    opacity: .9;
+    border: 0;
+    color: white;
+    padding: 0; }
+    .quick-links .well a {
+      color: white; }
+  .quick-links h2 {
+    background: #302c29;
+    opacity: .9;
+    padding: 10px 20px;
+    font-weight: 300;
+    font-size: 30px; }
 
 /*# sourceMappingURL=style.css.map */

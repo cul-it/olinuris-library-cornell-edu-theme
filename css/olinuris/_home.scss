@@ -1,0 +1,45 @@
+// Hero
+// -------------- //
+.hero {
+	background: url("../img/Olin1865.jpg") no-repeat 50% 50%;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	background-size: cover !important;
+	min-height: 400px; // TODO: remove this when quick links content is in
+}
+
+// Hide welcome h1 on home page
+// ------------------------------- //
+.front {
+	.main-content {
+		h1 {
+			display: none;
+		}
+	}
+}
+
+
+// Quicklinks
+// --------------- //
+.quick-links {
+	@include make-sm-column(4);
+	@include make-sm-column-offset(8);
+	.well {
+		background: #413f3c;
+		opacity: .9;
+		border: 0;
+		color: white;
+		padding: 0;
+		a {
+			color: white;
+		}
+	}
+	h2 {
+		background: #302c29;
+		opacity: .9;
+		padding: 10px 20px;
+		font-weight: 300;
+		font-size: 30px;
+	}
+}
