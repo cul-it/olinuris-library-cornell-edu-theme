@@ -174,6 +174,7 @@
   <div class="hero">
     <div class="row">
       <div class="quick-links col-sm-4 col-sm-offset-8">
+        quick links
         <?php print render($page['quick_links']); ?>
       </div>
     </div>
