@@ -7628,6 +7628,9 @@ body.admin-menu {
 .block-simplesamlphp-auth {
   margin: 2em 0 3em 0; }
 
+.front .main-content h1 {
+  display: none; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hero header .container {
@@ -7673,7 +7676,8 @@ nav {
     float: left; }
     nav .nav li a {
       color: white;
-      font-size: 16px; }
+      font-size: 18px;
+      padding: 12px 15px; }
     nav .nav li a:hover,
     nav .nav li a:active,
     nav .nav li a:focus {
