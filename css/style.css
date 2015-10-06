@@ -7538,7 +7538,8 @@ h5 {
   .hours .well {
     border: 0;
     background: #f3f1ef;
-    padding: 0; }
+    padding: 0;
+    margin-bottom: 0; }
   .laptops h2,
   .hours h2 {
     margin: 0;
@@ -7549,8 +7550,8 @@ h5 {
     background: #dddad4;
     height: 65px;
     width: 30%; }
-  .laptops .fa-laptop,
-  .hours .fa-laptop {
+  .laptops .fa,
+  .hours .fa {
     margin-right: .5em;
     color: #b31b1b; }
   .laptops h3,
@@ -7559,18 +7560,18 @@ h5 {
     font-size: 14px;
     font-weight: 700;
     margin: 0 1em .5em 0; }
-  .laptops .platforms,
-  .hours .platforms {
-    padding: 10px;
-    background: #f3f1ef;
-    height: 65px;
-    float: left; }
-  .laptops .laptop-library,
-  .hours .laptop-library {
-    margin-bottom: .25em; }
   .laptops .badge,
   .hours .badge {
     margin: 0 .5em 0 .25em; }
+
+.platforms {
+  padding: 10px;
+  background: #f3f1ef;
+  height: 65px;
+  float: left; }
+
+.laptop-library {
+  margin-bottom: .25em; }
 
 @media (min-width: 768px) {
   .hero header {
