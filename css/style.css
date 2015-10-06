@@ -7549,11 +7549,13 @@ h5 {
     padding: 10px;
     background: #dddad4;
     height: 65px;
-    width: 30%; }
+    width: 30%;
+    text-align: center; }
   .laptops .fa,
   .hours .fa {
-    margin-right: .5em;
-    color: #b31b1b; }
+    color: #b31b1b;
+    display: block;
+    font-size: 2em; }
   .laptops h3,
   .hours h3 {
     display: inline-block;

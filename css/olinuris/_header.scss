@@ -75,10 +75,12 @@
 		background: $warm-light-gray;
 		height: 65px;
 		width: 30%;
+		text-align: center;
 	}
 	.fa {
-		margin-right: .5em;
 		color: $cornell-red;
+		display: block;
+		font-size: 2em;
 	}
 	h3 {
 		display: inline-block;
