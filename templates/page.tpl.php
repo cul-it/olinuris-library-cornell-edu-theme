@@ -169,6 +169,12 @@
   </nav>
 <?php endif; ?>
 
+<!-- Hero and other home page content -->
+<?php if ($is_front): ?>
+  show hero on home page only
+
+<?php endif; ?>
+
 <div class="main-content">
   <div class="container">
     <?php if (!empty($page['sidebar'])): ?>
