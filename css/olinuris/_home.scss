@@ -6,7 +6,6 @@
 	-moz-background-size: cover !important;
 	-o-background-size: cover !important;
 	background-size: cover !important;
-	min-height: 400px; // TODO: remove this when quick links content is in
 }
 
 // Hide welcome h1 on home page
@@ -30,9 +29,14 @@
 		opacity: .9;
 		border: 0;
 		color: white;
-		padding: 0;
+		padding: 0 0 20px 0;
 		a {
 			color: white;
+			padding-bottom: .1em;
+			border-bottom: 1px dotted $gray-light;
+		}
+		a:hover {
+			border-bottom: 1px solid $gray-lighter;
 		}
 	}
 	h2 {
@@ -41,5 +45,13 @@
 		padding: 10px 20px;
 		font-weight: 300;
 		font-size: 30px;
+	}
+	ul {
+		list-style: none;
+		padding-left: 20px;
+	}
+	li {
+		font-size: 16px;
+		margin-bottom: .5em;
 	}
 }
