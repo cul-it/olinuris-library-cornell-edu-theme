@@ -71,11 +71,11 @@
 		float: left;
 		padding: 10px;
 		background: $warm-light-gray;
-		color: white;
 		height: 65px;
 	}
 	.fa-laptop {
 		margin-right: .5em;
+		color: $cornell-red;
 	}
 	h3 {
 		display: inline-block;
@@ -93,7 +93,7 @@
 		margin-bottom: .25em;
 	}
 	.badge {
-		margin-left: .25em;
+		margin: 0 .5em 0 .25em;
 	}
 }
 
