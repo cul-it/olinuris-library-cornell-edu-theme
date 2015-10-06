@@ -7556,7 +7556,8 @@ h5 {
   .laptops .platforms {
     padding: 10px;
     background: #f3f1ef;
-    height: 60px; }
+    height: 60px;
+    float: left; }
   .laptops .laptop-library {
     margin-bottom: .25em; }
 
