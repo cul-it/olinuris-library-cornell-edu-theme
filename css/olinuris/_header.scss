@@ -68,10 +68,10 @@
 	}
 	h2 {
 		margin: 0;
-		font-size: 16px;
+		font-size: 14px;
 		text-transform: uppercase;
 		float: left;
-		padding: 10px;
+		padding-top: 5px;
 		background: $warm-light-gray;
 		height: 65px;
 		width: 30%;
@@ -80,7 +80,8 @@
 	.fa {
 		color: $cornell-red;
 		display: block;
-		font-size: 2em;
+		font-size: 2.5em;
+		margin-bottom: .15em;
 	}
 	h3 {
 		display: inline-block;

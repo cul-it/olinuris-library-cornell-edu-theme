@@ -7543,10 +7543,10 @@ h5 {
   .laptops h2,
   .hours h2 {
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     float: left;
-    padding: 10px;
+    padding-top: 5px;
     background: #dddad4;
     height: 65px;
     width: 30%;
@@ -7555,7 +7555,8 @@ h5 {
   .hours .fa {
     color: #b31b1b;
     display: block;
-    font-size: 2em; }
+    font-size: 2.5em;
+    margin-bottom: .15em; }
   .laptops h3,
   .hours h3 {
     display: inline-block;
