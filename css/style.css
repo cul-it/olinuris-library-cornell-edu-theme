@@ -7531,13 +7531,16 @@ h5 {
   color: #333333;
   text-decoration: none; }
 
-.laptops {
+.laptops,
+.hours {
   margin-top: 1em; }
-  .laptops .well {
+  .laptops .well,
+  .hours .well {
     border: 0;
     background: #f3f1ef;
     padding: 0; }
-  .laptops h2 {
+  .laptops h2,
+  .hours h2 {
     margin: 0;
     font-size: 16px;
     text-transform: uppercase;
@@ -7545,23 +7548,28 @@ h5 {
     padding: 10px;
     background: #dddad4;
     height: 65px; }
-  .laptops .fa-laptop {
+  .laptops .fa-laptop,
+  .hours .fa-laptop {
     margin-right: .5em;
     color: #b31b1b; }
-  .laptops h3 {
+  .laptops h3,
+  .hours h3 {
     display: inline-block;
     font-size: 14px;
     font-weight: 700;
     margin: 0 1em .5em 0; }
-  .laptops .platforms {
+  .laptops .platforms,
+  .hours .platforms {
     padding: 10px;
     background: #f3f1ef;
     height: 65px;
     float: left; }
-  .laptops .laptop-library {
+  .laptops .laptop-library,
+  .hours .laptop-library {
     margin-bottom: .25em; }
-  .laptops .badge {
-    margin: 0 0.5em 0 0.25em; }
+  .laptops .badge,
+  .hours .badge {
+    margin: 0 .5em 0 .25em; }
 
 @media (min-width: 768px) {
   .hero header {
