@@ -7532,7 +7532,8 @@ h5 {
   text-decoration: none; }
 
 .laptops .well {
-  border: 0; }
+  border: 0;
+  background: #f3f1ef; }
 .laptops h2 {
   margin: 0;
   font-size: 14px;
@@ -7542,7 +7543,7 @@ h5 {
   color: #b31b1b;
   margin-right: .5em; }
 .laptops h3 {
-  float: left;
+  display: inline-block;
   font-size: 14px;
   font-weight: 700;
   margin: 0; }
@@ -7661,7 +7662,7 @@ nav {
   #mobile-nav a {
     color: #333333;
     font-size: 14px;
-    border-bottom: 1px solid #eeeeee; }
+    border-bottom: 1px solid #f3f1ef; }
   #mobile-nav .navbar-nav {
     margin-top: 0;
     margin-bottom: 0; }
@@ -7671,7 +7672,7 @@ nav {
   padding: 0 0 .5em 0;
   font-size: 14px;
   text-transform: uppercase;
-  border-bottom: 2px solid #eeeeee; }
+  border-bottom: 2px solid #f3f1ef; }
   .sidebar .block-title a {
     color: #555555;
     border: none; }
@@ -7690,7 +7691,7 @@ nav {
   margin-top: 1em; }
   .sidebar .nav i {
     margin-right: .4em;
-    color: #eeeeee; }
+    color: #f3f1ef; }
   .sidebar .nav .active a, .sidebar .nav .active a:hover, .sidebar .nav .active a:active, .sidebar .nav .active a:focus {
     color: #333333;
     font-weight: 700; }

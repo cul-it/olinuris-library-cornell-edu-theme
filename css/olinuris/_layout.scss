@@ -1,17 +1,3 @@
-// Hero
-// -------------- //
-.hero {
-	header{
-		.container {
-			// background: url("../img/OlinReflectionApr2015.jpg") no-repeat;
-			// -webkit-background-size: cover;
-			// -moz-background-size: cover;
-			// -o-background-size: cover;
-			// background-size: cover;
-		}
-	}
-}
-
 // Main content
 // -------------- //
 .main-content {
@@ -47,27 +33,10 @@ body.admin-menu { padding-top: 0 !important; }
 // MEDIA QUERIES
 // -------------------------
 
-  // /* Extra small devices (phones, up to 480px) */
-  // /* No media query since this is the default in Bootstrap */
-
-  // /* Small devices (tablets, 768px and up) */
-  // @media (min-width: @screen-sm) { ... }
-
-  // /* Medium devices (desktops, 992px and up) */
-  // @media (min-width: @screen-md) { ... }
-
-  // /* Large devices (large desktops, 1200px and up) */
-  // @media (min-width: @screen-lg) { ... }
-
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm) {
 	.hero {
-		// background: url("../img/OlinReflectionApr2015.jpg") no-repeat;
-		// -webkit-background-size: cover;
-		// -moz-background-size: cover;
-		// -o-background-size: cover;
-		// background-size: cover;
 		header {
 			.container {
 			 	background: inherit;
