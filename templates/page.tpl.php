@@ -172,23 +172,27 @@
 <!-- Hero and other home page content -->
 <?php if ($is_front): ?>
   <div class="hero">
-    <div class="row">
-      <div class="quick-links col-sm-4 col-sm-offset-8">
-        quick links
-        <?php print render($page['quick_links']); ?>
+    <div class="container">
+      <div class="row">
+        <div class="quick-links col-sm-4 col-sm-offset-8">
+          quick links
+          <?php print render($page['quick_links']); ?>
+        </div>
       </div>
     </div>
   </div>
   <div class="home-content">
-    <div class="row">
-      <div class="col-sm-4">
-        News
-      </div>
-      <div class="col-sm-4">
-        Events
-      </div>
-      <div class="col-sm-4">
-        Digital sign
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          News
+        </div>
+        <div class="col-sm-4">
+          Events
+        </div>
+        <div class="col-sm-4">
+          Digital sign
+        </div>
       </div>
     </div>
   </div>
