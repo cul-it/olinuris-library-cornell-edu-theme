@@ -7545,21 +7545,23 @@ h5 {
     padding: 10px;
     background: #7f7675;
     color: white;
-    height: 60px; }
+    height: 65px; }
   .laptops .fa-laptop {
     margin-right: .5em; }
   .laptops h3 {
     display: inline-block;
     font-size: 14px;
     font-weight: 700;
-    margin: 0; }
+    margin: 0 1em .5em 0; }
   .laptops .platforms {
     padding: 10px;
     background: #f3f1ef;
-    height: 60px;
+    height: 65px;
     float: left; }
   .laptops .laptop-library {
     margin-bottom: .25em; }
+  .laptops .badge {
+    margin-left: .25em; }
 
 @media (min-width: 768px) {
   .hero header {

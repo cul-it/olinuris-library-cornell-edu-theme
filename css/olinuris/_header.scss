@@ -72,7 +72,7 @@
 		padding: 10px;
 		background: $charcoal-gray;
 		color: white;
-		height: 60px;
+		height: 65px;
 	}
 	.fa-laptop {
 		margin-right: .5em;
@@ -81,16 +81,19 @@
 		display: inline-block;
 		font-size: 14px;
 		font-weight: 700;
-		margin: 0;
+		margin: 0 1em .5em 0;
 	}
 	.platforms {
 		padding: 10px;
 		background: $gray-lighter;
-		height: 60px;
+		height: 65px;
 		float: left;
 	}
 	.laptop-library {
 		margin-bottom: .25em;
+	}
+	.badge {
+		margin-left: .25em;
 	}
 }
 
