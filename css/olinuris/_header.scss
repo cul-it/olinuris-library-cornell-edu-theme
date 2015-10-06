@@ -58,9 +58,11 @@
 // Laptops
 // --------------------
 .laptops {
+	margin-top: 1em;
 	.well {
 		border: 0;
 		background: $gray-lighter;
+		padding: 10px;
 	}
 	h2 {
 		margin: 0;
