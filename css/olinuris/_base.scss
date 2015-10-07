@@ -9,7 +9,7 @@ body {
 a { 
 	color: $link-primary;
 }
-a:hover {
+a:hover, a:active, a:focus {
 	color: $link-primary-hover;
 	text-decoration: none;
 }

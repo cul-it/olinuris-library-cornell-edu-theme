@@ -7434,7 +7434,7 @@ body {
 a {
   color: #0068ac; }
 
-a:hover {
+a:hover, a:active, a:focus {
   color: black;
   text-decoration: none; }
 
@@ -7834,11 +7834,12 @@ footer {
     opacity: .9;
     border: 0;
     color: white;
-    padding: 0 0 20px 0; }
+    padding: 0 0 10px 0; }
     .quick-links .well a {
       color: white;
-      padding-bottom: .1em;
-      border-bottom: 1px dotted #777777; }
+      padding-bottom: .5em;
+      border-bottom: 1px dotted #777777;
+      display: block; }
     .quick-links .well a:hover {
       border-bottom: 1px solid #f3f1ef; }
   .quick-links h2 {
@@ -7846,13 +7847,18 @@ footer {
     opacity: .9;
     padding: 10px 20px;
     font-weight: 300;
-    font-size: 30px; }
+    font-size: 28px;
+    margin-bottom: .5em; }
   .quick-links ul {
     list-style: none;
-    padding-left: 20px; }
+    padding: 0; }
   .quick-links li {
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: .5em; }
+  .quick-links .col1 {
+    padding-left: 20px; }
+  .quick-links .col2 {
+    padding-right: 20px; }
 
 .feature {
   position: relative;
@@ -7866,15 +7872,29 @@ footer {
   .feature .well {
     background: #f3f1ef;
     border: 0;
-    padding: 0; }
+    padding: 0 0 20px 0; }
     .feature .well h2 {
       background: #dddad4;
       padding: 10px 20px;
       font-weight: 300;
       font-size: 30px;
-      margin: 0; }
+      margin: 0 0 .5em 0; }
       .feature .well h2 i {
         color: #b31b1b; }
+  .feature ul {
+    padding: 0;
+    list-style: none; }
+  .feature li {
+    padding: 10px 20px; }
+  .feature li:first-child {
+    padding-top: 0; }
+  .feature a {
+    padding-bottom: .1em;
+    border-bottom: 1px dotted #777777; }
+  .feature a:hover {
+    border-bottom: 1px solid #555555; }
+  .feature p {
+    padding: 0 20px; }
 
 .news, .events {
   margin-top: -20px; }
