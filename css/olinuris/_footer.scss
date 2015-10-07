@@ -1,4 +1,6 @@
-footer {
+
+
+.olinuris-footer, footer {
 	padding: 2em 0;
 	.nav {
 		margin-bottom: 1em;
@@ -22,6 +24,28 @@ footer {
 		text-decoration: none;
 	}
 	p, li {
-		font-size: 13px;
+		font-size: 14px;
+	}
+}
+
+.olinuris-footer {
+	background: $charcoal-gray;
+	color: white;
+	.block-title {
+		color: white;
+		text-transform: uppercase;
+		font-family: $font-family-cul;
+		font-size: 20px;
+	}
+	.nav > li {
+		border-color: $gray-lighter;
+	}
+	.nav > li > a {
+		color: white;
+	}
+	.nav > li > a:hover,
+	.nav > li > a:active,
+	.nav > li > a:focus {
+		text-decoration: underline;
 	}
 }

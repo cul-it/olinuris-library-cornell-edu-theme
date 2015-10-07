@@ -7581,7 +7581,6 @@ h5 {
     padding: 2em 0 0 0; } }
 .main-content {
   background: white;
-  min-height: 500px;
   padding: 3em 0; }
 
 .main-text {
@@ -7786,26 +7785,45 @@ nav {
   .header-search .form-group {
     width: 80%; } }
 /* Large devices (desktops, 1200px and up) */
-footer {
+.olinuris-footer, footer {
   padding: 2em 0; }
-  footer .nav {
+  .olinuris-footer .nav, footer .nav {
     margin-bottom: 1em; }
-  footer .nav > li {
+  .olinuris-footer .nav > li, footer .nav > li {
     float: left;
     padding: 0 15px;
     border-left: 1px solid #777777; }
-  footer .nav > li:first-child {
+  .olinuris-footer .nav > li:first-child, footer .nav > li:first-child {
     padding-left: 0;
     border: none; }
-  footer .nav > li > a {
+  .olinuris-footer .nav > li > a, footer .nav > li > a {
     padding: 0; }
-  footer .nav > li > a:hover,
+  .olinuris-footer .nav > li > a:hover,
+  .olinuris-footer .nav > li > a:active,
+  .olinuris-footer .nav > li > a:focus, footer .nav > li > a:hover,
   footer .nav > li > a:active,
   footer .nav > li > a:focus {
     background: inherit;
     text-decoration: none; }
-  footer p, footer li {
-    font-size: 13px; }
+  .olinuris-footer p, .olinuris-footer li, footer p, footer li {
+    font-size: 14px; }
+
+.olinuris-footer {
+  background: #7f7675;
+  color: white; }
+  .olinuris-footer .block-title {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-size: 20px; }
+  .olinuris-footer .nav > li {
+    border-color: #f3f1ef; }
+  .olinuris-footer .nav > li > a {
+    color: white; }
+  .olinuris-footer .nav > li > a:hover,
+  .olinuris-footer .nav > li > a:active,
+  .olinuris-footer .nav > li > a:focus {
+    text-decoration: underline; }
 
 .hero {
   background: url("../img/Olin1865.jpg") no-repeat 50% 50%;
@@ -7898,5 +7916,9 @@ footer {
 
 .news, .events {
   margin-top: -20px; }
+
+.digital-sign {
+  text-align: center;
+  padding: 10px 0; }
 
 /*# sourceMappingURL=style.css.map */
