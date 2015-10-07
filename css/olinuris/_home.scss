@@ -55,3 +55,27 @@
 		margin-bottom: .5em;
 	}
 }
+
+// News and events
+// ------------------- //
+.feature {
+	@include make-sm-column(4);
+	.well {
+		background: $gray-lighter;
+		border: 0;
+		padding: 0;
+		h2 {
+			background: #dddad4;
+			padding: 10px 20px;
+			font-weight: 300;
+			font-size: 30px;
+			margin: 0;
+			i {
+				color: $cornell-red;
+			}
+		}
+	}
+}
+.news, .events {
+	margin-top: -20px;
+}

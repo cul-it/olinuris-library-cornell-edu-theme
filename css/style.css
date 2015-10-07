@@ -7854,4 +7854,29 @@ footer {
     font-size: 16px;
     margin-bottom: .5em; }
 
+.feature {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .feature {
+      float: left;
+      width: 33.33333%; } }
+  .feature .well {
+    background: #f3f1ef;
+    border: 0;
+    padding: 0; }
+    .feature .well h2 {
+      background: #dddad4;
+      padding: 10px 20px;
+      font-weight: 300;
+      font-size: 30px;
+      margin: 0; }
+      .feature .well h2 i {
+        color: #b31b1b; }
+
+.news, .events {
+  margin-top: -20px; }
+
 /*# sourceMappingURL=style.css.map */

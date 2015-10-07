@@ -183,13 +183,13 @@
   <div class="home-content">
     <div class="container">
       <div class="row">
-        <div class="feature col-sm-4">
+        <div class="feature news">
           <?php print render($page['news']); ?>
         </div>
-        <div class="feature col-sm-4">
+        <div class="feature events">
           <?php print render($page['events']); ?>
         </div>
-        <div class="feature col-sm-4">
+        <div class="feature">
           <?php print render($page['digital_sign']); ?>
         </div>
       </div>
