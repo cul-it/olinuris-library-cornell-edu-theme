@@ -1,20 +1,25 @@
 
 
-.olinuris-footer, footer {
+.olinuris-footer {
 	padding: 2em 0;
+	background: $charcoal-gray;
+	color: white;
+	.block-title {
+		color: white;
+		text-transform: uppercase;
+		font-family: $font-family-cul;
+		font-size: 20px;
+	}
 	.nav {
 		margin-bottom: 1em;
 	}
 	.nav > li {
 		float: left;
 		padding: 0 15px;
-		border-left: 1px solid $gray-light;
-	}
-	.nav > li:first-child {
-		padding-left: 0;
-		border: none;
+		border-left: 1px solid $gray-lighter;
 	}
 	.nav > li > a {
+		color: white;
 		padding: 0;
 	}
 	.nav > li > a:hover,
@@ -28,24 +33,40 @@
 	}
 }
 
-.olinuris-footer {
-	background: $charcoal-gray;
-	color: white;
+footer {
+	padding: 2em 0;
+	p, li {
+		font-size: 14px;
+	}
 	.block-title {
-		color: white;
-		text-transform: uppercase;
+		font-size: 14px;
 		font-family: $font-family-cul;
-		font-size: 20px;
+		text-transform: uppercase;
+		margin-top: 0;
 	}
-	.nav > li {
-		border-color: $gray-lighter;
+	.block {
+		margin-bottom: .75em;
 	}
-	.nav > li > a {
-		color: white;
-	}
-	.nav > li > a:hover,
-	.nav > li > a:active,
-	.nav > li > a:focus {
-		text-decoration: underline;
-	}
+}
+.btn-give {
+	background: $cornell-red;
+	font-family: $font-family-cul;
+	color: white;
+	font-size: 12px;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 5px 10px;
+	border: 0;
+	border-radius: 0;
+}
+.btn-give:hover,
+.btn-give:active,
+.btn-give:focus {
+	border: 0;
+	background: $cornell-dark-red;
+	color: white;
+}
+//TODO: install block attributes and put the pull-right class right on the block
+#block-block-9 {
+	float: right;
 }

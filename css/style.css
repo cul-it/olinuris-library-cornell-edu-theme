@@ -7787,30 +7787,8 @@ nav {
   .header-search .form-group {
     width: 80%; } }
 /* Large devices (desktops, 1200px and up) */
-.olinuris-footer, footer {
-  padding: 2em 0; }
-  .olinuris-footer .nav, footer .nav {
-    margin-bottom: 1em; }
-  .olinuris-footer .nav > li, footer .nav > li {
-    float: left;
-    padding: 0 15px;
-    border-left: 1px solid #777777; }
-  .olinuris-footer .nav > li:first-child, footer .nav > li:first-child {
-    padding-left: 0;
-    border: none; }
-  .olinuris-footer .nav > li > a, footer .nav > li > a {
-    padding: 0; }
-  .olinuris-footer .nav > li > a:hover,
-  .olinuris-footer .nav > li > a:active,
-  .olinuris-footer .nav > li > a:focus, footer .nav > li > a:hover,
-  footer .nav > li > a:active,
-  footer .nav > li > a:focus {
-    background: inherit;
-    text-decoration: none; }
-  .olinuris-footer p, .olinuris-footer li, footer p, footer li {
-    font-size: 14px; }
-
 .olinuris-footer {
+  padding: 2em 0;
   background: #7f7675;
   color: white; }
   .olinuris-footer .block-title {
@@ -7818,14 +7796,55 @@ nav {
     text-transform: uppercase;
     font-family: "Montserrat";
     font-size: 20px; }
+  .olinuris-footer .nav {
+    margin-bottom: 1em; }
   .olinuris-footer .nav > li {
-    border-color: #f3f1ef; }
+    float: left;
+    padding: 0 15px;
+    border-left: 1px solid #f3f1ef; }
   .olinuris-footer .nav > li > a {
-    color: white; }
+    color: white;
+    padding: 0; }
   .olinuris-footer .nav > li > a:hover,
   .olinuris-footer .nav > li > a:active,
   .olinuris-footer .nav > li > a:focus {
-    text-decoration: underline; }
+    background: inherit;
+    text-decoration: none; }
+  .olinuris-footer p, .olinuris-footer li {
+    font-size: 14px; }
+
+footer {
+  padding: 2em 0; }
+  footer p, footer li {
+    font-size: 14px; }
+  footer .block-title {
+    font-size: 14px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    margin-top: 0; }
+  footer .block {
+    margin-bottom: .75em; }
+
+.btn-give {
+  background: #b31b1b;
+  font-family: "Montserrat";
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 0; }
+
+.btn-give:hover,
+.btn-give:active,
+.btn-give:focus {
+  border: 0;
+  background: #990f26;
+  color: white; }
+
+#block-block-9 {
+  float: right; }
 
 .hero {
   background: url("../img/Olin1865.jpg") no-repeat 50% 50%;
