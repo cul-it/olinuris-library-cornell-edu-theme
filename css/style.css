@@ -7539,7 +7539,7 @@ h5 {
   font-size: 13px; }
   .laptops h2,
   .hours h2 {
-    margin: 0;
+    margin: .2em 0 0 0;
     text-transform: uppercase;
     font-size: 13px; }
   .laptops h3,
@@ -7562,12 +7562,11 @@ h5 {
     margin-bottom: .1em; }
   .laptops .label,
   .hours .label {
-    margin-right: .5em; }
+    margin-right: .5em;
+    text-transform: uppercase; }
 
 .laptops {
   background: #e8e7e5; }
-  .laptops .fa {
-    color: #b31b1b; }
   .laptops .col-sm-9 {
     border-left: 1px solid white; }
 
