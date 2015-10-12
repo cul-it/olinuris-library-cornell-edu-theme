@@ -148,11 +148,11 @@
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="laptops">
-          <?php print render($page['header_laptops']); ?>
-        </div>
         <div class="hours">
           <?php print render($page['header_hours']); ?>
+        </div>
+        <div class="laptops">
+          <?php print render($page['header_laptops']); ?>
         </div>
       </div>
     </div>
