@@ -7531,7 +7531,6 @@ h5 {
   color: #333333;
   text-decoration: none; }
 
-<<<<<<< HEAD
 .laptops,
 .hours {
   padding: 5px;
@@ -7583,21 +7582,6 @@ h5 {
 .laptop-library,
 .hours-library {
   margin-top: .25em; }
-.laptops .well {
-  border: 0; }
-.laptops h2 {
-  margin: 0;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 700; }
-.laptops .fa-laptop {
-  color: #b31b1b;
-  margin-right: .5em; }
-.laptops h3 {
-  display: inline-block;
-  font-size: 14px;
-  font-weight: 700;
-  margin: 0; }
 
 @media (min-width: 768px) {
   header {
