@@ -7539,7 +7539,9 @@ h5 {
   .hours h2 {
     margin: 0 0 .5em 0;
     font-size: 18px;
-    font-weight: 300; }
+    font-weight: 300;
+    float: left;
+    width: 30%; }
   .laptops h3,
   .hours h3 {
     display: inline-block;
@@ -7572,8 +7574,7 @@ h5 {
 
 .laptop-library,
 .hours-library {
-  float: left;
-  margin-right: 1em; }
+  margin-bottom: .5em; }
 
 @media (min-width: 768px) {
   header {
