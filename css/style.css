@@ -7534,7 +7534,6 @@ h5 {
 .laptops,
 .hours {
   padding: 10px;
-  margin-top: .5em;
   font-size: 13px; }
   .laptops h2,
   .hours h2 {
@@ -7557,7 +7556,8 @@ h5 {
   .laptops .fa,
   .hours .fa {
     color: #b31b1b;
-    margin-right: .25em; }
+    margin-right: .25em;
+    font-size: .75em; }
   .laptops .label,
   .hours .label {
     margin-right: .25em;
@@ -7565,8 +7565,10 @@ h5 {
 
 .hours {
   background: #dddad4;
-  margin-top: 1em;
-  border: 1px solid #c7c5c0; }
+  margin-top: 1em; }
+
+.laptops {
+  background: #f3f1ef; }
 
 .laptop-library,
 .hours-library {
