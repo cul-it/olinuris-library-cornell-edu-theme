@@ -7533,30 +7533,15 @@ h5 {
 
 .laptops,
 .hours {
-  margin-top: 1em; }
-  .laptops .well,
-  .hours .well {
-    border: 0;
-    background: #f3f1ef;
-    padding: 0;
-    margin-bottom: 0; }
+  padding: 5px;
+  margin-top: .5em;
+  border-radius: 4px;
+  font-size: 13px; }
   .laptops h2,
   .hours h2 {
     margin: 0;
-    font-size: 14px;
     text-transform: uppercase;
-    float: left;
-    padding-top: 5px;
-    background: #dddad4;
-    height: 65px;
-    width: 30%;
-    text-align: center; }
-  .laptops .fa,
-  .hours .fa {
-    color: #b31b1b;
-    display: block;
-    font-size: 2.5em;
-    margin-bottom: .15em; }
+    font-size: 13px; }
   .laptops h3,
   .hours h3 {
     display: inline-block;
@@ -7565,16 +7550,38 @@ h5 {
     margin: 0 1em .5em 0; }
   .laptops .badge,
   .hours .badge {
-    margin: 0 .5em 0 .25em; }
+    margin: 0 .5em 0 .25em;
+    background: #878581; }
+  .laptops .col-sm-3,
+  .hours .col-sm-3 {
+    text-align: right; }
+  .laptops .fa,
+  .hours .fa {
+    display: block;
+    font-size: 2em;
+    margin-bottom: .1em; }
+  .laptops .label,
+  .hours .label {
+    margin-right: .5em; }
 
-.platforms {
-  padding: 10px;
-  background: #f3f1ef;
-  height: 65px;
-  float: left; }
+.laptops {
+  background: #e8e7e5; }
+  .laptops .fa {
+    color: #b31b1b; }
+  .laptops .col-sm-9 {
+    border-left: 1px solid white; }
 
-.laptop-library {
-  margin-bottom: .25em; }
+.hours {
+  background: #333333;
+  color: white;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0; }
+  .hours .col-sm-9 {
+    border-left: 1px solid #606060; }
+
+.laptop-library,
+.hours-library {
+  margin-top: .25em; }
 
 @media (min-width: 768px) {
   header {

@@ -59,29 +59,14 @@
 // --------------------
 .laptops,
 .hours {
-	margin-top: 1em;
-	.well {
-		border: 0;
-		background: $gray-lighter;
-		padding: 0;
-		margin-bottom: 0;
-	}
+	padding: 5px;
+	margin-top: .5em;
+	border-radius: 4px;
+	font-size: 13px;
 	h2 {
 		margin: 0;
-		font-size: 14px;
 		text-transform: uppercase;
-		float: left;
-		padding-top: 5px;
-		background: $warm-light-gray;
-		height: 65px;
-		width: 30%;
-		text-align: center;
-	}
-	.fa {
-		color: $cornell-red;
-		display: block;
-		font-size: 2.5em;
-		margin-bottom: .15em;
+		font-size: 13px;
 	}
 	h3 {
 		display: inline-block;
@@ -91,16 +76,41 @@
 	}
 	.badge {
 		margin: 0 .5em 0 .25em;
+		background: #878581;
+	}
+	.col-sm-3 {
+		text-align: right;
+	}
+	.fa {
+		display: block;
+		font-size: 2em;
+		margin-bottom: .1em;
+	}
+	.label {
+		margin-right: .5em;
 	}
 }
-.platforms {
-	padding: 10px;
-	background: $gray-lighter;
-	height: 65px;
-	float: left;
+.laptops {
+	background: #e8e7e5;
+	.fa {
+		color: $cornell-red;
+	}
+	.col-sm-9 {
+		border-left: 1px solid white;
+	}
 }
-.laptop-library {
-	margin-bottom: .25em;
+.hours {
+	background: $gray-dark;
+	color: white;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	.col-sm-9 {
+		border-left: 1px solid #606060;
+	}
+}
+.laptop-library,
+.hours-library {
+	margin-top: .25em;
 }
 
 // MEDIA QUERIES
