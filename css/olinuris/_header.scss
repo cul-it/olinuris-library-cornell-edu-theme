@@ -63,9 +63,8 @@
 	font-size: 13px;
 	h2 {
 		margin: 0 0 .5em 0;
-		text-transform: uppercase;
-		font-size: 14px;
-		font-weight: 700;
+		font-size: 18px;
+		font-weight: 300;
 	}
 	h3 {
 		display: inline-block;
@@ -82,7 +81,6 @@
 	.fa {
 		color: $cornell-red;
 		margin-right: .25em;
-		font-size: .75em;
 	}
 	.label {
 		margin-right: .25em;
@@ -92,6 +90,8 @@
 .hours {
 	background: #dddad4;
 	margin-top: 1em;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
 }
 .laptops {
 	background: #f3f1ef;
