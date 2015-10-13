@@ -3,37 +3,53 @@
 .olinuris-footer {
 	padding: 2em 0;
 	background: $charcoal-gray;
-	color: $warm-gray;
+	color: #f3f1ef;
 	.block-title {
 		color: white;
 		text-transform: uppercase;
 		font-family: $font-family-cul;
 		font-size: 20px;
+		margin-top: 0;
 	}
 	.nav {
 		margin-bottom: 1em;
 	}
 	.nav > li {
-		float: left;
-		padding: 0 10px;
-		border-left: 1px solid $warm-gray;
+		// float: left;
+		// padding: 0 10px;
+		// border-left: 1px solid $warm-gray;
 	}
-	.nav > li:first-child {
-		border: 0;
-		padding-left: 0;
-	}
+	// .nav > li:first-child {
+	// 	border: 0;
+	// 	padding-left: 0;
+	// }
 	.nav > li > a {
 		color: white;
 		padding: 0;
+		text-decoration: underline;
 	}
 	.nav > li > a:hover,
 	.nav > li > a:active,
 	.nav > li > a:focus {
 		background: inherit;
-		text-decoration: underline;
 	}
 	p, li {
 		font-size: 14px;
+	}
+	a {
+		color: white;
+		text-decoration: underline;
+	}
+	a:hover, a:active, a:focus {
+		color: white;
+	}
+	.footer-menu .block-title,
+	h3 {
+		font-size: 14px;
+		margin: 0 0 .5em 0;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-family: $font-family-sans-serif;
 	}
 }
 
@@ -70,3 +86,6 @@ footer {
 	background: $cornell-dark-red;
 	color: white;
 }
+// .address {
+// 	margin-top: 1.5em;
+// }

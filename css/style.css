@@ -7785,31 +7785,37 @@ nav {
 .olinuris-footer {
   padding: 2em 0;
   background: #7f7675;
-  color: #c3c1bd; }
+  color: #f3f1ef; }
   .olinuris-footer .block-title {
     color: white;
     text-transform: uppercase;
     font-family: "Montserrat";
-    font-size: 20px; }
+    font-size: 20px;
+    margin-top: 0; }
   .olinuris-footer .nav {
     margin-bottom: 1em; }
-  .olinuris-footer .nav > li {
-    float: left;
-    padding: 0 10px;
-    border-left: 1px solid #c3c1bd; }
-  .olinuris-footer .nav > li:first-child {
-    border: 0;
-    padding-left: 0; }
   .olinuris-footer .nav > li > a {
     color: white;
-    padding: 0; }
+    padding: 0;
+    text-decoration: underline; }
   .olinuris-footer .nav > li > a:hover,
   .olinuris-footer .nav > li > a:active,
   .olinuris-footer .nav > li > a:focus {
-    background: inherit;
-    text-decoration: underline; }
+    background: inherit; }
   .olinuris-footer p, .olinuris-footer li {
     font-size: 14px; }
+  .olinuris-footer a {
+    color: white;
+    text-decoration: underline; }
+  .olinuris-footer a:hover, .olinuris-footer a:active, .olinuris-footer a:focus {
+    color: white; }
+  .olinuris-footer .footer-menu .block-title,
+  .olinuris-footer h3 {
+    font-size: 14px;
+    margin: 0 0 .5em 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", Helvetica, Arials, sans-serif; }
 
 footer {
   padding: 2em 0; }

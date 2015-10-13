@@ -255,7 +255,21 @@
 
 <div class="olinuris-footer">
   <div class="container">
-    <?php print render($page['olinuris_footer']); ?>
+    <h2 class="block-title">Olin &amp; Uris Libraries</h2>
+    <div class="row">
+      <div class="col-sm-3">
+        <?php print render($page['olinuris_footer']); ?>
+      </div>
+      <div class="col-sm-3">
+        <?php print render($page['olinuris_footer2']); ?>
+      </div>
+      <div class="col-sm-3">
+        <?php print render($page['olinuris_footer3']); ?>
+      </div>
+      <div class="col-sm-3">
+        <?php print render($page['olinuris_footer4']); ?>
+      </div>
+    </div>
   </div>
 </div>
 
