@@ -7533,21 +7533,21 @@ h5 {
 
 .laptops,
 .hours {
-  padding: 10px;
+  padding: 10px 0 5px 0;
   font-size: 13px; }
   .laptops h2,
   .hours h2 {
-    margin: 0 0 .75em 0;
+    margin: 0 0 .5em 0;
     font-size: 18px;
     font-weight: 300;
-    float: left;
     padding-right: 1em; }
   .laptops h3,
   .hours h3 {
     display: inline-block;
     font-size: 13px;
     font-weight: 700;
-    margin: 0 .25em 0 0; }
+    margin: 0 .25em 0 0;
+    text-transform: uppercase; }
   .laptops .badge,
   .hours .badge {
     margin: 0 .25em;
@@ -7564,12 +7564,12 @@ h5 {
     text-transform: uppercase; }
 
 .hours {
-  margin-top: 1em;
   border-bottom: 1px solid #dddad4; }
 
 .laptop-library,
 .hours-library {
-  margin: .15em 0 .5em 0; }
+  margin: .15em 2em .5em 0;
+  float: left; }
 
 @media (min-width: 768px) {
   header {
