@@ -7785,7 +7785,7 @@ nav {
 .olinuris-footer {
   padding: 2em 0;
   background: #7f7675;
-  color: white; }
+  color: #c3c1bd; }
   .olinuris-footer .block-title {
     color: white;
     text-transform: uppercase;
@@ -7795,8 +7795,11 @@ nav {
     margin-bottom: 1em; }
   .olinuris-footer .nav > li {
     float: left;
-    padding: 0 15px;
-    border-left: 1px solid #f3f1ef; }
+    padding: 0 10px;
+    border-left: 1px solid #c3c1bd; }
+  .olinuris-footer .nav > li:first-child {
+    border: 0;
+    padding-left: 0; }
   .olinuris-footer .nav > li > a {
     color: white;
     padding: 0; }
@@ -7804,7 +7807,7 @@ nav {
   .olinuris-footer .nav > li > a:active,
   .olinuris-footer .nav > li > a:focus {
     background: inherit;
-    text-decoration: none; }
+    text-decoration: underline; }
   .olinuris-footer p, .olinuris-footer li {
     font-size: 14px; }
 

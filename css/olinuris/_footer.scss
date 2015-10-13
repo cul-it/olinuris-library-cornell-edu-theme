@@ -3,7 +3,7 @@
 .olinuris-footer {
 	padding: 2em 0;
 	background: $charcoal-gray;
-	color: white;
+	color: $warm-gray;
 	.block-title {
 		color: white;
 		text-transform: uppercase;
@@ -15,8 +15,12 @@
 	}
 	.nav > li {
 		float: left;
-		padding: 0 15px;
-		border-left: 1px solid $gray-lighter;
+		padding: 0 10px;
+		border-left: 1px solid $warm-gray;
+	}
+	.nav > li:first-child {
+		border: 0;
+		padding-left: 0;
 	}
 	.nav > li > a {
 		color: white;
@@ -26,7 +30,7 @@
 	.nav > li > a:active,
 	.nav > li > a:focus {
 		background: inherit;
-		text-decoration: none;
+		text-decoration: underline;
 	}
 	p, li {
 		font-size: 14px;
