@@ -7537,11 +7537,11 @@ h5 {
   font-size: 13px; }
   .laptops h2,
   .hours h2 {
-    margin: 0 0 .5em 0;
+    margin: 0 0 .75em 0;
     font-size: 18px;
     font-weight: 300;
     float: left;
-    width: 30%; }
+    padding-right: 1em; }
   .laptops h3,
   .hours h3 {
     display: inline-block;
@@ -7564,17 +7564,12 @@ h5 {
     text-transform: uppercase; }
 
 .hours {
-  background: #dddad4;
   margin-top: 1em;
-  border-top-right-radius: 6px;
-  border-top-left-radius: 6px; }
-
-.laptops {
-  background: #f3f1ef; }
+  border-bottom: 1px solid #dddad4; }
 
 .laptop-library,
 .hours-library {
-  margin-bottom: .5em; }
+  margin: .15em 0 .5em 0; }
 
 @media (min-width: 768px) {
   header {

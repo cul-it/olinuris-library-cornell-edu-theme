@@ -62,11 +62,12 @@
 	padding: 10px;
 	font-size: 13px;
 	h2 {
-		margin: 0 0 .5em 0;
+		margin: 0 0 .75em 0;
 		font-size: 18px;
 		font-weight: 300;
 		float: left;
-		width: 30%;
+		// width: 30%;
+		padding-right: 1em;
 	}
 	h3 {
 		display: inline-block;
@@ -90,17 +91,18 @@
 	}
 }
 .hours {
-	background: #dddad4;
+	// background: #dddad4;
 	margin-top: 1em;
-	border-top-right-radius: 6px;
-	border-top-left-radius: 6px;
+	// border-top-right-radius: 6px;
+	// border-top-left-radius: 6px;
+	border-bottom: 1px solid #dddad4;
 }
-.laptops {
-	background: #f3f1ef;
-}
+// .laptops {
+// 	background: #f3f1ef;
+// }
 .laptop-library,
 .hours-library {
-	margin-bottom: .5em;
+	margin: .15em 0 .5em 0;
 }
 
 // MEDIA QUERIES
