@@ -7531,40 +7531,45 @@ h5 {
   color: #333333;
   text-decoration: none; }
 
-.laptops,
-.hours {
-  padding: 10px 0 5px 0;
+header .nav-tabs {
+  margin-top: 2.5em; }
+  header .nav-tabs a {
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700; }
+header i {
+  margin-right: .25em;
+  color: #b31b1b; }
+header .tab-content {
+  border: 1px solid #dddad4;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 20px 10px; }
+header .nav-tabs > li.active > a, header .nav-tabs > li.active > a:hover, header .nav-tabs > li.active > a:focus {
+  border-color: #dddad4;
+  border-bottom-color: transparent; }
+
+#laptops,
+#hours {
   font-size: 13px; }
-  .laptops h2,
-  .hours h2 {
-    margin: 0 0 .5em 0;
-    font-size: 18px;
-    font-weight: 300;
-    padding-right: 1em; }
-  .laptops h3,
-  .hours h3 {
+  #laptops h3,
+  #hours h3 {
     display: inline-block;
     font-size: 13px;
     font-weight: 700;
     margin: 0 .25em 0 0;
     text-transform: uppercase; }
-  .laptops .badge,
-  .hours .badge {
+  #laptops .badge,
+  #hours .badge {
     margin: 0 .25em;
     background: #dddad4;
     color: #333333;
     font-weight: normal; }
-  .laptops .fa,
-  .hours .fa {
-    color: #b31b1b;
-    margin-right: .25em; }
-  .laptops .label,
-  .hours .label {
+  #laptops .label,
+  #hours .label {
     margin-right: .25em;
     text-transform: uppercase; }
-
-.hours {
-  border-bottom: 1px solid #dddad4; }
 
 .laptop-library,
 .hours-library {

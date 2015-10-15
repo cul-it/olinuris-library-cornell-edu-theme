@@ -57,18 +57,40 @@
 
 // Laptops and Hours
 // --------------------
-.laptops,
-.hours {
-	padding: 10px 0 5px 0;
-	font-size: 13px;
-	h2 {
-		margin: 0 0 .5em 0;
-		font-size: 18px;
-		font-weight: 300;
-		// float: left;
-		// width: 30%;
-		padding-right: 1em;
+header {
+	.nav-tabs {
+		margin-top: 2.5em;
+		a {
+			color: $gray-dark;
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 700; 
+		}
 	}
+	i {
+		margin-right: .25em;
+		color: $cornell-red;
+	}
+	.tab-content {
+		border: 1px solid #dddad4;
+		border-top: 0;
+		border-bottom: 0;
+		padding: 20px 10px;
+	}
+	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+		border-color: #dddad4;
+		border-bottom-color: transparent;
+	}
+}
+#laptops,
+#hours {
+	font-size: 13px;
+	// h2 {
+	// 	margin: 0 0 .5em 0;
+	// 	font-size: 18px;
+	// 	font-weight: 300;
+	// 	padding-right: 1em;
+	// }
 	h3 {
 		display: inline-block;
 		font-size: 13px;
@@ -82,24 +104,14 @@
 		color: $gray-dark;
 		font-weight: normal;
 	}
-	.fa {
-		color: $cornell-red;
-		margin-right: .25em;
-	}
+
 	.label {
 		margin-right: .25em;
 		text-transform: uppercase;
 	}
 }
-.hours {
-	// background: #dddad4;
-	// margin-top: 1em;
-	// border-top-right-radius: 6px;
-	// border-top-left-radius: 6px;
-	border-bottom: 1px solid #dddad4;
-}
-// .laptops {
-// 	background: #f3f1ef;
+// .hours {
+// 	border-bottom: 1px solid #dddad4;
 // }
 .laptop-library,
 .hours-library {
