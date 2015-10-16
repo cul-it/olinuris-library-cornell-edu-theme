@@ -7532,23 +7532,24 @@ h5 {
   text-decoration: none; }
 
 header .nav-tabs {
-  margin-top: 2.5em; }
+  margin-top: 2em;
+  border: 0; }
   header .nav-tabs a {
     color: #333333;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 700; }
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 0;
+    border: 0; }
 header i {
   margin-right: .25em;
   color: #b31b1b; }
 header .tab-content {
-  border: 1px solid #dddad4;
-  border-top: 0;
-  border-bottom: 0;
-  padding: 20px 10px; }
+  padding: 20px 10px;
+  background: #f3f1ef; }
 header .nav-tabs > li.active > a, header .nav-tabs > li.active > a:hover, header .nav-tabs > li.active > a:focus {
-  border-color: #dddad4;
-  border-bottom-color: transparent; }
+  background: #dddad4;
+  border: 0;
+  color: black; }
 
 #laptops,
 #hours {
