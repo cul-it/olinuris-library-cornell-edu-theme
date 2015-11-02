@@ -6,6 +6,11 @@
 	-moz-background-size: cover !important;
 	-o-background-size: cover !important;
 	background-size: cover !important;
+	min-height: 300px;
+}
+
+.home-content {
+	padding-top: 20px;
 }
 
 // Hide welcome h1 on home page
@@ -67,7 +72,7 @@
 // News and events
 // ------------------- //
 .feature {
-	@include make-sm-column(4);
+	@include make-sm-column(8);
 	.well {
 		background: $gray-lighter;
 		border: 0;
@@ -104,9 +109,6 @@
 	p {
 		padding: 0 20px;
 	}
-}
-.news, .events {
-	margin-top: -20px;
 }
 
 // Digital sign

@@ -7849,7 +7849,11 @@ footer {
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   -o-background-size: cover !important;
-  background-size: cover !important; }
+  background-size: cover !important;
+  min-height: 300px; }
+
+.home-content {
+  padding-top: 20px; }
 
 .front .main-content h1 {
   display: none; }
@@ -7905,7 +7909,7 @@ footer {
   @media (min-width: 768px) {
     .feature {
       float: left;
-      width: 33.33333%; } }
+      width: 66.66667%; } }
   .feature .well {
     background: #f3f1ef;
     border: 0;
@@ -7932,9 +7936,6 @@ footer {
     border-bottom: 1px solid #555555; }
   .feature p {
     padding: 0 20px; }
-
-.news, .events {
-  margin-top: -20px; }
 
 .digital-sign {
   text-align: center;
