@@ -7492,10 +7492,6 @@ h5 {
 .cu-insignia {
   float: left; }
 
-.global-menu {
-  float: right;
-  margin-top: -2em; }
-
 .library-brand {
   margin-top: 1.5em;
   position: relative;
@@ -7532,7 +7528,7 @@ h5 {
   text-decoration: none; }
 
 header .nav-tabs {
-  margin-top: 2em;
+  margin-top: 1.25em;
   border: 0; }
   header .nav-tabs a {
     color: #333333;
@@ -7545,7 +7541,8 @@ header i {
   color: #b31b1b; }
 header .tab-content {
   padding: 20px 10px;
-  background: #f3f1ef; }
+  background: #f3f1ef;
+  height: 70px; }
 header .nav-tabs > li.active > a, header .nav-tabs > li.active > a:hover, header .nav-tabs > li.active > a:focus {
   background: #dddad4;
   border: 0;
@@ -7579,7 +7576,7 @@ header .nav-tabs > li.active > a, header .nav-tabs > li.active > a:hover, header
 
 @media (min-width: 768px) {
   header {
-    padding: 2em 0 0 0; } }
+    padding: 1em 0 0 0; } }
 .main-content {
   background: white;
   padding: 3em 0; }
@@ -7901,45 +7898,54 @@ footer {
   .quick-links .col2 {
     padding-right: 20px; }
 
-.feature {
+.feature .well {
+  background: #f3f1ef;
+  border: 0;
+  padding: 0 0 20px 0; }
+  .feature .well h2 {
+    background: #dddad4;
+    padding: 10px 20px;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 0 0 .5em 0; }
+    .feature .well h2 i {
+      color: #b31b1b; }
+.feature ul {
+  padding: 0;
+  list-style: none; }
+.feature li {
+  padding: 10px 20px; }
+.feature li:first-child {
+  padding-top: 0; }
+.feature a {
+  padding-bottom: .1em;
+  border-bottom: 1px dotted #777777; }
+.feature a:hover {
+  border-bottom: 1px solid #555555; }
+.feature p {
+  padding: 0 20px; }
+
+.news {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
   @media (min-width: 768px) {
-    .feature {
+    .news {
       float: left;
       width: 66.66667%; } }
-  .feature .well {
-    background: #f3f1ef;
-    border: 0;
-    padding: 0 0 20px 0; }
-    .feature .well h2 {
-      background: #dddad4;
-      padding: 10px 20px;
-      font-weight: 300;
-      font-size: 30px;
-      margin: 0 0 .5em 0; }
-      .feature .well h2 i {
-        color: #b31b1b; }
-  .feature ul {
-    padding: 0;
-    list-style: none; }
-  .feature li {
-    padding: 10px 20px; }
-  .feature li:first-child {
-    padding-top: 0; }
-  .feature a {
-    padding-bottom: .1em;
-    border-bottom: 1px dotted #777777; }
-  .feature a:hover {
-    border-bottom: 1px solid #555555; }
-  .feature p {
-    padding: 0 20px; }
 
 .digital-sign {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-align: center;
   padding: 10px 0; }
+  @media (min-width: 768px) {
+    .digital-sign {
+      float: left;
+      width: 33.33333%; } }
   .digital-sign img {
     margin: 0 auto; }
 

@@ -18,12 +18,6 @@
 	float: left;
 }
 
-// Global menu
-.global-menu {
-	float: right;
-	margin-top: -2em;
-}
-
 // Library brand
 // ------------------- //
 .library-brand {
@@ -59,7 +53,7 @@
 // --------------------
 header {
 	.nav-tabs {
-		margin-top: 2em;
+		margin-top: 1.25em;
 		border: 0;
 		a {
 			color: $gray-dark;
@@ -79,6 +73,7 @@ header {
 		// border-bottom: 0;
 		padding: 20px 10px;
 		background: #f3f1ef;
+		height: 70px;
 	}
 	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 		// border-color: #dddad4;
@@ -131,7 +126,7 @@ header {
 // Small devices (tablets, 768px and up)
 @media (min-width: $screen-sm) { 
 	header {
-		padding: 2em 0 0 0;
+		padding: 1em 0 0 0;
 	}
 }
 
