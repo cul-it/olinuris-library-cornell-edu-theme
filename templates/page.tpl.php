@@ -138,7 +138,7 @@
         <div class="col-sm-4">
           <!-- Desktop global menu -->
           <?php if (!empty($page['global_nav'])): ?>
-            <div class="global-menu">
+            <div class="global-menu clearfix">
               <?php print render($page['global_nav']); ?>
             </div>
           <?php endif; ?>
