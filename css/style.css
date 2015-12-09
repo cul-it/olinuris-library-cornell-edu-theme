@@ -7755,6 +7755,12 @@ nav {
   .sidebar .nav .active a, .sidebar .nav .active a:hover, .sidebar .nav .active a:active, .sidebar .nav .active a:focus {
     color: #333333;
     font-weight: 700; }
+  .sidebar .nav .active li a, .sidebar .nav .active li a:hover, .sidebar .nav .active li a:active, .sidebar .nav .active li a:focus {
+    color: #0068ac;
+    font-weight: normal; }
+  .sidebar .nav .active li.active-trail a, .sidebar .nav .active li.active-trail a:hover, .sidebar .nav .active li.active-trail a:active, .sidebar .nav .active li.active-trail a:focus {
+    color: #333333;
+    font-weight: 700; }
 
 @media (min-width: 768px) {
   #menu .nav {

@@ -128,6 +128,18 @@ nav {
 				color: $gray-dark;
 				font-weight: 700;
 			}
+			li {
+				a, a:hover, a:active, a:focus {
+					color: $link-primary;
+					font-weight: normal;
+				}
+			}
+			li.active-trail {
+				a, a:hover, a:active, a:focus {
+					color: $gray-dark;
+					font-weight: 700;
+				}
+			}
 		}
 	}
 }
