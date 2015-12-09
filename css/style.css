@@ -7477,6 +7477,15 @@ h5 {
   .breadcrumb li {
     font-size: 12px; }
 
+.pull-right {
+  float: none !important; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .pull-right {
+    float: right !important; } }
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (desktops, 1200px and up) */
 .cornell-identity .container {
   background: #b31b1b; }
 .cornell-identity .cornell-logo {
@@ -7490,22 +7499,15 @@ h5 {
   color: white; }
 
 .cu-insignia {
-  float: left; }
+  float: left;
+  margin-right: 1em; }
 
 .library-brand {
-  margin-top: 1.5em;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px; }
-  @media (min-width: 768px) {
-    .library-brand {
-      float: left;
-      width: 66.66667%; } }
+  margin-top: 1em; }
 
 .brand {
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 25px;
   font-family: "Montserrat";
   display: block;
   line-height: 1em;
@@ -7519,7 +7521,7 @@ h5 {
 
 .cul-brand {
   color: #333333;
-  font-size: 24px;
+  font-size: 21px;
   font-family: "Montserrat";
   display: block; }
 
@@ -7532,7 +7534,7 @@ header .nav-tabs {
   border: 0; }
   header .nav-tabs a {
     color: #333333;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 300;
     border-radius: 0;
     border: 0; }
@@ -7542,11 +7544,13 @@ header i {
 header .tab-content {
   padding: 20px 10px;
   background: #f3f1ef;
-  height: 70px; }
+  height: 90px; }
 header .nav-tabs > li.active > a, header .nav-tabs > li.active > a:hover, header .nav-tabs > li.active > a:focus {
   background: #dddad4;
   border: 0;
   color: black; }
+header .nav > li > a {
+  padding: 5px; }
 
 #laptops,
 #hours {
@@ -7576,7 +7580,38 @@ header .nav-tabs > li.active > a, header .nav-tabs > li.active > a:hover, header
 
 @media (min-width: 768px) {
   header {
-    padding: 1em 0 0 0; } }
+    padding: .5em 0 0 0; }
+    header .tab-content {
+      height: 80px; }
+
+  .brand {
+    font-size: 28px; }
+
+  .cul-brand {
+    font-size: 22px; }
+
+  .library-brand {
+    margin-top: 1.5em; } }
+@media (min-width: 992px) {
+  header {
+    padding: 1em 0 0 0; }
+    header .nav > li > a {
+      padding: 5px 10px; }
+    header .nav-tabs a {
+      font-size: 18px; }
+    header .tab-content {
+      height: 75px; }
+
+  .brand {
+    font-size: 32px; }
+
+  .cul-brand {
+    font-size: 24px; } }
+@media (min-width: 1200px) {
+  header .nav > li > a {
+    padding: 10px 15px; }
+  header .nav-tabs a {
+    font-size: 20px; } }
 .main-content {
   background: white;
   padding: 3em 0; }
@@ -7649,12 +7684,10 @@ body.admin-menu {
 .global-menu {
   background: #ba3232; }
   .global-menu .nav li {
-    font-size: 12px;
     float: left;
-    padding: 0 10px;
     text-transform: uppercase; }
   .global-menu .nav li:first-child {
-    border: 0; }
+    padding-left: 10px; }
   .global-menu .nav a {
     color: white;
     padding: 15px 5px;
@@ -7671,7 +7704,7 @@ nav {
     float: left; }
     nav .nav li a {
       color: white;
-      font-size: 18px;
+      font-size: 16px;
       padding: 12px 18px; }
     nav .nav li a:hover,
     nav .nav li a:active,
@@ -7731,7 +7764,17 @@ nav {
     font-size: 14px; } }
 @media (min-width: 992px) {
   nav .navbar-nav > li > a {
-    font-size: 16px; } }
+    font-size: 16px; }
+  nav .nav li a {
+    font-size: 16px;
+    padding: 12px 11px; } }
+@media (min-width: 1200px) {
+  nav .nav li a {
+    font-size: 18px;
+    padding: 15px 18px; }
+
+  .global-menu .nav a {
+    padding: 15px 10px; } }
 .btn-search {
   background: inherit; }
   .btn-search i {
@@ -7804,6 +7847,8 @@ nav {
     font-weight: 700;
     text-transform: uppercase;
     font-family: "Source Sans Pro", Helvetica, Arials, sans-serif; }
+  .olinuris-footer ul, .olinuris-footer p {
+    margin-bottom: 15px; }
 
 footer {
   padding: 2em 0; }
@@ -7845,8 +7890,7 @@ footer {
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   -o-background-size: cover !important;
-  background-size: cover !important;
-  min-height: 300px; }
+  background-size: cover !important; }
 
 .home-content {
   padding-top: 20px; }
@@ -7940,13 +7984,25 @@ footer {
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
-  padding: 10px 0;
-  margin-top: -250px; }
+  padding: 10px 0; }
   @media (min-width: 768px) {
     .digital-sign {
       float: left;
       width: 33.33333%; } }
   .digital-sign img {
     margin: 0 auto; }
+
+@media (min-width: 768px) {
+  .digital-sign {
+    margin-top: -130px; }
+
+  .hero {
+    min-height: 150px; } }
+@media (min-width: 992px) {
+  .digital-sign {
+    margin-top: -250px; }
+
+  .hero {
+    min-height: 300px; } }
 
 /*# sourceMappingURL=style.css.map */

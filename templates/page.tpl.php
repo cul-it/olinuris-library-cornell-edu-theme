@@ -79,22 +79,20 @@
   <div class="container">
     <div class="row">
       <div class="cornell-logo">
-        <a href="http://www.cornell.edu"><img src="/sites/all/themes/aandc/img/cornell-black.gif" alt="Cornell University"></a>
+        <a href="http://www.cornell.edu"><img src="/sites/all/themes/olinuris/img/cornell.gif" alt="Cornell University"></a>
       </div>
-      <div class="global-menu">
-        <div class="navbar">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav">
-              <span class="sr-only">Menu</span>
-              <i class="fa fa-bars"></i>
-            </button>
-          </div>
-          <?php if (!empty($page['global_nav'])): ?>
-            <div class="collapse navbar-collapse hidden-xs" id="menu">
-              <?php print render($page['global_nav']); ?>
-            </div>
-          <?php endif; ?>
+      <div class="navbar">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav">
+            <span class="sr-only">Menu</span>
+            <i class="fa fa-bars"></i>
+          </button>
         </div>
+        <?php if (!empty($page['mobile_nav'])): ?>
+          <div class="collapse navbar-collapse hidden-xs" id="menu">
+            <?php print render($page['mobile_nav']); ?>
+          </div>
+        <?php endif; ?>
       </div>
     </div>  
   </div>
@@ -121,6 +119,7 @@
       </div>
       <div class="col-sm-4">
         <?php print render($page['header']); ?>
+
       </div>
     </div>
   </div>
@@ -130,12 +129,12 @@
   <nav class="navbar hidden-xs">
     <div class="container">
       <div class="row">
-        <div class="col-sm-8">
+        <div class="col-md-8">
           <div class="navbar-nav">
             <?php print render($page['main_nav']); ?>
           </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-md-4 hidden-sm">
           <!-- Desktop global menu -->
           <?php if (!empty($page['global_nav'])): ?>
             <div class="global-menu clearfix">
@@ -150,14 +149,15 @@
 
 <!-- Hero and other home page content -->
 <?php if ($is_front): ?>
-  <div class="hero">
-    <div class="container">
+  <div class="hero hidden-xs">
+    <!-- TODO: remove quick links markup if not needed; add region for banner image management -->
+    <!-- <div class="container">
       <div class="row">
         <div class="quick-links col-sm-4 col-sm-offset-8">
           <?php print render($page['quick_links']); ?>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
   <div class="home-content">
     <div class="container">

@@ -16,17 +16,17 @@
 }
 .cu-insignia {
 	float: left;
+	margin-right: 1em;
 }
 
 // Library brand
 // ------------------- //
 .library-brand {
-	margin-top: 1.5em;
-	@include make-sm-column(8);
+	margin-top: 1em;
 }
 .brand {
 	text-transform: uppercase;
-	font-size: 32px;
+	font-size: 25px;
 	font-family: $font-family-cul;
 	display: block;
 	line-height: 1em;
@@ -40,7 +40,7 @@
 }
 .cul-brand {
 	color: $gray-dark;
-	font-size: 24px;
+	font-size: 21px;
 	font-family: $font-family-cul;
 	display: block;
 }
@@ -57,7 +57,7 @@ header {
 		border: 0;
 		a {
 			color: $gray-dark;
-			font-size: 20px;
+			font-size: 14px;
 			font-weight: 300;
 			border-radius: 0;
 			border: 0;
@@ -73,7 +73,7 @@ header {
 		// border-bottom: 0;
 		padding: 20px 10px;
 		background: #f3f1ef;
-		height: 70px;
+		height: 90px;
 	}
 	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 		// border-color: #dddad4;
@@ -81,6 +81,9 @@ header {
 		background: #dddad4;
 		border: 0;
 		color: black;
+	}
+	.nav > li > a {
+		padding: 5px;
 	}
 }
 #laptops,
@@ -126,13 +129,55 @@ header {
 // Small devices (tablets, 768px and up)
 @media (min-width: $screen-sm) { 
 	header {
-		padding: 1em 0 0 0;
+		padding: .5em 0 0 0;
+		.tab-content {
+			height: 80px;
+		}
+	}
+	.brand {
+		font-size: 28px;
+	}
+	.cul-brand {
+		font-size: 22px;
+	}
+	.library-brand {
+		margin-top: 1.5em;
 	}
 }
 
 // Medium devices (desktops, 992px and up)
-// @media (min-width: $screen-md) {
-// }
+@media (min-width: $screen-md) {
+	header {
+		padding: 1em 0 0 0;
+		.nav > li > a {
+			padding: 5px 10px;
+		}
+		.nav-tabs {
+			a {
+				font-size: 18px;
+			}
+		}
+		.tab-content {
+			height: 75px;
+		}
+	}
+	.brand {
+		font-size: 32px;
+	}
+	.cul-brand {
+		font-size: 24px;
+	}
+}
 //Large devices (desktops, 1200px and up)
-// @media (min-width: $screen-lg) {
-// }
+@media (min-width: $screen-lg) {
+	header {
+		.nav > li > a {
+			padding: 10px 15px;
+		}
+		.nav-tabs {
+			a {
+				font-size: 20px;
+			}
+		}
+	}
+}

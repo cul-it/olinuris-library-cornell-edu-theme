@@ -21,14 +21,11 @@
 	.nav {
 		// margin: 2px 20px 0 0;
 		li {
-			font-size: 12px;
 			float: left;
-			// border-left: 1px solid $border-color;
-			padding: 0 10px;
 			text-transform: uppercase;
 		}
 		li:first-child {
-			border: 0;
+			padding-left: 10px;
 		}
 		a {
 			color: white;
@@ -56,7 +53,7 @@ nav {
 			float: left;
 			a {
 				color: white;
-				font-size: 18px;
+				font-size: 16px;
 				padding: 12px 18px;
 			}
 			a:hover,
@@ -160,8 +157,33 @@ nav {
 		.navbar-nav > li > a {
 			font-size: 16px;
 		}
-	}
+		.nav {
+			li {
+				a {
+					font-size: 16px;
+					padding: 12px 11px;
+				}
+			}
+		}
+	}	
 }
 // Large devices (desktops, 1200px and up) 
 @media (min-width: $screen-lg) {
+	nav {
+		.nav {
+			li {
+				a {
+					font-size: 18px;
+					padding: 15px 18px;
+				}
+			}
+		}
+	}
+	.global-menu {
+		.nav {
+			a {
+				padding: 15px 10px;
+			}
+		}
+	}
 }

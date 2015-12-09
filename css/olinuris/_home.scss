@@ -6,7 +6,6 @@
 	-moz-background-size: cover !important;
 	-o-background-size: cover !important;
 	background-size: cover !important;
-	min-height: 300px;
 }
 
 .home-content {
@@ -119,8 +118,33 @@
 	@include make-sm-column(4);
 	text-align: center;
 	padding: 10px 0;
-	margin-top: -250px;
 	img {
 		margin: 0 auto;
 	}
 }
+
+// MEDIA QUERIES
+// -------------------------
+
+// Small devices (tablets, 768px and up)
+@media (min-width: $screen-sm) { 
+	.digital-sign {
+		margin-top: -130px;
+	}
+	.hero {
+		min-height: 150px;
+	}
+}
+
+// Medium devices (desktops, 992px and up)
+@media (min-width: $screen-md) {
+	.digital-sign {
+		margin-top: -250px;
+	}
+	.hero {
+		min-height: 300px;
+	}
+}
+//Large devices (desktops, 1200px and up)
+// @media (min-width: $screen-lg) {
+// }

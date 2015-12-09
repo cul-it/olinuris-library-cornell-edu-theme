@@ -48,15 +48,12 @@ h5 {
 	font-size: 16px;
 }
 
-// Well overrides
-// ------------------- //
+// Bootstrap overrides
+// ---------------------- //
 .well {
 	border-radius: 0;
 	box-shadow: none;
 }
-
-// Breadcrumbs overrides
-// ------------------------ //
 .breadcrumb {
 	padding: 0;
 	background: inherit;
@@ -65,3 +62,23 @@ h5 {
 		font-size: 12px;
 	}
 }
+.pull-right {
+	float: none !important;
+}
+
+// MEDIA QUERIES
+// -------------------------
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) {
+	.pull-right {
+		float: right !important;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+// @media (min-width: $screen-md) {
+// }
+/* Large devices (desktops, 1200px and up) */
+// @media (min-width: $screen-lg) {
+// }
