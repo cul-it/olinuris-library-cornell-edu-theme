@@ -95,16 +95,17 @@ nav {
 	.block-title {
 		margin: 0;
 		padding: 0 0 .5em 0;
-		font-size: 14px;
-		text-transform: uppercase;
-		border-bottom: 2px solid $gray-lighter;
+		font-size: 18px;
+		font-weight: 300;
+		// text-transform: uppercase;
+		border-bottom: 2px solid $tan;
 		a {
 			color: $gray;
 			border: none;
 		}
 	}
 	.nav > li {
-		padding: 8px 0;
+		padding: 6px 0;
 		font-size: 14px;
 	}
 	.nav > li > a {
@@ -123,22 +124,41 @@ nav {
 			margin-right: .4em;
 			color: $warm-gray;
 		}
+		li {
+			// 3rd level
+			ul {
+				margin-top: .5em;
+				li {
+					padding: 0;
+					margin-left: 1.75em;
+				}
+				i {
+					display: none;
+				}
+			}
+		}
+		// 2nd level active
 		.active {
 			a, a:hover, a:active, a:focus {
 				color: $gray-dark;
 				font-weight: 700;
 			}
+			// 3rd level
 			li {
 				a, a:hover, a:active, a:focus {
 					color: $link-primary;
 					font-weight: normal;
 				}
 			}
+			// 3rd level active
 			li.active-trail {
 				a, a:hover, a:active, a:focus {
 					color: $gray-dark;
 					font-weight: 700;
 				}
+			}
+			i {
+				color: $cornell-red;
 			}
 		}
 	}

@@ -69,7 +69,7 @@
   <?php print $page_bottom; ?>
   <script>
     jQuery(document).ready(function() { 
-      jQuery( '.cul-icon-chevron' ).before( '<i class="fa fa-chevron-right"></i>' );
+      jQuery( '.sidebar .nav li a' ).before( '<i class="fa fa-chevron-right"></i>' );
     });
   </script>
   <!-- Piwik -->

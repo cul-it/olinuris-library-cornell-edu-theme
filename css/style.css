@@ -7730,14 +7730,14 @@ nav {
 .sidebar .block-title {
   margin: 0;
   padding: 0 0 .5em 0;
-  font-size: 14px;
-  text-transform: uppercase;
-  border-bottom: 2px solid #f3f1ef; }
+  font-size: 18px;
+  font-weight: 300;
+  border-bottom: 2px solid #dddad4; }
   .sidebar .block-title a {
     color: #555555;
     border: none; }
 .sidebar .nav > li {
-  padding: 8px 0;
+  padding: 6px 0;
   font-size: 14px; }
 .sidebar .nav > li > a {
   padding: 0;
@@ -7752,6 +7752,13 @@ nav {
   .sidebar .nav i {
     margin-right: .4em;
     color: #c3c1bd; }
+  .sidebar .nav li ul {
+    margin-top: .5em; }
+    .sidebar .nav li ul li {
+      padding: 0;
+      margin-left: 1.75em; }
+    .sidebar .nav li ul i {
+      display: none; }
   .sidebar .nav .active a, .sidebar .nav .active a:hover, .sidebar .nav .active a:active, .sidebar .nav .active a:focus {
     color: #333333;
     font-weight: 700; }
@@ -7761,6 +7768,8 @@ nav {
   .sidebar .nav .active li.active-trail a, .sidebar .nav .active li.active-trail a:hover, .sidebar .nav .active li.active-trail a:active, .sidebar .nav .active li.active-trail a:focus {
     color: #333333;
     font-weight: 700; }
+  .sidebar .nav .active i {
+    color: #b31b1b; }
 
 @media (min-width: 768px) {
   #menu .nav {
