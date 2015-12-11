@@ -29,7 +29,7 @@
 		}
 		a {
 			color: white;
-			padding: 15px 5px;
+			padding: 12px 5px;
 			font-size: 12px !important;
 		}
 		a:hover, a:active, a:focus {
@@ -218,7 +218,7 @@ nav {
 		.navbar-nav > li > a {
 			font-size: 16px;
 		}
-		.nav {
+		.menu {
 			li {
 				a {
 					font-size: 16px;
@@ -231,11 +231,11 @@ nav {
 // Large devices (desktops, 1200px and up) 
 @media (min-width: $screen-lg) {
 	nav {
-		.nav {
+		.menu {
 			li {
 				a {
 					font-size: 18px;
-					padding: 15px 18px;
+					padding: 12px 18px;
 				}
 			}
 		}
