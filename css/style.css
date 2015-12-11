@@ -7699,7 +7699,8 @@ body.admin-menu {
     font-weight: 700; }
 
 nav {
-  background: #b31b1b; }
+  background: #b31b1b;
+  border-top: 4px solid black !important; }
   nav .menu li {
     float: left; }
     nav .menu li a {
@@ -7711,6 +7712,19 @@ nav {
     nav .menu li a:focus {
       color: white;
       background: #990f26; }
+    nav .menu li ul {
+      padding: 10px 0; }
+      nav .menu li ul a {
+        font-size: 14px;
+        border-bottom: 1px dotted #777777;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 6px 0; }
+      nav .menu li ul a:hover,
+      nav .menu li ul a:active,
+      nav .menu li ul a:focus {
+        background: inherit;
+        border-bottom: 1px solid #777777; }
   nav .menu .active-trail a, nav .menu .active-trail a:hover, nav .menu .active-trail a:active, nav .menu .active-trail a:focus {
     background: #990f26; }
 
@@ -7722,7 +7736,9 @@ nav {
   top: 3em; }
 
 .sf-menu ul {
-  width: auto !important; }
+  width: 12em !important;
+  background: #282725;
+  opacity: .95; }
 
 #mobile-nav {
   background: white; }
