@@ -48,7 +48,7 @@
 // ------------------- //
 nav {
 	background: $cornell-red;
-	.nav {
+	.menu {
 		li {
 			float: left;
 			a {
@@ -63,7 +63,7 @@ nav {
 				background: $cornell-dark-red;
 			}
 		}
-		.active {
+		.active-trail {
 			a, a:hover, a:active, a:focus {
 				background: $cornell-dark-red;
 			}
@@ -73,6 +73,17 @@ nav {
 .navbar {
 	border: 0;
 }
+
+// Superfish overrides
+// --------------------- //
+.sf-menu li:hover > ul,
+.sf-menu li.sfHover > ul {
+	top: 3em;
+}
+.sf-menu ul {
+	width: auto !important;
+}
+
 
 // Mobile nav
 // ------------------- //
@@ -213,7 +224,7 @@ nav {
 	.global-menu {
 		.nav {
 			a {
-				padding: 15px 10px;
+				padding: 12px 10px;
 			}
 		}
 	}

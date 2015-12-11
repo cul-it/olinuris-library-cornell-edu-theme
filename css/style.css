@@ -7700,22 +7700,29 @@ body.admin-menu {
 
 nav {
   background: #b31b1b; }
-  nav .nav li {
+  nav .menu li {
     float: left; }
-    nav .nav li a {
+    nav .menu li a {
       color: white;
       font-size: 16px;
       padding: 12px 18px; }
-    nav .nav li a:hover,
-    nav .nav li a:active,
-    nav .nav li a:focus {
+    nav .menu li a:hover,
+    nav .menu li a:active,
+    nav .menu li a:focus {
       color: white;
       background: #990f26; }
-  nav .nav .active a, nav .nav .active a:hover, nav .nav .active a:active, nav .nav .active a:focus {
+  nav .menu .active-trail a, nav .menu .active-trail a:hover, nav .menu .active-trail a:active, nav .menu .active-trail a:focus {
     background: #990f26; }
 
 .navbar {
   border: 0; }
+
+.sf-menu li:hover > ul,
+.sf-menu li.sfHover > ul {
+  top: 3em; }
+
+.sf-menu ul {
+  width: auto !important; }
 
 #mobile-nav {
   background: white; }
@@ -7789,7 +7796,7 @@ nav {
     padding: 15px 18px; }
 
   .global-menu .nav a {
-    padding: 15px 10px; } }
+    padding: 12px 10px; } }
 .btn-search {
   background: inherit; }
   .btn-search i {
