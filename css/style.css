@@ -7990,7 +7990,8 @@ footer {
     font-size: 30px;
     margin: 0 0 .5em 0; }
     .feature .well h2 i {
-      color: #b31b1b; }
+      color: #b31b1b;
+      margin-right: .35em; }
 .feature ul {
   padding: 0;
   list-style: none; }
