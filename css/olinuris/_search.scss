@@ -1,97 +1,61 @@
 // Header search box
 // -------------------------- //
-// .header-search {
-// 	@include make-sm-column(4);
-// 	margin-top: 4em;
-// 	form {
-// 		float: right;
-// 		width: 90%;
-// 	}
-// 	input {
-// 		opacity: .9;
-// 		width: 100% !important;
-// 	}
-// 	.form-group {
-// 		width: 80%;
-// 	}
-// }
-.btn-search {
-	background: inherit;
-	i {
-		color: $cornell-red;
-		font-size: 24px;
+
+.search-by-page-form {
+	.container {
+		width: auto;
+		padding: 0;
 	}
-}
-.btn-desktop-search {
-	// float: right;
-	border-radius: 0;
-	background: $cornell-red;
-	// margin-top: -2em;
-	i {
-		color: white;
+	.form-group {
+		margin-bottom: 0;
 	}
-}
-.search-bar {
-	background: $warm-gray;
-	.block-search {
-		padding: 10px 0;
+	label {
+		display: none;
+	}
+	.form-control {
+		width: 70%;
+		float: left;
+		margin-right: 5px;
+	}
+	.btn-primary {
+		background: $warm-light-gray;
+		border-color: $warm-gray;
+		color: $gray-dark;
 	}
 }
 
-// Mobile search box
-// ------------------------ //
-#mobile-search {
-	form {
-		padding: 5px;
-	}
-	.form-group {
-		width: 80%;
-		float: left;
-		margin-bottom: 0;
-	}
-	.btn-search {
-		i {
-			font-size: 18px;
-		}
+// Results
+.search-results {
+	.search-info {
+		display: none;
 	}
 }
 
 // MEDIA QUERIES
 // -------------------------
 
-  // /* Extra small devices (phones, up to 480px) */
-  // /* No media query since this is the default in Bootstrap */
-
-  // /* Small devices (tablets, 768px and up) */
-  // @media (min-width: @screen-sm) { ... }
-
-  // /* Medium devices (desktops, 992px and up) */
-  // @media (min-width: @screen-md) { ... }
-
-  // /* Large devices (large desktops, 1200px and up) */
-  // @media (min-width: @screen-lg) { ... }
-
-
-/* Small devices (tablets, 768px and up) */
+// Small devices (tablets, 768px and up)
 @media (min-width: $screen-sm) { 
-	.header-search {
-		.form-group {
-			width: 70%;
+	.search-by-page-form {
+		.form-control {
+			width: 61%;
 		}
 	}
 }
 
-/* Medium devices (desktops, 992px and up) */
+// Medium devices (desktops, 992px and up)
 @media (min-width: $screen-md) {
-	.brand {
-		font-size: 36px;
-	}
-	.header-search {
-		.form-group {
-			width: 80%;
+	.search-by-page-form {
+		.form-control {
+			width: 72%;
 		}
 	}
 }
-/* Large devices (desktops, 1200px and up) */
+// Large devices (desktops, 1200px and up)
 @media (min-width: $screen-lg) {
+	.search-by-page-form {
+		.form-control {
+			width: 77%;
+		}
+	}
 }

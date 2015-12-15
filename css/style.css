@@ -7813,44 +7813,34 @@ nav {
 
   .global-menu .nav a {
     padding: 12px 10px; } }
-.btn-search {
-  background: inherit; }
-  .btn-search i {
-    color: #b31b1b;
-    font-size: 24px; }
-
-.btn-desktop-search {
-  border-radius: 0;
-  background: #b31b1b; }
-  .btn-desktop-search i {
-    color: white; }
-
-.search-bar {
-  background: #c3c1bd; }
-  .search-bar .block-search {
-    padding: 10px 0; }
-
-#mobile-search form {
-  padding: 5px; }
-#mobile-search .form-group {
-  width: 80%;
-  float: left;
+.search-by-page-form .container {
+  width: auto;
+  padding: 0; }
+.search-by-page-form .form-group {
   margin-bottom: 0; }
-#mobile-search .btn-search i {
-  font-size: 18px; }
+.search-by-page-form label {
+  display: none; }
+.search-by-page-form .form-control {
+  width: 70%;
+  float: left;
+  margin-right: 5px; }
+.search-by-page-form .btn-primary {
+  background: #dddad4;
+  border-color: #c3c1bd;
+  color: #333333; }
 
-/* Small devices (tablets, 768px and up) */
+.search-results .search-info {
+  display: none; }
+
 @media (min-width: 768px) {
-  .header-search .form-group {
-    width: 70%; } }
-/* Medium devices (desktops, 992px and up) */
+  .search-by-page-form .form-control {
+    width: 61%; } }
 @media (min-width: 992px) {
-  .brand {
-    font-size: 36px; }
-
-  .header-search .form-group {
-    width: 80%; } }
-/* Large devices (desktops, 1200px and up) */
+  .search-by-page-form .form-control {
+    width: 72%; } }
+@media (min-width: 1200px) {
+  .search-by-page-form .form-control {
+    width: 77%; } }
 .olinuris-footer {
   padding: 2em 0;
   background: #7f7675;
