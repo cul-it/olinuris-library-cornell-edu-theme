@@ -1,8 +1,5 @@
-// Bootstrap foundation
+// Bootstrap - use only variables and mixins; bootstrap loaded through CDN/module
 @import 'bootstrap';
-
-// Font Awesome
-@import 'font-awesome/font-awesome';
 
 @import 'olinuris/variables_olinuris';
 @import 'olinuris/variables_bootstrap';
