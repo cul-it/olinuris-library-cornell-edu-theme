@@ -300,8 +300,11 @@ nav {
       nav .menu li ul a:focus {
         background: inherit;
         border-bottom: 1px solid #777777; }
-  nav .menu .active-trail a, nav .menu .active-trail a:hover, nav .menu .active-trail a:active, nav .menu .active-trail a:focus {
+  nav .menu .active-trail a, nav .menu .active-trail a:hover, nav .menu .active-trail a:active, nav .menu .active-trail a:focus, nav .menu .sfHover a, nav .menu .sfHover a:hover, nav .menu .sfHover a:active, nav .menu .sfHover a:focus {
     background: #990f26; }
+  nav .menu .active-trail ul a, nav .menu .active-trail ul a:hover, nav .menu .active-trail ul a:active, nav .menu .active-trail ul a:focus, nav .menu .sfHover ul a, nav .menu .sfHover ul a:hover, nav .menu .sfHover ul a:active, nav .menu .sfHover ul a:focus {
+    background: #282725 !important;
+    opacity: .95; }
 
 .navbar {
   border: 0; }

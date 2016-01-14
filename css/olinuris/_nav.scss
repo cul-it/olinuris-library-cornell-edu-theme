@@ -80,9 +80,16 @@ nav {
 				}
 			}
 		}
-		.active-trail {
+		.active-trail, .sfHover {
 			a, a:hover, a:active, a:focus {
 				background: $cornell-dark-red;
+			}
+			// dropdown links shouldn't be dark red
+			ul {
+				a, a:hover, a:active, a:focus {
+					background: #282725 !important;
+					opacity: .95;
+				}
 			}
 		}
 	}
