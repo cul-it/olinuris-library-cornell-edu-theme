@@ -54,6 +54,13 @@
 	ul, p {
 		margin-bottom: 15px;
 	}
+	.about-link {
+		background: $charcoal-dark;
+		border-radius: 3px;
+		padding: 8px 16px;
+		display: inline-block;
+		text-decoration: none;
+	}
 }
 
 footer {
@@ -95,6 +102,6 @@ footer {
 .social-links {
 	margin-top: 3em;
 	.fa {
-		font-size: 2.5em;
+		font-size: 3em;
 	}
 }

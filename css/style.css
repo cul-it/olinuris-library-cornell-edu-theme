@@ -455,6 +455,12 @@ nav {
     font-family: "Source Sans Pro", Helvetica, Arials, sans-serif; }
   .olinuris-footer ul, .olinuris-footer p {
     margin-bottom: 15px; }
+  .olinuris-footer .about-link {
+    background: #6a6362;
+    border-radius: 3px;
+    padding: 8px 16px;
+    display: inline-block;
+    text-decoration: none; }
 
 footer {
   padding: 2em 0; }
@@ -489,7 +495,7 @@ footer {
 .social-links {
   margin-top: 3em; }
   .social-links .fa {
-    font-size: 2.5em; }
+    font-size: 3em; }
 
 .hero {
   background: url("../img/Olin1865.jpg") no-repeat 50% 50%;
