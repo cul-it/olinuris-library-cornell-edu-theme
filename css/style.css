@@ -574,6 +574,14 @@ footer {
   border-bottom: 1px solid #555555; }
 .feature p {
   padding: 0 20px; }
+.feature .nav-pills {
+  margin-bottom: 1.5em; }
+  .feature .nav-pills li {
+    padding: 0; }
+  .feature .nav-pills a, .feature .nav-pills a:hover, .feature .nav-pills a:active, .feature .nav-pills a:focus {
+    background: #7f7675;
+    color: white;
+    border: 0; }
 
 .news {
   position: relative;

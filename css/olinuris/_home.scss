@@ -108,6 +108,17 @@
 	p {
 		padding: 0 20px;
 	}
+	.nav-pills {
+		margin-bottom: 1.5em;
+		li {
+			padding: 0;
+		}
+		a, a:hover, a:active, a:focus {
+			background: $charcoal-gray;
+			color: white;
+			border: 0;
+		}
+	}
 }
 .news {
 	@include make-sm-column(8);
