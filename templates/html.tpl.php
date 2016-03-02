@@ -66,11 +66,6 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
-  <script>
-    jQuery(document).ready(function() { 
-      jQuery( '.sidebar .nav li a' ).before( '<i class="fa fa-chevron-right"></i>' );
-    });
-  </script>
   <!-- Piwik -->
   <script type="text/javascript">
     var _paq = _paq || [];
