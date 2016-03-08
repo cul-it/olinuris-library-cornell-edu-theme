@@ -648,5 +648,10 @@ footer {
 @media (min-width: 1200px) {
   .digital-sign .region-digital-sign {
     margin: 0 20px 20px 20px; } }
+.event-listing h3 {
+  font-size: 20px;
+  margin: 0 0 .25em 0; }
+.event-listing .date-display-single {
+  display: block; }
 
 /*# sourceMappingURL=style.css.map */
