@@ -235,6 +235,11 @@ body.admin-menu {
 .block-simplesamlphp-auth {
   margin: 2em 0 3em 0; }
 
+.main-content header {
+  padding: 0; }
+.main-content footer {
+  padding: 0; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .hero header .container {
