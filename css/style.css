@@ -54,6 +54,10 @@ h5 {
 .pull-right {
   float: none !important; }
 
+.label-default {
+  background: #dddad4;
+  color: #333333; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .pull-right {
@@ -648,10 +652,13 @@ footer {
 @media (min-width: 1200px) {
   .digital-sign .region-digital-sign {
     margin: 0 20px 20px 20px; } }
-.event-listing h3 {
-  font-size: 20px;
-  margin: 0 0 .25em 0; }
-.event-listing .date-display-single {
-  display: block; }
+.event-listing {
+  margin: 0 0 1.5em 0; }
+  .event-listing h3 {
+    font-size: 20px;
+    margin: 0 0 .5em 0; }
+  .event-listing .date-display-single {
+    display: block;
+    margin: 0 0 .25em 0; }
 
 /*# sourceMappingURL=style.css.map */
