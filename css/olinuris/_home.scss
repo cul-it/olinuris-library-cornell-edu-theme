@@ -135,6 +135,14 @@
 .news {
 	@include make-sm-column(8);
 }
+.more-link {
+	text-align: right;
+	margin-right: 20px;
+	font-size: 13px;
+	i {
+		font-size: 90%;
+	}
+}
 
 
 // Digital sign

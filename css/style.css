@@ -616,6 +616,13 @@ footer {
       float: left;
       width: 66.66667%; } }
 
+.more-link {
+  text-align: right;
+  margin-right: 20px;
+  font-size: 13px; }
+  .more-link i {
+    font-size: 90%; }
+
 .digital-sign {
   position: relative;
   min-height: 1px;
