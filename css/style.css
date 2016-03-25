@@ -508,7 +508,6 @@ footer {
     font-size: 3em; }
 
 .hero {
-  background: url("../img/Olin1865.jpg") no-repeat 50% 50%;
   -webkit-background-size: cover !important;
   -moz-background-size: cover !important;
   -o-background-size: cover !important;
