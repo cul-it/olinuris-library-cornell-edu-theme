@@ -654,13 +654,19 @@ footer {
       margin: 0 0 20px 0; }
 
   .hero {
-    min-height: 250px; } }
+    min-height: 250px; }
+
+  .carousel-indicators {
+    width: auto; } }
 @media (min-width: 992px) {
   .digital-sign {
     margin-top: -250px; }
 
   .hero {
-    min-height: 300px; } }
+    min-height: 300px; }
+
+  .carousel-indicators {
+    width: 60%; } }
 @media (min-width: 1200px) {
   .digital-sign .region-digital-sign {
     margin: 0 20px 20px 20px; } }

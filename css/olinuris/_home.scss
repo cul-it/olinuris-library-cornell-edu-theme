@@ -187,6 +187,9 @@
 	.hero {
 		min-height: 250px;
 	}
+	.carousel-indicators {
+		width: auto;
+	}
 
 }
 
@@ -197,6 +200,9 @@
 	}
 	.hero {
 		min-height: 300px;
+	}
+	.carousel-indicators {
+		width: 60%;
 	}
 }
 
