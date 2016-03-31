@@ -337,6 +337,18 @@ nav {
   #mobile-nav .navbar-nav {
     margin-top: 0;
     margin-bottom: 0; }
+  #mobile-nav ul {
+    border-bottom: 3px solid black; }
+    #mobile-nav ul ul {
+      border-bottom: 0; }
+      #mobile-nav ul ul a {
+        font-size: 12px;
+        padding-left: 20px;
+        text-transform: uppercase; }
+
+#superfish-2.sf-vertical,
+#superfish-2.sf-vertical li {
+  width: 100%; }
 
 .sidebar .block-title {
   margin: 0;

@@ -124,6 +124,21 @@ nav {
 		margin-top: 0;
 		margin-bottom: 0;
 	}
+	ul {
+		border-bottom: 3px solid black;
+		ul {
+			border-bottom: 0;
+			a {
+				font-size: 12px;
+				padding-left: 20px;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+#superfish-2.sf-vertical,
+#superfish-2.sf-vertical li {
+	width: 100%;
 }
 
 // Sidebar nav
