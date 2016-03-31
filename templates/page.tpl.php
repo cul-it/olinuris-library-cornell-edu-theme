@@ -150,14 +150,6 @@
 <!-- Hero and other home page content -->
 <?php if ($is_front): ?>
   <div class="hero hidden-xs">
-    <!-- TODO: remove quick links markup if not needed; add region for banner image management -->
-    <!-- <div class="container">
-      <div class="row">
-        <div class="quick-links col-sm-4 col-sm-offset-8">
-          <?php print render($page['quick_links']); ?>
-        </div>
-      </div>
-    </div> -->
   </div>
   <div class="home-content">
     <div class="container">
@@ -194,9 +186,6 @@
             <?php if (!empty($action_links)): ?>
               <ul class="action-links"><?php print render($action_links); ?></ul>
             <?php endif; ?>
-            <?php if(drupal_is_front_page()) {
-              unset($page['content']['system_main']['default_message']);
-            }?>
             <?php print render($page['content']); ?>
           </div>
           <div class="sidebar">
