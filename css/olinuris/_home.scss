@@ -179,7 +179,7 @@
 // Small devices (tablets, 768px and up)
 @media (min-width: $screen-sm) { 
 	.digital-sign {
-		margin-top: -130px;
+		margin-top: 0;
 		.region-digital-sign {
 			margin: 0 0 20px 0;
 		}
@@ -196,7 +196,7 @@
 // Medium devices (desktops, 992px and up)
 @media (min-width: $screen-md) {
 	.digital-sign {
-		margin-top: -250px;
+		margin-top: -48px;
 	}
 	.hero {
 		min-height: 300px;
@@ -209,6 +209,7 @@
 // Large devices (desktops, 1200px and up)
 @media (min-width: $screen-lg) {
 	.digital-sign {
+		margin-top: -95px;
 		.region-digital-sign {
 			margin: 0 20px 20px 20px;
 		}

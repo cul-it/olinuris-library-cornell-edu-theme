@@ -661,7 +661,7 @@ footer {
 
 @media (min-width: 768px) {
   .digital-sign {
-    margin-top: -130px; }
+    margin-top: 0; }
     .digital-sign .region-digital-sign {
       margin: 0 0 20px 0; }
 
@@ -672,7 +672,7 @@ footer {
     width: auto; } }
 @media (min-width: 992px) {
   .digital-sign {
-    margin-top: -250px; }
+    margin-top: -48px; }
 
   .hero {
     min-height: 300px; }
@@ -680,8 +680,10 @@ footer {
   .carousel-indicators {
     width: 60%; } }
 @media (min-width: 1200px) {
-  .digital-sign .region-digital-sign {
-    margin: 0 20px 20px 20px; } }
+  .digital-sign {
+    margin-top: -95px; }
+    .digital-sign .region-digital-sign {
+      margin: 0 20px 20px 20px; } }
 .event-listing {
   margin: 0 0 1.5em 0; }
   .event-listing h3 {
