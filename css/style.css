@@ -406,6 +406,9 @@ nav {
   border-bottom: 0;
   padding-bottom: 0; }
 
+#block-block-15 {
+  margin-top: 3em; }
+
 @media (min-width: 768px) {
   #menu .nav {
     float: right; }
