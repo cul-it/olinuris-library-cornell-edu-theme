@@ -191,7 +191,7 @@ nav {
 		// 2nd level active
 		.active {
 			a, a:hover, a:active, a:focus {
-				color: $gray-dark;
+				color: $cornell-red;
 				font-weight: 700;
 			}
 			// 3rd level
@@ -204,7 +204,7 @@ nav {
 			// 3rd level active
 			li.active-trail {
 				a, a:hover, a:active, a:focus {
-					color: $gray-dark;
+					color: $cornell-red;
 					font-weight: 700;
 				}
 			}
@@ -212,6 +212,27 @@ nav {
 				color: $cornell-red;
 			}
 		}
+	}
+}
+// Exhibitions
+// ---------------
+// move exhibitions menu down on exhibitions page
+.page-node-22849 {
+	#block-menu-block-5 {
+		margin-top: 2em;
+	}
+}
+// Highlight current exhibition menu
+.menu-block-5 {
+	li.active-trail:first-child {
+		border-bottom: 5px solid $tan;
+		margin-bottom: 2em;
+		padding-bottom: 1em;
+	}
+	li li.active-trail:first-child {
+		margin-bottom: 0;
+		border-bottom: 0;
+		padding-bottom: 0;
 	}
 }
 

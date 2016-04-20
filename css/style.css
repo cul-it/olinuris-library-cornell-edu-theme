@@ -383,16 +383,28 @@ nav {
     .sidebar .nav li ul i {
       display: none; }
   .sidebar .nav .active a, .sidebar .nav .active a:hover, .sidebar .nav .active a:active, .sidebar .nav .active a:focus {
-    color: #333333;
+    color: #b31b1b;
     font-weight: 700; }
   .sidebar .nav .active li a, .sidebar .nav .active li a:hover, .sidebar .nav .active li a:active, .sidebar .nav .active li a:focus {
     color: #0068ac;
     font-weight: normal; }
   .sidebar .nav .active li.active-trail a, .sidebar .nav .active li.active-trail a:hover, .sidebar .nav .active li.active-trail a:active, .sidebar .nav .active li.active-trail a:focus {
-    color: #333333;
+    color: #b31b1b;
     font-weight: 700; }
   .sidebar .nav .active i {
     color: #b31b1b; }
+
+.page-node-22849 #block-menu-block-5 {
+  margin-top: 2em; }
+
+.menu-block-5 li.active-trail:first-child {
+  border-bottom: 5px solid #dddad4;
+  margin-bottom: 2em;
+  padding-bottom: 1em; }
+.menu-block-5 li li.active-trail:first-child {
+  margin-bottom: 0;
+  border-bottom: 0;
+  padding-bottom: 0; }
 
 @media (min-width: 768px) {
   #menu .nav {
