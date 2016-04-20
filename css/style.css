@@ -59,6 +59,13 @@ h5 {
   color: #333333;
   font-weight: normal; }
 
+img.pull-right {
+  margin: 0 0 20px 20px;
+  padding: 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .pull-right {
