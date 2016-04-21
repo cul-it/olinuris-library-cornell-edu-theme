@@ -91,6 +91,12 @@ img.pull-left {
 	border-radius: 4px;
 	background: white;
 }
+img.center-block {
+	padding: 4px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background: white;
+}
 
 // Images with captions
 .image-caption-container-right {
@@ -113,6 +119,11 @@ img.pull-left {
 	img.pull-left {
 		margin-bottom: 5px;
 	}
+}
+.image-caption-container-none {
+	text-align: center;
+	margin: 0 auto 40px auto;
+	display: block !important;
 }
 .image-caption {
 	font-size: 14px;
