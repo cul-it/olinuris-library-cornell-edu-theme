@@ -73,6 +73,28 @@ img.pull-left {
   border-radius: 4px;
   background: white; }
 
+.image-caption-container-right {
+  float: right;
+  width: auto !important;
+  height: auto !important;
+  margin-bottom: 10px; }
+  .image-caption-container-right img.pull-right {
+    margin-bottom: 5px; }
+  .image-caption-container-right .image-caption {
+    margin-left: 20px; }
+
+.image-caption-container-left {
+  float: left;
+  width: auto !important;
+  height: auto !important;
+  margin-bottom: 10px; }
+  .image-caption-container-left img.pull-left {
+    margin-bottom: 5px; }
+
+.image-caption {
+  font-size: 14px;
+  color: #555555; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .pull-right {

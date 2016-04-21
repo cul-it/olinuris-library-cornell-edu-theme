@@ -75,6 +75,8 @@ h5 {
 
 // Images
 // ---------------------- //
+
+// Styles for images without captions
 img.pull-right {
 	margin: 0 0 20px 20px;
 	padding: 4px;
@@ -88,6 +90,33 @@ img.pull-left {
 	border: 1px solid #ddd;
 	border-radius: 4px;
 	background: white;
+}
+
+// Images with captions
+.image-caption-container-right {
+	float: right;
+	width: auto !important;
+	height: auto !important;
+	margin-bottom: 10px;
+	img.pull-right {
+		margin-bottom: 5px;
+	}
+	.image-caption {
+		margin-left: 20px;
+	}
+}
+.image-caption-container-left {
+	float: left;
+	width: auto !important;
+	height: auto !important;
+	margin-bottom: 10px;
+	img.pull-left {
+		margin-bottom: 5px;
+	}
+}
+.image-caption {
+	font-size: 14px;
+	color: $gray;
 }
 
 // MEDIA QUERIES
