@@ -20,3 +20,30 @@
 		margin-bottom: .5em;
 	}
 }
+
+// Equipment
+// -----------------------
+
+// Status list
+
+.view-equipment {
+	.views-table {
+		.active {
+			background-color: white !important;
+		}
+	}
+	.available {
+		background: $brand-success;
+		padding: .2em .6em .3em;
+		border-radius: .25em;
+		color: white;
+		font-size: 13px;
+	}
+	.charged {
+		background: $brand-danger;
+		padding: .2em .6em .3em;
+		border-radius: .25em;
+		color: white;
+		font-size: 13px;
+	}
+}
