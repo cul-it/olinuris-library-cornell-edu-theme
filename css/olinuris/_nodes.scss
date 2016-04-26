@@ -47,3 +47,26 @@
 		font-size: 13px;
 	}
 }
+
+// Availability box on equipment description node
+#block-views-equipment-block-2 {
+	padding: 20px 20px 5px 20px;
+	border: 1px solid $border-color;
+	margin-bottom: 1em;
+	.block-title {
+		font-weight: 300;
+		margin-bottom: .25em;
+	}
+}
+
+// Equipment description node
+.field-name-field-equipment-photo {
+	margin-bottom: 2em;
+}
+.field-name-field-equipment-full-title,
+.field-name-field-equipment-manual,
+.node-equipment-description .field-name-body,
+.field-name-field-reservable {
+	font-size: 16px;
+	margin-bottom: 1em;
+}
