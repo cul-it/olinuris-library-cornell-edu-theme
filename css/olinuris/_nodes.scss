@@ -70,3 +70,47 @@
 	font-size: 16px;
 	margin-bottom: 1em;
 }
+
+// Laptops block on Laptops, Peripherals, Calculators
+// ----------------------------------------------------
+.available-laptops {
+	.block-title {
+		font-weight: 300;
+		font-size: 24px;
+		margin-bottom: .75em;
+	}
+	h3 {
+		font-size: 16px;
+		margin: 0 .5em .25em 0;
+		font-weight: 700;
+		text-transform: uppercase;
+		display: inline-block;
+	}
+	.platform {
+		display: inline-block;
+		margin-bottom: 1em;
+		margin-right: .25em;
+	}
+}
+
+// MEDIA QUERIES
+// -------------------------
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm) {
+	.pull-right {
+		float: right !important;
+	}
+	.available-laptops {
+		float: right;
+		width: 250px;
+		margin: 0 0 1em 1em;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+// @media (min-width: $screen-md) {
+// }
+/* Large devices (desktops, 1200px and up) */
+// @media (min-width: $screen-lg) {
+// }

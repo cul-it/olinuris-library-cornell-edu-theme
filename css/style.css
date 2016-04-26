@@ -792,4 +792,31 @@ footer {
   font-size: 16px;
   margin-bottom: 1em; }
 
+.available-laptops .block-title {
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: .75em; }
+.available-laptops h3 {
+  font-size: 16px;
+  margin: 0 .5em .25em 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block; }
+.available-laptops .platform {
+  display: inline-block;
+  margin-bottom: 1em;
+  margin-right: .25em; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .pull-right {
+    float: right !important; }
+
+  .available-laptops {
+    float: right;
+    width: 250px;
+    margin: 0 0 1em 1em; } }
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (desktops, 1200px and up) */
+
 /*# sourceMappingURL=style.css.map */
