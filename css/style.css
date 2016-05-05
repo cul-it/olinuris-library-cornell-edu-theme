@@ -773,6 +773,10 @@ footer {
   border-radius: .25em;
   color: white;
   font-size: 13px; }
+.view-equipment .overdue {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: .5em; }
 
 #block-views-equipment-block-2 {
   padding: 20px 20px 5px 20px;
