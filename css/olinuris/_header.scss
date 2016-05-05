@@ -69,12 +69,14 @@ header {
 		color: $cornell-red;
 	}
 	.tab-content {
-		// border: 1px solid #dddad4;
-		// border-top: 0;
-		// border-bottom: 0;
-		padding: 20px 10px;
+		padding: 10px;
 		background: #f3f1ef;
-		height: 90px;
+		height: 115px;
+		.library {
+			text-transform: uppercase;
+			font-weight: 700;
+			margin-right: .25em;
+		}
 	}
 	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 		// border-color: #dddad4;
@@ -114,6 +116,9 @@ header {
 		margin-right: .25em;
 		text-transform: uppercase;
 	}
+	.view {
+		margin-top: .5em;
+	}
 }
 // .hours {
 // 	border-bottom: 1px solid #dddad4;
@@ -131,9 +136,6 @@ header {
 @media (min-width: $screen-sm) { 
 	header {
 		padding: .5em 0 0 0;
-		.tab-content {
-			height: 80px;
-		}
 	}
 	.brand {
 		font-size: 28px;
@@ -142,7 +144,10 @@ header {
 		font-size: 22px;
 	}
 	.library-brand {
-		margin-top: 1.5em;
+		margin-top: 2.5em;
+	}
+	.cu-insignia {
+		margin-top: 1em;
 	}
 }
 
@@ -154,12 +159,13 @@ header {
 			padding: 5px 10px;
 		}
 		.nav-tabs {
+			margin-top: 0;
 			a {
 				font-size: 18px;
 			}
 		}
 		.tab-content {
-			height: 75px;
+			height: 95px;
 		}
 	}
 	.brand {
@@ -167,6 +173,12 @@ header {
 	}
 	.cul-brand {
 		font-size: 24px;
+	}
+	.cu-insignia {
+		margin-top: 0;
+	}
+	.library-brand {
+		margin-top: 1.5em;
 	}
 }
 //Large devices (desktops, 1200px and up)

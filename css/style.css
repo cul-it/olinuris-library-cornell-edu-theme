@@ -169,9 +169,13 @@ header i {
   margin-right: .25em;
   color: #b31b1b; }
 header .tab-content {
-  padding: 20px 10px;
+  padding: 10px;
   background: #f3f1ef;
-  height: 90px; }
+  height: 115px; }
+  header .tab-content .library {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: .25em; }
 header .nav-tabs > li.active > a, header .nav-tabs > li.active > a:hover, header .nav-tabs > li.active > a:focus {
   background: #dddad4;
   border: 0;
@@ -199,6 +203,9 @@ header .nav > li > a {
   #hours .label {
     margin-right: .25em;
     text-transform: uppercase; }
+  #laptops .view,
+  #hours .view {
+    margin-top: .5em; }
 
 .laptop-library,
 .hours-library {
@@ -208,8 +215,6 @@ header .nav > li > a {
 @media (min-width: 768px) {
   header {
     padding: .5em 0 0 0; }
-    header .tab-content {
-      height: 80px; }
 
   .brand {
     font-size: 28px; }
@@ -218,22 +223,33 @@ header .nav > li > a {
     font-size: 22px; }
 
   .library-brand {
-    margin-top: 1.5em; } }
+    margin-top: 2.5em; }
+
+  .cu-insignia {
+    margin-top: 1em; } }
 @media (min-width: 992px) {
   header {
     padding: 1em 0 0 0; }
     header .nav > li > a {
       padding: 5px 10px; }
-    header .nav-tabs a {
-      font-size: 18px; }
+    header .nav-tabs {
+      margin-top: 0; }
+      header .nav-tabs a {
+        font-size: 18px; }
     header .tab-content {
-      height: 75px; }
+      height: 95px; }
 
   .brand {
     font-size: 32px; }
 
   .cul-brand {
-    font-size: 24px; } }
+    font-size: 24px; }
+
+  .cu-insignia {
+    margin-top: 0; }
+
+  .library-brand {
+    margin-top: 1.5em; } }
 @media (min-width: 1200px) {
   header .nav > li > a {
     padding: 10px 15px; }
