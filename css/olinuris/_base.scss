@@ -72,7 +72,25 @@ h5 {
 	color: $gray-dark;
 	font-weight: normal;
 }
-
+// date form selects
+.year.form-control,
+.month.form-control,
+.day.form-control,
+.hour.form-control,
+.minute.form-control {
+	width: auto;
+	float: left; 
+	margin-right: .5em;
+}
+.form-group {
+	overflow: hidden;
+}
+form {
+	.description {
+		clear: both;
+		padding-top: .25em;
+	}
+}
 // Images
 // ---------------------- //
 

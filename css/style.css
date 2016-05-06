@@ -59,6 +59,22 @@ h5 {
   color: #333333;
   font-weight: normal; }
 
+.year.form-control,
+.month.form-control,
+.day.form-control,
+.hour.form-control,
+.minute.form-control {
+  width: auto;
+  float: left;
+  margin-right: .5em; }
+
+.form-group {
+  overflow: hidden; }
+
+form .description {
+  clear: both;
+  padding-top: .25em; }
+
 img.pull-right {
   margin: 0 0 20px 20px;
   padding: 4px;
