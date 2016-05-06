@@ -538,7 +538,7 @@ nav {
     width: 77%; } }
 .olinuris-footer {
   padding: 2em 0;
-  background: #7f7675;
+  background: #7f7675 url("/sites/all/themes/olinuris/img/footer-bg.png") no-repeat 10px bottom;
   color: #f3f1ef; }
   .olinuris-footer .block-title {
     color: white;
