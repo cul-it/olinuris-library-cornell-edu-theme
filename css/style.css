@@ -207,10 +207,8 @@ header .nav > li > a {
   #hours .view {
     margin-top: .5em; }
 
-.laptop-library,
-.hours-library {
-  margin: .15em 2em .5em 0;
-  float: left; }
+.laptop-library {
+  margin-top: .5em; }
 
 @media (min-width: 768px) {
   header {
