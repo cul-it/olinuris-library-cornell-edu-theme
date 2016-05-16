@@ -789,21 +789,21 @@ footer {
 .node-type-event .field {
   margin-bottom: .5em; }
 
-.view-equipment .views-table .active {
+.view-equipment-by-availablilty .views-table .active {
   background-color: white !important; }
-.view-equipment .available {
+.view-equipment-by-availablilty .available {
   background: #5cb85c;
   padding: .2em .6em .3em;
   border-radius: .25em;
   color: white;
   font-size: 13px; }
-.view-equipment .charged {
+.view-equipment-by-availablilty .charged {
   background: #d9534f;
   padding: .2em .6em .3em;
   border-radius: .25em;
   color: white;
   font-size: 13px; }
-.view-equipment .overdue {
+.view-equipment-by-availablilty .overdue {
   font-weight: 700;
   text-transform: uppercase;
   margin-right: .5em; }
