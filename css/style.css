@@ -459,6 +459,8 @@ nav {
       margin-left: 1.75em; }
     .sidebar .nav li ul i {
       display: none; }
+    .sidebar .nav li ul ul {
+      margin-bottom: .5em; }
   .sidebar .nav .active a, .sidebar .nav .active a:hover, .sidebar .nav .active a:active, .sidebar .nav .active a:focus {
     color: #b31b1b;
     font-weight: 700; }
