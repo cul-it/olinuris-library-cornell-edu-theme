@@ -1,0 +1,23 @@
+@media print {
+	// Don't print URLs
+	// ------------------------
+	a[href]:after {
+	    content: ""
+	  }
+	abbr[title]:after {
+	    content: "";
+	}
+	// Hide a bunch of stuff
+	// -------------------------
+	.cu-insignia,
+	.cornell-logo,
+	header .col-sm-4,
+	.breadcrumb,
+	#qpchatwidget,
+	.olinuris-footer,
+	.sidebar,
+	footer .btn-give,
+	#block-block-8 {
+		display: none;
+	}
+}
