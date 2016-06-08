@@ -26,33 +26,54 @@
 
 // Status list
 
-.view-equipment-by-availablilty {
-	.views-table {
-		.active {
-			background-color: white !important;
-		}
-	}
-	.available {
-		background: $brand-success;
-		padding: .2em .6em .3em;
-		border-radius: .25em;
-		color: white;
-		font-size: 13px;
-	}
-	.charged {
-		background: $brand-danger;
-		padding: .2em .6em .3em;
-		border-radius: .25em;
-		color: white;
-		font-size: 13px;
-	}
-	.overdue {
-		font-weight: 700;
-		text-transform: uppercase;
-		margin-bottom: .25em;
-		display: block;
-	}
+.charged {
+	background: $brand-danger;
+	padding: .2em .6em .3em;
+	border-radius: .25em;
+	color: white;
+	font-size: 13px;
 }
+.overdue {
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: .25em;
+	display: block;
+}
+.available {
+	background: $brand-success;
+	padding: .2em .6em .3em;
+	border-radius: .25em;
+	color: white;
+	font-size: 13px;
+}
+
+// .view-equipment-by-availablilty {
+// 	.views-table {
+// 		.active {
+// 			background-color: white !important;
+// 		}
+// 	}
+// 	.available {
+// 		background: $brand-success;
+// 		padding: .2em .6em .3em;
+// 		border-radius: .25em;
+// 		color: white;
+// 		font-size: 13px;
+// 	}
+// 	.charged {
+// 		background: $brand-danger;
+// 		padding: .2em .6em .3em;
+// 		border-radius: .25em;
+// 		color: white;
+// 		font-size: 13px;
+// 	}
+// 	.overdue {
+// 		font-weight: 700;
+// 		text-transform: uppercase;
+// 		margin-bottom: .25em;
+// 		display: block;
+// 	}
+// }
 
 // Availability box on equipment description node
 #block-views-equipment-block-2 {

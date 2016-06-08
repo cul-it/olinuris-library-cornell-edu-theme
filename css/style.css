@@ -787,25 +787,25 @@ footer {
 .node-type-event .field {
   margin-bottom: .5em; }
 
-.view-equipment-by-availablilty .views-table .active {
-  background-color: white !important; }
-.view-equipment-by-availablilty .available {
-  background: #5cb85c;
-  padding: .2em .6em .3em;
-  border-radius: .25em;
-  color: white;
-  font-size: 13px; }
-.view-equipment-by-availablilty .charged {
+.charged {
   background: #d9534f;
   padding: .2em .6em .3em;
   border-radius: .25em;
   color: white;
   font-size: 13px; }
-.view-equipment-by-availablilty .overdue {
+
+.overdue {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: .25em;
   display: block; }
+
+.available {
+  background: #5cb85c;
+  padding: .2em .6em .3em;
+  border-radius: .25em;
+  color: white;
+  font-size: 13px; }
 
 #block-views-equipment-block-2 {
   padding: 20px 20px 5px 20px;
