@@ -1,70 +1,876 @@
-/*
-Error: Invalid CSS after "// }": expected "}", was ""
-        on line 145 of olinuris/_nodes.scss
-        from line 13 of style.scss
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic);
+body {
+  font-family: "Source Sans Pro", Helvetica, Arials, sans-serif;
+  background: white; }
 
-140: /* Medium devices (desktops, 992px and up) *\/
-141: // @media (min-width: $screen-md) {
-142: // }
-143: /* Large devices (desktops, 1200px and up) *\/
-144: // @media (min-width: $screen-lg) {
-145: // }
+a {
+  color: #0068ac; }
 
-Backtrace:
-olinuris/_nodes.scss:145
-style.scss:13
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/scss/parser.rb:1120:in `tok!'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/scss/parser.rb:658:in `block'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/scss/parser.rb:649:in `ruleset'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/scss/parser.rb:675:in `block_child'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/scss/parser.rb:668:in `block_contents'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/scss/parser.rb:125:in `stylesheet'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/scss/parser.rb:41:in `parse'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/engine.rb:312:in `to_tree'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/stack.rb:88:in `block in with_import'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/stack.rb:88:in `with_import'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:254:in `call'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/Users/melissawallace/.rvm/gems/ruby-2.2.3/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"// }\": expected \"}\", was \"\"\A         on line 145 of olinuris/_nodes.scss\A         from line 13 of style.scss\A \A 140: /* Medium devices (desktops, 992px and up) */\A 141: // @media (min-width: $screen-md) {\A 142: // }\A 143: /* Large devices (desktops, 1200px and up) */\A 144: // @media (min-width: $screen-lg) {\A 145: // }"; }
+a:hover, a:active, a:focus {
+  color: black;
+  text-decoration: none; }
+
+.main-content a,
+footer a {
+  border-bottom: 1px dotted #777777; }
+.main-content a:hover,
+.main-content a:active,
+.main-content a:focus,
+footer a:hover,
+footer a:active,
+footer a:focus {
+  border-bottom: 1px solid #777777;
+  text-decoration: none; }
+
+p, li {
+  font-size: 16px;
+  line-height: 1.5em; }
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+  margin-bottom: .75em;
+  font-family: "Source Sans Pro", Helvetica, Arials, sans-serif; }
+
+h1 {
+  margin-top: 0; }
+
+h4 {
+  font-size: 20px; }
+
+h5 {
+  font-size: 16px; }
+
+.well {
+  border-radius: 0;
+  box-shadow: none; }
+
+.breadcrumb {
+  padding: 0;
+  background: inherit;
+  margin-bottom: 3em; }
+  .breadcrumb li {
+    font-size: 12px; }
+
+.pull-right {
+  float: none !important; }
+
+.label-default {
+  background: #dddad4;
+  color: #333333;
+  font-weight: normal; }
+
+.year.form-control,
+.month.form-control,
+.day.form-control,
+.hour.form-control,
+.minute.form-control {
+  width: auto;
+  float: left;
+  margin-right: .5em; }
+
+form .description {
+  clear: both;
+  padding-top: .25em; }
+
+img.pull-right {
+  margin: 0 0 20px 20px;
+  padding: 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white; }
+
+img.pull-left {
+  margin: 0 20px 20px 0;
+  padding: 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white; }
+
+img.center-block {
+  padding: 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white; }
+
+.image-caption-container-right {
+  float: right;
+  width: auto !important;
+  height: auto !important;
+  margin-bottom: 10px; }
+  .image-caption-container-right img.pull-right {
+    margin-bottom: 5px; }
+  .image-caption-container-right .image-caption {
+    margin-left: 20px; }
+
+.image-caption-container-left {
+  float: left;
+  width: auto !important;
+  height: auto !important;
+  margin-bottom: 10px; }
+  .image-caption-container-left img.pull-left {
+    margin-bottom: 5px; }
+
+.image-caption-container-none {
+  text-align: center;
+  margin: 0 auto 40px auto;
+  display: block !important; }
+
+.image-caption {
+  font-size: 14px;
+  color: #555555; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .pull-right {
+    float: right !important; } }
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (desktops, 1200px and up) */
+.cornell-identity .container {
+  background: #b31b1b; }
+.cornell-identity .cornell-logo {
+  position: relative;
+  float: left;
+  width: 33.33333%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+.cornell-identity button i {
+  color: white; }
+
+.cu-insignia {
+  float: left;
+  margin-right: 1em; }
+
+.library-brand {
+  margin-top: 1em; }
+
+.brand {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: "Montserrat";
+  display: block;
+  line-height: 1em;
+  color: #333333; }
+
+.brand:hover,
+.brand:active,
+.brand-focus {
+  color: #333333;
+  text-decoration: none; }
+
+.cul-brand {
+  color: #333333;
+  font-size: 20px;
+  font-family: "Montserrat";
+  display: block; }
+
+.cul-brand:hover {
+  color: #333333;
+  text-decoration: none; }
+
+header .nav-tabs {
+  margin-top: 1.25em;
+  margin-bottom: 0;
+  border: 0; }
+  header .nav-tabs a {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 0;
+    border: 0; }
+header i {
+  margin-right: .25em;
+  color: #b31b1b; }
+header .tab-content {
+  padding: 10px;
+  background: #f3f1ef;
+  height: 115px; }
+  header .tab-content .library {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: .25em; }
+header .nav-tabs > li.active > a, header .nav-tabs > li.active > a:hover, header .nav-tabs > li.active > a:focus {
+  background: #dddad4;
+  border: 0;
+  color: black; }
+header .nav > li > a {
+  padding: 5px; }
+
+#laptops,
+#hours {
+  font-size: 13px; }
+  #laptops h3,
+  #hours h3 {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0 .25em 0 0;
+    text-transform: uppercase; }
+  #laptops .badge,
+  #hours .badge {
+    margin: 0 .25em;
+    background: #dddad4;
+    color: #333333;
+    font-weight: normal; }
+  #laptops .label,
+  #hours .label {
+    margin-right: .25em;
+    text-transform: uppercase; }
+  #laptops .view,
+  #hours .view {
+    margin-top: .5em; }
+
+.laptop-library {
+  margin-top: .5em; }
+
+#search form {
+  margin-top: 1.5em; }
+
+@media (min-width: 768px) {
+  header {
+    padding: .5em 0 0 0; }
+
+  .brand {
+    font-size: 28px; }
+
+  .cul-brand {
+    font-size: 22px; }
+
+  .library-brand {
+    margin-top: 2.5em; }
+
+  .cu-insignia {
+    margin-top: 1em; } }
+@media (min-width: 992px) {
+  header {
+    padding: 1em 0 0 0; }
+    header .nav > li > a {
+      padding: 5px 10px; }
+    header .nav-tabs {
+      margin-top: 0; }
+      header .nav-tabs a {
+        font-size: 18px; }
+    header .tab-content {
+      height: 95px; }
+
+  .brand {
+    font-size: 36px; }
+
+  .cu-insignia {
+    margin-top: 0; }
+
+  .library-brand {
+    margin-top: 1.5em; } }
+@media (min-width: 1200px) {
+  header .nav > li > a {
+    padding: 10px 15px; }
+  header .nav-tabs a {
+    font-size: 20px; } }
+.main-content {
+  background: white;
+  padding: 3em 0; }
+
+.main-text {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .main-text {
+      float: left;
+      width: 66.66667%; } }
+  @media (min-width: 768px) {
+    .main-text {
+      left: 33.33333%; } }
+
+.sidebar {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 3em; }
+  @media (min-width: 768px) {
+    .sidebar {
+      float: left;
+      width: 33.33333%; } }
+  @media (min-width: 992px) {
+    .sidebar {
+      float: left;
+      width: 25%; } }
+  @media (min-width: 768px) {
+    .sidebar {
+      right: 66.66667%; } }
+
+body.admin-menu {
+  padding-top: 0 !important; }
+
+#admin-menu li {
+  font-size: 9px; }
+
+.block-simplesamlphp-auth {
+  margin: 2em 0 3em 0; }
+
+.main-content header {
+  padding: 0; }
+.main-content footer {
+  padding: 0; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .hero header .container {
+    background: inherit; }
+
+  .sidebar {
+    margin-top: 0; } }
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (desktops, 1200px and up) */
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  min-height: 0; }
+
+.navbar-toggle {
+  margin: 0;
+  font-size: 120%; }
+
+.region-global-nav {
+  float: left; }
+
+.global-menu {
+  background: #ba3232; }
+  .global-menu .nav li {
+    float: left;
+    text-transform: uppercase; }
+  .global-menu .nav li:first-child {
+    padding-left: 10px; }
+  .global-menu .nav a {
+    color: white;
+    padding: 12px 5px;
+    font-size: 12px !important; }
+  .global-menu .nav a:hover, .global-menu .nav a:active, .global-menu .nav a:focus {
+    background: inherit;
+    text-decoration: underline; }
+  .global-menu .nav .active a, .global-menu .nav .active a:hover, .global-menu .nav .active a:active, .global-menu .nav .active a:focus {
+    font-weight: 700; }
+
+nav {
+  background: #b31b1b;
+  border-top: 4px solid black !important; }
+  nav .menu li {
+    float: left; }
+    nav .menu li a {
+      color: white;
+      font-size: 16px;
+      padding: 12px 18px; }
+    nav .menu li a:hover,
+    nav .menu li a:active,
+    nav .menu li a:focus {
+      color: white;
+      background: #990f26; }
+    nav .menu li ul {
+      padding: 10px 0; }
+      nav .menu li ul a {
+        font-size: 14px;
+        border-bottom: 1px dotted #777777;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 6px 0; }
+      nav .menu li ul a:hover,
+      nav .menu li ul a:active,
+      nav .menu li ul a:focus {
+        background: inherit;
+        border-bottom: 1px solid #777777; }
+  nav .menu .active-trail a, nav .menu .active-trail a:hover, nav .menu .active-trail a:active, nav .menu .active-trail a:focus, nav .menu .sfHover a, nav .menu .sfHover a:hover, nav .menu .sfHover a:active, nav .menu .sfHover a:focus {
+    background: #990f26; }
+  nav .menu .active-trail ul a, nav .menu .active-trail ul a:hover, nav .menu .active-trail ul a:active, nav .menu .active-trail ul a:focus, nav .menu .sfHover ul a, nav .menu .sfHover ul a:hover, nav .menu .sfHover ul a:active, nav .menu .sfHover ul a:focus {
+    background: #282725 !important;
+    opacity: .95; }
+
+.navbar {
+  border: 0; }
+
+.sf-menu li:hover > ul,
+.sf-menu li.sfHover > ul {
+  top: 3em; }
+
+.sf-menu ul {
+  width: 12em !important;
+  background: #282725;
+  opacity: .95; }
+
+#mobile-nav {
+  background: white; }
+  #mobile-nav a {
+    color: #333333;
+    font-size: 14px;
+    border-bottom: 1px solid #f3f1ef; }
+  #mobile-nav .navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0; }
+  #mobile-nav ul {
+    border-bottom: 3px solid black; }
+    #mobile-nav ul ul {
+      border-bottom: 0; }
+      #mobile-nav ul ul a {
+        font-size: 12px;
+        padding-left: 20px;
+        text-transform: uppercase; }
+
+#superfish-2.sf-vertical,
+#superfish-2.sf-vertical li {
+  width: 100%; }
+
+.sidebar .block-title {
+  margin: 0;
+  padding: .5em;
+  font-size: 18px;
+  background: #7f7675; }
+  .sidebar .block-title a {
+    color: white;
+    border: none; }
+.sidebar .nav > li {
+  padding: 6px 0;
+  font-size: 16px;
+  border-bottom: 1px dotted #c3c1bd; }
+.sidebar .nav > li > a {
+  padding: 0;
+  border-bottom: 0;
+  display: inline-block; }
+.sidebar .nav > li > a:hover,
+.sidebar .nav > li > a:active,
+.sidebar .nav > li > a:focus {
+  background: inherit; }
+.sidebar .nav {
+  margin-top: 1em; }
+  .sidebar .nav i {
+    margin-right: .4em;
+    color: #c3c1bd; }
+  .sidebar .nav li ul {
+    margin-top: .5em;
+    padding-bottom: .5em; }
+    .sidebar .nav li ul li {
+      padding: 0;
+      margin-left: 1.75em;
+      font-size: 14px;
+      border: 0; }
+    .sidebar .nav li ul i {
+      display: none; }
+    .sidebar .nav li ul ul {
+      margin-bottom: .5em; }
+  .sidebar .nav .active a, .sidebar .nav .active a:hover, .sidebar .nav .active a:active, .sidebar .nav .active a:focus {
+    color: #b31b1b;
+    font-weight: 700; }
+  .sidebar .nav .active li a, .sidebar .nav .active li a:hover, .sidebar .nav .active li a:active, .sidebar .nav .active li a:focus {
+    color: #0068ac;
+    font-weight: normal; }
+  .sidebar .nav .active li.active-trail a, .sidebar .nav .active li.active-trail a:hover, .sidebar .nav .active li.active-trail a:active, .sidebar .nav .active li.active-trail a:focus {
+    color: #b31b1b;
+    font-weight: 700; }
+  .sidebar .nav .active i {
+    color: #b31b1b; }
+
+.page-node-22849 #block-menu-block-5 {
+  margin-top: 2em; }
+
+.menu-block-5 li.active-trail:first-child {
+  border-bottom: 5px solid #dddad4;
+  margin-bottom: 2em;
+  padding-bottom: 1em; }
+.menu-block-5 li li.active-trail:first-child {
+  margin-bottom: 0;
+  border-bottom: 0;
+  padding-bottom: 0; }
+
+#block-block-15 {
+  margin-top: 3em; }
+
+@media (min-width: 768px) {
+  #menu .nav {
+    float: right; }
+
+  nav .navbar-nav > li > a {
+    font-size: 14px; }
+  nav .menu li a {
+    font-size: 18px; } }
+@media (min-width: 992px) {
+  nav .navbar-nav > li > a {
+    font-size: 16px; } }
+@media (min-width: 1200px) {
+  nav .menu li a {
+    font-size: 18px;
+    padding: 12px 18px; }
+
+  .global-menu .nav a {
+    padding: 12px 10px; } }
+.search-by-page-form .container {
+  width: auto;
+  padding: 0; }
+.search-by-page-form .form-group {
+  margin-bottom: 0; }
+.search-by-page-form label {
+  display: none; }
+.search-by-page-form .form-control {
+  width: 70%;
+  float: left;
+  margin-right: 5px; }
+.search-by-page-form .btn-primary {
+  background: #dddad4;
+  border-color: #c3c1bd;
+  color: #333333; }
+
+.search-results .search-info {
+  display: none; }
+
+@media (min-width: 768px) {
+  .search-by-page-form .form-control {
+    width: 61%; } }
+@media (min-width: 992px) {
+  .search-by-page-form .form-control {
+    width: 72%; } }
+@media (min-width: 1200px) {
+  .search-by-page-form .form-control {
+    width: 77%; } }
+.olinuris-footer {
+  padding: 2em 0;
+  background: #7f7675 url("/sites/all/themes/olinuris/img/footer-bg.png") no-repeat 10px bottom;
+  color: #f3f1ef; }
+  .olinuris-footer .block-title {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-size: 20px;
+    margin-top: 0; }
+  .olinuris-footer .nav {
+    margin-bottom: 1em; }
+  .olinuris-footer .nav > li > a {
+    color: white;
+    padding: 0;
+    text-decoration: underline; }
+  .olinuris-footer .nav > li > a:hover,
+  .olinuris-footer .nav > li > a:active,
+  .olinuris-footer .nav > li > a:focus {
+    background: inherit; }
+  .olinuris-footer p, .olinuris-footer li {
+    font-size: 14px; }
+  .olinuris-footer a {
+    color: white;
+    text-decoration: underline; }
+  .olinuris-footer a:hover, .olinuris-footer a:active, .olinuris-footer a:focus {
+    color: white; }
+  .olinuris-footer .footer-menu .block-title,
+  .olinuris-footer h3 {
+    font-size: 14px;
+    margin: 0 0 .5em 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", Helvetica, Arials, sans-serif; }
+  .olinuris-footer ul, .olinuris-footer p {
+    margin-bottom: 15px; }
+  .olinuris-footer .about-link {
+    background: #6a6362;
+    border-radius: 3px;
+    padding: 8px 16px;
+    display: inline-block;
+    text-decoration: none; }
+
+footer {
+  padding: 2em 0; }
+  footer p, footer li {
+    font-size: 14px; }
+  footer .block-title {
+    font-size: 14px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    margin-top: 0; }
+  footer .block {
+    margin-bottom: .75em; }
+
+.btn-give {
+  background: #b31b1b;
+  font-family: "Montserrat";
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 0; }
+
+.btn-give:hover,
+.btn-give:active,
+.btn-give:focus {
+  border: 0;
+  background: #990f26;
+  color: white; }
+
+.social-links {
+  margin-top: 3em; }
+  .social-links .fa {
+    font-size: 3em; }
+
+.hero {
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important; }
+
+.home-content {
+  padding-top: 20px; }
+
+.front .main-content h1 {
+  display: none; }
+
+.quick-links {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .quick-links {
+      float: left;
+      width: 33.33333%; } }
+  @media (min-width: 768px) {
+    .quick-links {
+      margin-left: 66.66667%; } }
+  .quick-links .well {
+    background: #413f3c;
+    opacity: .9;
+    border: 0;
+    color: white;
+    padding: 0 0 10px 0; }
+    .quick-links .well a {
+      color: white;
+      padding-bottom: .5em;
+      border-bottom: 1px dotted #777777;
+      display: block; }
+    .quick-links .well a:hover {
+      border-bottom: 1px solid #f3f1ef; }
+  .quick-links h2 {
+    background: #302c29;
+    opacity: .9;
+    padding: 10px 20px;
+    font-weight: 300;
+    font-size: 28px;
+    margin-bottom: .5em; }
+  .quick-links ul {
+    list-style: none;
+    padding: 0; }
+  .quick-links li {
+    font-size: 15px;
+    margin-bottom: .5em; }
+  .quick-links .col1 {
+    padding-left: 20px; }
+  .quick-links .col2 {
+    padding-right: 20px; }
+
+.feature .well {
+  background: #f3f1ef;
+  border: 0;
+  padding: 0 0 20px 0; }
+  .feature .well h2 {
+    background: #dddad4;
+    padding: 10px 20px;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 0 0 .5em 0; }
+    .feature .well h2 i {
+      color: #b31b1b;
+      margin-right: .35em; }
+.feature h3 {
+  margin: 5px 20px 10px 20px;
+  font-size: 20px; }
+.feature ul {
+  padding: 0;
+  list-style: none; }
+.feature li {
+  padding: 10px 20px; }
+.feature li:first-child {
+  padding-top: 0; }
+.feature a {
+  padding-bottom: .1em;
+  border-bottom: 1px dotted #777777; }
+.feature a:hover {
+  border-bottom: 1px solid #555555; }
+.feature p {
+  padding: 0 20px; }
+.feature .nav-pills {
+  margin-bottom: 1.5em; }
+  .feature .nav-pills li {
+    padding: 0; }
+  .feature .nav-pills a, .feature .nav-pills a:hover, .feature .nav-pills a:active, .feature .nav-pills a:focus {
+    background: #7f7675;
+    color: white;
+    border: 0; }
+.feature .carousel li {
+  padding: 0; }
+.feature .date-display-single {
+  font-size: 14px; }
+
+.news {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .news {
+      float: left;
+      width: 66.66667%; } }
+
+.more-link {
+  text-align: right;
+  margin-right: 20px;
+  font-size: 13px; }
+  .more-link i {
+    font-size: 90%; }
+
+.digital-sign {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  margin-top: 20px; }
+  @media (min-width: 768px) {
+    .digital-sign {
+      float: left;
+      width: 33.33333%; } }
+  .digital-sign .region-digital-sign {
+    background: rgba(0, 0, 0, 0.6);
+    margin: 0 20px 20px 20px;
+    padding: 20px 20px 40px 20px; }
+  .digital-sign img {
+    margin: 0 auto; }
+
+.carousel-indicators {
+  bottom: -40px; }
+  .carousel-indicators li {
+    border-color: black; }
+  .carousel-indicators .active {
+    background: black; }
+
+@media (min-width: 768px) {
+  .digital-sign {
+    margin-top: 0; }
+    .digital-sign .region-digital-sign {
+      margin: 0 0 20px 0; }
+
+  .hero {
+    min-height: 250px; }
+
+  .carousel-indicators {
+    width: auto; } }
+@media (min-width: 992px) {
+  .digital-sign {
+    margin-top: -48px; }
+
+  .hero {
+    min-height: 300px; }
+
+  .carousel-indicators {
+    width: 60%; } }
+@media (min-width: 1200px) {
+  .digital-sign {
+    margin-top: -95px; }
+    .digital-sign .region-digital-sign {
+      margin: 0 20px 20px 20px; } }
+.event-listing {
+  margin: 0 0 1.5em 0; }
+  .event-listing h3 {
+    font-size: 20px;
+    margin: 0 0 .25em 0;
+    line-height: 1.4em; }
+  .event-listing .date-display-single {
+    display: block;
+    margin: 0 0 .25em 0; }
+
+.node-type-event .field {
+  margin-bottom: .5em; }
+
+.charged {
+  font-weight: 700;
+  font-size: 13px;
+  display: block; }
+
+.overdue {
+  background: #d9534f;
+  padding: .2em .6em .3em;
+  border-radius: .25em;
+  color: white;
+  font-size: 13px;
+  margin-bottom: .4em;
+  display: inline-block; }
+
+.available {
+  background: #5cb85c;
+  padding: .2em .6em .3em;
+  border-radius: .25em;
+  color: white;
+  font-size: 13px; }
+
+#block-views-equipment-block-2 {
+  padding: 20px 20px 5px 20px;
+  border: 1px solid #dddddd;
+  margin-bottom: 1em; }
+  #block-views-equipment-block-2 .block-title {
+    font-weight: 300;
+    margin-bottom: .25em; }
+
+.field-name-field-equipment-photo {
+  margin-bottom: 2em; }
+
+.field-name-field-equipment-full-title,
+.field-name-field-equipment-manual,
+.node-equipment-description .field-name-body,
+.field-name-field-reservable {
+  font-size: 16px;
+  margin-bottom: 1em; }
+
+.available-laptops .block-title {
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: .75em; }
+.available-laptops .library {
+  font-size: 16px;
+  margin: 0 .5em .25em 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline-block; }
+.available-laptops .platform {
+  display: inline-block;
+  margin-bottom: 1em;
+  margin-right: .25em; }
+.available-laptops i {
+  color: #b31b1b; }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .pull-right {
+    float: right !important; }
+
+  .available-laptops {
+    margin: 0 0 1em 0; } }
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (desktops, 1200px and up) */
+@media print {
+  a[href]:after {
+    content: ""; }
+
+  abbr[title]:after {
+    content: ""; }
+
+  .cu-insignia,
+  .cornell-logo,
+  header .col-sm-4,
+  .breadcrumb,
+  #qpchatwidget,
+  .olinuris-footer,
+  .sidebar,
+  footer .btn-give,
+  #block-block-8 {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */
