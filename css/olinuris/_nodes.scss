@@ -29,13 +29,13 @@
 .charged {
 	font-weight: 700;
 	font-size: 13px;
-	color: $cornell-red;
 }
 .overdue {
-	font-weight: 700;
-	text-transform: uppercase;
-	margin-bottom: .25em;
-	display: block;
+	background: $brand-danger;
+	padding: .2em .6em .3em;
+	border-radius: .25em;
+	color: white;
+	font-size: 13px;
 }
 .available {
 	background: $brand-success;
