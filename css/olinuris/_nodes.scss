@@ -27,11 +27,9 @@
 // Status list
 
 .charged {
-	background: $brand-danger;
-	padding: .2em .6em .3em;
-	border-radius: .25em;
-	color: white;
+	font-weight: 700;
 	font-size: 13px;
+	cornell: $cornell-red;
 }
 .overdue {
 	font-weight: 700;

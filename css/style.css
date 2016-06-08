@@ -788,11 +788,9 @@ footer {
   margin-bottom: .5em; }
 
 .charged {
-  background: #d9534f;
-  padding: .2em .6em .3em;
-  border-radius: .25em;
-  color: white;
-  font-size: 13px; }
+  font-weight: 700;
+  font-size: 13px;
+  cornell: #b31b1b; }
 
 .overdue {
   font-weight: 700;
