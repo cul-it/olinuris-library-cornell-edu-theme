@@ -107,7 +107,7 @@
 		font-size: 24px;
 		margin-bottom: .75em;
 	}
-	h3 {
+	.library {
 		font-size: 16px;
 		margin: 0 .5em .25em 0;
 		font-weight: 700;
@@ -118,6 +118,9 @@
 		display: inline-block;
 		margin-bottom: 1em;
 		margin-right: .25em;
+	
+	i {
+		color: $cornell-red;
 	}
 }
 
@@ -130,9 +133,7 @@
 		float: right !important;
 	}
 	.available-laptops {
-		float: right;
-		width: 250px;
-		margin: 0 0 1em 1em;
+		margin: 0 0 1em 0;
 	}
 }
 
