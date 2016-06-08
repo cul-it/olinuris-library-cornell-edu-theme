@@ -157,6 +157,7 @@ nav {
 	.nav > li {
 		padding: 6px 0;
 		font-size: 16px;
+		border-bottom: 1px dotted $warm-gray;
 	}
 	.nav > li > a {
 		padding: 0;
@@ -178,10 +179,12 @@ nav {
 			// 3rd level
 			ul {
 				margin-top: .5em;
+				padding-bottom: .5em;
 				li {
 					padding: 0;
 					margin-left: 1.75em;
 					font-size: 14px;
+					border: 0;
 				}
 				i {
 					display: none;
