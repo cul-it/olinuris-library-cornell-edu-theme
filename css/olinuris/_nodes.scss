@@ -29,6 +29,7 @@
 .charged {
 	font-weight: 700;
 	font-size: 13px;
+	display: block;
 }
 .overdue {
 	background: $brand-danger;
@@ -36,6 +37,8 @@
 	border-radius: .25em;
 	color: white;
 	font-size: 13px;
+	margin-bottom: .4em;
+	display: inline-block;
 }
 .available {
 	background: $brand-success;

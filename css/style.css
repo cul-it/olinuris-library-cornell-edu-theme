@@ -789,14 +789,17 @@ footer {
 
 .charged {
   font-weight: 700;
-  font-size: 13px; }
+  font-size: 13px;
+  display: block; }
 
 .overdue {
   background: #d9534f;
   padding: .2em .6em .3em;
   border-radius: .25em;
   color: white;
-  font-size: 13px; }
+  font-size: 13px;
+  margin-bottom: .4em;
+  display: inline-block; }
 
 .available {
   background: #5cb85c;
