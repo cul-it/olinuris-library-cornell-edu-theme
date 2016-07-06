@@ -787,6 +787,9 @@ footer {
     display: block;
     margin: 0 0 .25em 0; }
 
+.register-link {
+  margin-top: .5em; }
+
 .node-type-event .field {
   margin-bottom: .5em; }
 
