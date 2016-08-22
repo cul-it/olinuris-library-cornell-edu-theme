@@ -22,8 +22,9 @@
 	}
 	// Fix width of main content area when printing from Firefox
 	// ----------------------------------------------------------
-	.main-text {
+	.main-text { 
 		float: none;
 		width: 100%;
+		left: 0;
 	}
 }
