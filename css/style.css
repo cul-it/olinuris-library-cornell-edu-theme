@@ -874,6 +874,10 @@ footer {
   .sidebar,
   footer .btn-give,
   #block-block-8 {
-    display: none; } }
+    display: none; }
+
+  .main-text {
+    float: none;
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

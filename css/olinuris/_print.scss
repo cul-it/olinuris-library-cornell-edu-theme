@@ -20,4 +20,10 @@
 	#block-block-8 {
 		display: none;
 	}
+	// Fix width of main content area when printing from Firefox
+	// ----------------------------------------------------------
+	.main-text {
+		float: none;
+		width: 100%;
+	}
 }
