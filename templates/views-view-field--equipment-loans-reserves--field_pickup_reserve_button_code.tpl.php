@@ -35,13 +35,13 @@ if (isset($row->tid)) {
 
     // Pick up now button
     $active_class = ($res_required == 'Yes') ? 'disabled' : 'active';
-    $parts[] = t('<a href="/equipment-loans/@tid/pick-up" class="btn btn-primary equipment-pickup @active" role="button">Pick up now</a>',
-        array('@tid' => $tid, '@active' => $active_class));
-    
+    $parts[] = t('<a href="/services/loans/equipment/@tid/pick-up" class="btn btn-primary equipment-pickup @active" role="button" aria-label="Pick up @name">Pick up now</a>',
+        array('@tid' => $tid, '@active' => $active_class, '@name' => $name));
+
     // Reserve button
     $active_class = ($reservation_id == 0) ? 'disabled' : 'active';
-    $parts[] = t('<a href="https://spaces.library.cornell.edu/equipment?lid=94&gid=@gid" class="btn btn-primary equipment-pickup @active" role="button">Reserve</a>',
-        array('@gid' => $reservation_id, '@active' => $active_class));
+    $parts[] = t('<a href="https://spaces.library.cornell.edu/equipment?lid=94&gid=@gid" class="btn btn-primary equipment-pickup @active" role="button" aria-label="Reserve @name">Reserve</a>',
+        array('@gid' => $reservation_id, '@active' => $active_class, '@name' => $name));
 
     $parts[] = '</div>';
     $output = implode('', $parts);

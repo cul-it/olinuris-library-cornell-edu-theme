@@ -51,34 +51,6 @@
 	font-size: 13px;
 }
 
-// .view-equipment-by-availablilty {
-// 	.views-table {
-// 		.active {
-// 			background-color: white !important;
-// 		}
-// 	}
-// 	.available {
-// 		background: $brand-success;
-// 		padding: .2em .6em .3em;
-// 		border-radius: .25em;
-// 		color: white;
-// 		font-size: 13px;
-// 	}
-// 	.charged {
-// 		background: $brand-danger;
-// 		padding: .2em .6em .3em;
-// 		border-radius: .25em;
-// 		color: white;
-// 		font-size: 13px;
-// 	}
-// 	.overdue {
-// 		font-weight: 700;
-// 		text-transform: uppercase;
-// 		margin-bottom: .25em;
-// 		display: block;
-// 	}
-// }
-
 // Availability box on equipment description node
 #block-views-equipment-block-2 {
 	padding: 20px 20px 5px 20px;
@@ -100,6 +72,54 @@
 .field-name-field-reservable {
 	font-size: 16px;
 	margin-bottom: 1em;
+}
+
+// New equipment UI - matrix
+.equipment-category {
+	@include make-sm-column(5);
+	@include make-md-column(4);
+	font-size: 16px;
+	padding-top: .3em;
+	margin-bottom: .25em;
+}
+.equipment-buttons {
+	@include make-sm-column(5);
+	@include make-md-column(4);
+}
+.equipment-pickup {
+	margin-right: .5em;
+}
+.equipment-reserve {
+}
+.view-equipment-loans-reserves {
+	.row {
+		margin-bottom: .5em;
+	}
+	.btn-primary {
+		background: $charcoal-gray;
+		border-color: $charcoal-gray;
+	}
+	.btn-primary:hover,
+	.btn-primary:active,
+	.btn-primary:focus {
+		background: $charcoal-dark;
+		border-color: $charcoal-dark;
+	}
+}
+// Category page with description
+.view-equipment-loans {
+	.attachment {
+		margin-bottom: 1.5em;
+	}
+	.views-field-title {
+		font-size: 16px;
+	}
+	.label {
+		font-size: 90%;
+		font-weight: normal;
+		display: inline-block;
+		margin-bottom: 3px;
+	}
 }
 
 // Laptops block on Laptops, Peripherals, Calculators
@@ -127,6 +147,27 @@
 	}
 }
 
+// Exhibits
+// ---------
+.exhibit-date {
+	margin: 0 0 .25em 0;
+}
+.exhibit-location {
+	margin: 0 0 1em 0;
+}
+.past-exhibit {
+	border-bottom: 1px solid $border-color;
+	padding: 1.5em 0;
+	h3 {
+		margin-top: 0;
+		font-size: 18px;
+	}
+	p {
+		font-size: 14px;
+	}
+}
+
+
 // MEDIA QUERIES
 // -------------------------
 
@@ -137,6 +178,9 @@
 	}
 	.available-laptops {
 		margin: 0 0 1em 0;
+	}
+	.equipment-category {
+		margin-bottom: 0;
 	}
 }
 

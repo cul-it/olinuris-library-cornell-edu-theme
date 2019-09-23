@@ -16,7 +16,8 @@ a:hover, a:active, a:focus {
 
 // Add underlines to links in main content area
 .main-content,
-footer {
+footer,
+.header-tabs {
 	a {
 		border-bottom: 1px dotted $gray-light;
 	}
