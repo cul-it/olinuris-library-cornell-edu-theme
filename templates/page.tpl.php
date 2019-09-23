@@ -85,14 +85,9 @@
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav">
             <span class="sr-only">Menu</span>
-            <i class="fa fa-bars"></i>
+            <i class="fas fa-bars" aria-hidden="true"></i>
           </button>
         </div>
-        <?php if (!empty($page['mobile_nav'])): ?>
-          <div class="collapse navbar-collapse hidden-xs" id="menu">
-            <?php print render($page['mobile_nav']); ?>
-          </div>
-        <?php endif; ?>
       </div>
     </div>  
   </div>

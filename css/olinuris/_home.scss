@@ -75,13 +75,13 @@
 		background: $gray-lighter;
 		border: 0;
 		padding: 0 0 20px 0;
-		h2 {
+		h1, h2 {
 			background: #dddad4;
 			padding: 10px 20px;
 			font-weight: 300;
 			font-size: 30px;
 			margin: 0 0 .5em 0;
-			i {
+			i, .svg-inline--fa {
 				color: $cornell-red;
 				margin-right: .35em;
 			}

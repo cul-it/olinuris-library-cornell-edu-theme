@@ -43,9 +43,8 @@
  *
  * @ingroup themeable
  */
-?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
-  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
-<html lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>"<?php print $rdf_namespaces;?>>
+?><!DOCTYPE html>
+<html<?php print $html_attributes;?><?php print $rdf_namespaces;?>>
 <head profile="<?php print $grddl_profile; ?>">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
