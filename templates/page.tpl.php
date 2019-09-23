@@ -151,7 +151,7 @@
 <?php if ($is_front): ?>
   <div class="hero hidden-xs">
   </div>
-  <div class="home-content">
+  <div class="home-content" id="main-content">
     <div class="container">
       <div class="row">
         <div class="feature news">
@@ -165,7 +165,7 @@
   </div>
 <?php else: ?>
 
-  <div class="main-content">
+  <div class="main-content" id="main-content">
     <div class="container">
       <?php if (!empty($page['sidebar'])): ?>
       <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>

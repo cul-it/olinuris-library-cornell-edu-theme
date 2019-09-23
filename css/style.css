@@ -832,6 +832,69 @@ footer {
   font-size: 16px;
   margin-bottom: 1em; }
 
+.equipment-category {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  padding-top: .3em;
+  margin-bottom: .25em; }
+  @media (min-width: 768px) {
+    .equipment-category {
+      float: left;
+      width: 41.66667%; } }
+  @media (min-width: 992px) {
+    .equipment-category {
+      float: left;
+      width: 33.33333%; } }
+
+.equipment-buttons {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    .equipment-buttons {
+      float: left;
+      width: 41.66667%; } }
+  @media (min-width: 992px) {
+    .equipment-buttons {
+      float: left;
+      width: 33.33333%; } }
+
+.equipment-pickup {
+  margin-right: .5em; }
+
+.view-equipment-loans-reserves .row {
+  margin-bottom: .5em; }
+.view-equipment-loans-reserves .btn-primary {
+  background: #7f7675;
+  border-color: #7f7675; }
+.view-equipment-loans-reserves .btn-primary:hover,
+.view-equipment-loans-reserves .btn-primary:active,
+.view-equipment-loans-reserves .btn-primary:focus {
+  background: #6a6362;
+  border-color: #6a6362; }
+
+.view-equipment-loans .attachment {
+  margin-bottom: 1.5em; }
+.view-equipment-loans .views-field-title {
+  font-size: 16px; }
+.view-equipment-loans .label {
+  font-size: 90%;
+  font-weight: normal;
+  display: inline-block;
+  margin-bottom: 3px; }
+
 .available-laptops .block-title {
   font-weight: 300;
   font-size: 24px;
@@ -849,13 +912,31 @@ footer {
 .available-laptops i {
   color: #b31b1b; }
 
+.exhibit-date {
+  margin: 0 0 .25em 0; }
+
+.exhibit-location {
+  margin: 0 0 1em 0; }
+
+.past-exhibit {
+  border-bottom: 1px solid #dddddd;
+  padding: 1.5em 0; }
+  .past-exhibit h3 {
+    margin-top: 0;
+    font-size: 18px; }
+  .past-exhibit p {
+    font-size: 14px; }
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .pull-right {
     float: right !important; }
 
   .available-laptops {
-    margin: 0 0 1em 0; } }
+    margin: 0 0 1em 0; }
+
+  .equipment-category {
+    margin-bottom: 0; } }
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (desktops, 1200px and up) */
 @media print {

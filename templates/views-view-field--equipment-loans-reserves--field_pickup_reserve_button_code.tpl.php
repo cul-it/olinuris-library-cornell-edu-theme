@@ -35,7 +35,7 @@ if (isset($row->tid)) {
 
     // Pick up now button
     $active_class = ($res_required == 'Yes') ? 'disabled' : 'active';
-    $parts[] = t('<a href="/equipment-loans/@tid/pick-up" class="btn btn-primary equipment-pickup @active" role="button">Pick up now</a>',
+    $parts[] = t('<a href="/services/loans/equipment/@tid/pick-up" class="btn btn-primary equipment-pickup @active" role="button">Pick up now</a>',
         array('@tid' => $tid, '@active' => $active_class));
     
     // Reserve button
